@@ -1,8 +1,9 @@
+
 # -*- coding: utf-8 -*-
 """
 engine.py
 ───────────────────────────────────────────────
-명함 + 배경 합성 자동 증강 엔진 (3D 회전, 비겹침, 색상 보존, 흐림 제거)
+명함 + 배경 합성 엔진 (기울기 여백 자동 제거, 색상 유지, 비겹침)
 ───────────────────────────────────────────────
 """
 
@@ -16,7 +17,7 @@ import albumentations as A
 
 # ───────────────────────────────────────────────
 # 경로 설정
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # /01_Background
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(BASE_DIR)
 CARD_DIR = os.path.join(ROOT_DIR, "00_IMGS/NameCards")
 BG_DIR = os.path.join(ROOT_DIR, "00_IMGS/Backgrounds/auto_backgrounds")
@@ -28,15 +29,14 @@ os.makedirs(LOG_DIR, exist_ok=True)
 logger.add(os.path.join(LOG_DIR, "augment.log"), level="INFO")
 
 # ───────────────────────────────────────────────
-# Albumentations 변환 (색상 변경 없이 기하학 변형만)
+# 기하학적 변환 (색조 보존)
 geom_aug = A.Compose([
-    A.SafeRotate(limit=12, border_mode=cv2.BORDER_CONSTANT, p=1.0),  # value 제거 (경고 방지)
+    A.SafeRotate(limit=12, border_mode=cv2.BORDER_CONSTANT, p=1.0),
     A.Perspective(scale=(0.02, 0.05), fit_output=True, p=1.0)
 ])
 
 # ───────────────────────────────────────────────
 def load_images(folder):
-    """폴더 내 모든 이미지 로드"""
     imgs = []
     if not os.path.exists(folder):
         return imgs
@@ -50,7 +50,7 @@ def load_images(folder):
 
 # ───────────────────────────────────────────────
 def resize_and_crop_center(img, target_size=(1920, 1080)):
-    """배경 이미지를 1920×1080으로 중앙 기준 crop"""
+    """배경을 1920×1080으로 중앙 crop"""
     h, w, _ = img.shape
     tw, th = target_size
     scale = max(tw / w, th / h)
@@ -61,8 +61,20 @@ def resize_and_crop_center(img, target_size=(1920, 1080)):
     return resized[y0:y0 + th, x0:x0 + tw]
 
 # ───────────────────────────────────────────────
+def trim_black_border(img, threshold=10):
+    """회전 후 검정 여백 제거"""
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    mask = gray > threshold
+    coords = np.argwhere(mask)
+    if coords.size == 0:
+        return img
+    y0, x0 = coords.min(axis=0)
+    y1, x1 = coords.max(axis=0) + 1
+    cropped = img[y0:y1, x0:x1]
+    return cropped
+
+# ───────────────────────────────────────────────
 def check_overlap(x, y, w, h, placed_boxes):
-    """명함끼리 겹침 여부 검사"""
     for (px, py, pw, ph) in placed_boxes:
         if not (x + w < px or px + pw < x or y + h < py or py + ph < y):
             return True
@@ -70,7 +82,7 @@ def check_overlap(x, y, w, h, placed_boxes):
 
 # ───────────────────────────────────────────────
 def random_paste(bg, cards, n_cards):
-    """배경 위에 명함을 자연스럽게 배치 (비겹침 + 흐림 없음)"""
+    """명함을 겹치지 않게 자연스럽게 배경에 합성"""
     canvas = bg.copy()
     h_bg, w_bg, _ = bg.shape
     placed_boxes = []
@@ -78,17 +90,20 @@ def random_paste(bg, cards, n_cards):
     for _ in range(n_cards):
         card = random.choice(cards)
 
-        # 명함 크기: 배경 폭 대비 25~35%
+        # 명함 크기 조절
         scale = random.uniform(0.25, 0.35)
         target_w = int(w_bg * scale)
         ratio = target_w / card.shape[1]
         target_h = int(card.shape[0] * ratio)
         card = cv2.resize(card, (target_w, target_h))
 
-        # 3D 회전만 적용 (색상 유지)
+        # 회전/기울기 적용
         card = geom_aug(image=card)["image"]
 
-        # 겹치지 않게 랜덤 위치 선정
+        # 검정 여백 제거
+        card = trim_black_border(card)
+
+        # 위치 선정 (비겹침)
         for _ in range(50):
             x = random.randint(0, max(1, w_bg - card.shape[1]))
             y = random.randint(0, max(1, h_bg - card.shape[0]))
@@ -96,14 +111,13 @@ def random_paste(bg, cards, n_cards):
                 placed_boxes.append((x, y, card.shape[1], card.shape[0]))
                 break
 
-        # 단순 덮어쓰기 (blur 없음)
+        # 합성 (단순 복사, Blur 없음)
         canvas[y:y + card.shape[0], x:x + card.shape[1]] = card
 
     return canvas
 
 # ───────────────────────────────────────────────
 def main(num_images=50):
-    """엔진 메인 루프"""
     cards = load_images(CARD_DIR)
     bgs = load_images(BG_DIR)
 
@@ -114,12 +128,13 @@ def main(num_images=50):
         logger.error(f"❌ No backgrounds found in {BG_DIR}")
         return
 
-    logger.info(f"Loaded {len(cards)} cards and {len(bgs)} backgrounds.")
+    logger.info(f"Loaded {len(cards)} cards and {len(bgs)} backgrounds")
 
     for i in tqdm(range(num_images), desc="🧩 Generating Augmented Images"):
         bg = resize_and_crop_center(random.choice(bgs), (1920, 1080))
-        n_cards = random.randint(2, min(4, len(cards)))  # 2~4장
+        n_cards = random.randint(2, min(4, len(cards)))
         result = random_paste(bg, cards, n_cards)
+
         out_path = os.path.join(OUT_DIR, f"aug_{i:03d}.png")
         cv2.imwrite(out_path, result)
         logger.info(f"[{i+1}/{num_images}] {out_path} | cards={n_cards}")
