@@ -1,0 +1,10 @@
+/data/dydtkddhkdwk/20251107_NameCard/01_Background/engine.py:30: UserWarning: Argument(s) 'value' are not valid for transform Rotate
+  A.Rotate(limit=25, border_mode=cv2.BORDER_CONSTANT, value=(255,255,255), p=0.9),
+Traceback (most recent call last):
+  File "/data/dydtkddhkdwk/20251107_NameCard/01_Background/engine.py", line 95, in <module>
+    main(num_images=100)
+  File "/data/dydtkddhkdwk/20251107_NameCard/01_Background/engine.py", line 76, in main
+    cards = load_images_from_folder(CARD_DIR)
+  File "/data/dydtkddhkdwk/20251107_NameCard/01_Background/engine.py", line 39, in load_images_from_folder
+    for fn in sorted(os.listdir(folder)):
+FileNotFoundError: [Errno 2] No such file or directory: '/data/dydtkddhkdwk/20251107_NameCard/01_Background/00_NameCard'

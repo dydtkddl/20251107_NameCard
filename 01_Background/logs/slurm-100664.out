@@ -1,0 +1,27 @@
+Fri 07 Nov 2025 02:55:27 PM KST
+Working Directory: /data/dydtkddhkdwk/20251107_NameCard/01_Background
+Fri Nov  7 14:55:27 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.07             Driver Version: 535.161.07   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 3090        On  | 00000000:43:00.0 Off |                  N/A |
+| 62%   30C    P8              28W / 350W |      1MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+/data/dydtkddhkdwk/20251107_NameCard/01_Background/engine.py:34: UserWarning: Argument(s) 'value' are not valid for transform Rotate
+  A.Rotate(limit=25, border_mode=cv2.BORDER_CONSTANT, value=(255,255,255), p=0.9),
+2025-11-07 14:55:28.136 | ERROR    | __main__:main:92 - No backgrounds found in /data/dydtkddhkdwk/20251107_NameCard/01_Background
+=== Job Completed ===
+Fri 07 Nov 2025 02:55:28 PM KST
