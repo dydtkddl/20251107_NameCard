@@ -1,0 +1,20 @@
+/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py:34: UserWarning: Argument(s) 'value' are not valid for transform SafeRotate
+  SafeRotate(limit=10, border_mode=cv2.BORDER_CONSTANT, value=(255, 255, 255), p=0.9),
+/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/albumentations/core/validation.py:114: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py:35: UserWarning: Argument(s) 'value' are not valid for transform ShiftScaleRotate
+  ShiftScaleRotate(shift_limit=0.08, scale_limit=0.15, rotate_limit=10,
+2025-11-07 16:29:33.971 | INFO     | __main__:main:122 - Loaded 49 backgrounds, 4 cards.
+🎨 Generating dataset:   0%|          | 0/300 [00:00<?, ?it/s]🎨 Generating dataset:   0%|          | 0/300 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py", line 181, in <module>
+    main(num_images=300)
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py", line 160, in main
+    composed, mask_card, bbox = paste_card(composed, card_img, boxes)
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py", line 94, in paste_card
+    x_offset = random.randint(0, bg_w - new_w)
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/random.py", line 370, in randint
+    return self.randrange(a, b+1)
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/random.py", line 353, in randrange
+    raise ValueError("empty range for randrange() (%d, %d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0, -12, -12)

@@ -1,0 +1,404 @@
+2025-11-07 16:20:46.489 | INFO     | __main__:main:107 - Loaded 49 backgrounds, 4 cards.
+2025-11-07 16:21:40.758 | INFO     | __main__:main:117 - Loaded 49 backgrounds, 4 cards.
+2025-11-07 16:21:41.014 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:22:57.493 | INFO     | __main__:main:115 - Loaded 49 backgrounds, 4 cards.
+2025-11-07 16:22:58.303 | INFO     | __main__:main:155 - [img_000.png] 3 cards placed.
+2025-11-07 16:22:58.472 | INFO     | __main__:main:155 - [img_001.png] 2 cards placed.
+2025-11-07 16:22:58.610 | INFO     | __main__:main:155 - [img_002.png] 3 cards placed.
+2025-11-07 16:22:58.763 | INFO     | __main__:main:155 - [img_003.png] 2 cards placed.
+2025-11-07 16:22:58.860 | INFO     | __main__:main:155 - [img_004.png] 2 cards placed.
+2025-11-07 16:22:58.971 | INFO     | __main__:main:155 - [img_005.png] 2 cards placed.
+2025-11-07 16:22:59.695 | INFO     | __main__:main:155 - [img_006.png] 4 cards placed.
+2025-11-07 16:22:59.791 | INFO     | __main__:main:155 - [img_007.png] 2 cards placed.
+2025-11-07 16:23:00.533 | INFO     | __main__:main:155 - [img_008.png] 4 cards placed.
+2025-11-07 16:23:00.838 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:00.843 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:00.956 | INFO     | __main__:main:155 - [img_009.png] 2 cards placed.
+2025-11-07 16:23:01.077 | INFO     | __main__:main:155 - [img_010.png] 2 cards placed.
+2025-11-07 16:23:01.262 | INFO     | __main__:main:155 - [img_011.png] 4 cards placed.
+2025-11-07 16:23:01.835 | INFO     | __main__:main:155 - [img_012.png] 3 cards placed.
+2025-11-07 16:23:02.039 | INFO     | __main__:main:155 - [img_013.png] 3 cards placed.
+2025-11-07 16:23:02.678 | INFO     | __main__:main:155 - [img_014.png] 3 cards placed.
+2025-11-07 16:23:02.850 | INFO     | __main__:main:155 - [img_015.png] 2 cards placed.
+2025-11-07 16:23:02.912 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:02.917 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:02.917 | WARNING  | __main__:main:144 - [photo-1570185616266-2eaa148b78e3.jpg] No valid cards placed, skipping.
+2025-11-07 16:23:03.104 | INFO     | __main__:main:155 - [img_017.png] 3 cards placed.
+2025-11-07 16:23:03.234 | INFO     | __main__:main:155 - [img_018.png] 2 cards placed.
+2025-11-07 16:23:03.389 | INFO     | __main__:main:155 - [img_019.png] 5 cards placed.
+2025-11-07 16:23:03.940 | INFO     | __main__:main:155 - [img_020.png] 4 cards placed.
+2025-11-07 16:23:04.153 | INFO     | __main__:main:155 - [img_021.png] 5 cards placed.
+2025-11-07 16:23:04.409 | INFO     | __main__:main:155 - [img_022.png] 5 cards placed.
+2025-11-07 16:23:04.635 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:04.641 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:04.758 | INFO     | __main__:main:155 - [img_023.png] 1 cards placed.
+2025-11-07 16:23:04.871 | INFO     | __main__:main:155 - [img_024.png] 2 cards placed.
+2025-11-07 16:23:05.113 | INFO     | __main__:main:155 - [img_025.png] 5 cards placed.
+2025-11-07 16:23:05.300 | INFO     | __main__:main:155 - [img_026.png] 5 cards placed.
+2025-11-07 16:23:05.479 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:05.553 | INFO     | __main__:main:155 - [img_027.png] 1 cards placed.
+2025-11-07 16:23:05.879 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:05.980 | INFO     | __main__:main:155 - [img_028.png] 2 cards placed.
+2025-11-07 16:23:06.018 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:06.956 | INFO     | __main__:main:155 - [img_029.png] 4 cards placed.
+2025-11-07 16:23:07.614 | INFO     | __main__:main:155 - [img_030.png] 4 cards placed.
+2025-11-07 16:23:07.742 | INFO     | __main__:main:155 - [img_031.png] 5 cards placed.
+2025-11-07 16:23:07.851 | INFO     | __main__:main:155 - [img_032.png] 2 cards placed.
+2025-11-07 16:23:08.082 | INFO     | __main__:main:155 - [img_033.png] 4 cards placed.
+2025-11-07 16:23:08.708 | INFO     | __main__:main:155 - [img_034.png] 4 cards placed.
+2025-11-07 16:23:09.336 | INFO     | __main__:main:155 - [img_035.png] 4 cards placed.
+2025-11-07 16:23:09.828 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:10.047 | INFO     | __main__:main:155 - [img_036.png] 4 cards placed.
+2025-11-07 16:23:10.192 | INFO     | __main__:main:155 - [img_037.png] 2 cards placed.
+2025-11-07 16:23:10.230 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:10.410 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:10.673 | INFO     | __main__:main:155 - [img_038.png] 2 cards placed.
+2025-11-07 16:23:10.716 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:10.721 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:10.726 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:10.960 | INFO     | __main__:main:155 - [img_039.png] 1 cards placed.
+2025-11-07 16:23:11.454 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:11.521 | INFO     | __main__:main:155 - [img_040.png] 3 cards placed.
+2025-11-07 16:23:12.086 | INFO     | __main__:main:155 - [img_041.png] 3 cards placed.
+2025-11-07 16:23:12.327 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:12.840 | INFO     | __main__:main:155 - [img_042.png] 3 cards placed.
+2025-11-07 16:23:13.381 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:13.587 | INFO     | __main__:main:155 - [img_043.png] 4 cards placed.
+2025-11-07 16:23:14.182 | INFO     | __main__:main:155 - [img_044.png] 3 cards placed.
+2025-11-07 16:23:14.271 | INFO     | __main__:main:155 - [img_045.png] 2 cards placed.
+2025-11-07 16:23:15.183 | INFO     | __main__:main:155 - [img_046.png] 5 cards placed.
+2025-11-07 16:23:15.381 | INFO     | __main__:main:155 - [img_047.png] 5 cards placed.
+2025-11-07 16:23:15.514 | INFO     | __main__:main:155 - [img_048.png] 2 cards placed.
+2025-11-07 16:23:15.856 | INFO     | __main__:main:155 - [img_049.png] 2 cards placed.
+2025-11-07 16:23:15.967 | INFO     | __main__:main:155 - [img_050.png] 2 cards placed.
+2025-11-07 16:23:16.374 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:16.381 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:16.472 | INFO     | __main__:main:155 - [img_051.png] 2 cards placed.
+2025-11-07 16:23:16.614 | INFO     | __main__:main:155 - [img_052.png] 4 cards placed.
+2025-11-07 16:23:16.808 | INFO     | __main__:main:155 - [img_053.png] 4 cards placed.
+2025-11-07 16:23:16.842 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:16.846 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:16.846 | WARNING  | __main__:main:144 - [photo-1570185616266-2eaa148b78e3.jpg] No valid cards placed, skipping.
+2025-11-07 16:23:17.339 | INFO     | __main__:main:155 - [img_055.png] 3 cards placed.
+2025-11-07 16:23:17.493 | INFO     | __main__:main:155 - [img_056.png] 2 cards placed.
+2025-11-07 16:23:17.616 | INFO     | __main__:main:155 - [img_057.png] 2 cards placed.
+2025-11-07 16:23:18.356 | INFO     | __main__:main:155 - [img_058.png] 5 cards placed.
+2025-11-07 16:23:18.598 | INFO     | __main__:main:155 - [img_059.png] 5 cards placed.
+2025-11-07 16:23:19.034 | INFO     | __main__:main:155 - [img_060.png] 2 cards placed.
+2025-11-07 16:23:19.258 | INFO     | __main__:main:155 - [img_061.png] 5 cards placed.
+2025-11-07 16:23:19.431 | INFO     | __main__:main:155 - [img_062.png] 4 cards placed.
+2025-11-07 16:23:20.149 | INFO     | __main__:main:155 - [img_063.png] 3 cards placed.
+2025-11-07 16:23:20.273 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:20.621 | INFO     | __main__:main:155 - [img_064.png] 3 cards placed.
+2025-11-07 16:23:20.640 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:20.969 | INFO     | __main__:main:155 - [img_065.png] 2 cards placed.
+2025-11-07 16:23:21.771 | INFO     | __main__:main:155 - [img_066.png] 5 cards placed.
+2025-11-07 16:23:22.257 | INFO     | __main__:main:155 - [img_067.png] 2 cards placed.
+2025-11-07 16:23:22.596 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:22.679 | INFO     | __main__:main:155 - [img_068.png] 2 cards placed.
+2025-11-07 16:23:22.782 | INFO     | __main__:main:155 - [img_069.png] 2 cards placed.
+2025-11-07 16:23:23.026 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:23.373 | INFO     | __main__:main:155 - [img_070.png] 3 cards placed.
+2025-11-07 16:23:23.725 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:23.833 | INFO     | __main__:main:155 - [img_071.png] 2 cards placed.
+2025-11-07 16:23:23.862 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:24.107 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:24.221 | INFO     | __main__:main:155 - [img_072.png] 1 cards placed.
+2025-11-07 16:23:24.323 | INFO     | __main__:main:155 - [img_073.png] 2 cards placed.
+2025-11-07 16:23:24.515 | INFO     | __main__:main:155 - [img_074.png] 4 cards placed.
+2025-11-07 16:23:24.854 | INFO     | __main__:main:155 - [img_075.png] 2 cards placed.
+2025-11-07 16:23:25.071 | INFO     | __main__:main:155 - [img_076.png] 4 cards placed.
+2025-11-07 16:23:25.217 | INFO     | __main__:main:155 - [img_077.png] 2 cards placed.
+2025-11-07 16:23:25.379 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:25.830 | INFO     | __main__:main:155 - [img_078.png] 4 cards placed.
+2025-11-07 16:23:26.530 | INFO     | __main__:main:155 - [img_079.png] 4 cards placed.
+2025-11-07 16:23:26.743 | INFO     | __main__:main:155 - [img_080.png] 5 cards placed.
+2025-11-07 16:23:26.883 | INFO     | __main__:main:155 - [img_081.png] 3 cards placed.
+2025-11-07 16:23:27.081 | INFO     | __main__:main:155 - [img_082.png] 3 cards placed.
+2025-11-07 16:23:27.281 | INFO     | __main__:main:155 - [img_083.png] 4 cards placed.
+2025-11-07 16:23:27.983 | INFO     | __main__:main:155 - [img_084.png] 3 cards placed.
+2025-11-07 16:23:28.158 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:28.498 | INFO     | __main__:main:155 - [img_085.png] 2 cards placed.
+2025-11-07 16:23:29.238 | INFO     | __main__:main:155 - [img_086.png] 5 cards placed.
+2025-11-07 16:23:29.863 | INFO     | __main__:main:155 - [img_087.png] 3 cards placed.
+2025-11-07 16:23:30.016 | INFO     | __main__:main:155 - [img_088.png] 3 cards placed.
+2025-11-07 16:23:30.201 | INFO     | __main__:main:155 - [img_089.png] 5 cards placed.
+2025-11-07 16:23:30.240 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:31.103 | INFO     | __main__:main:155 - [img_090.png] 4 cards placed.
+2025-11-07 16:23:31.252 | INFO     | __main__:main:155 - [img_091.png] 3 cards placed.
+2025-11-07 16:23:31.431 | INFO     | __main__:main:155 - [img_092.png] 5 cards placed.
+2025-11-07 16:23:31.564 | INFO     | __main__:main:155 - [img_093.png] 3 cards placed.
+2025-11-07 16:23:31.698 | INFO     | __main__:main:155 - [img_094.png] 3 cards placed.
+2025-11-07 16:23:32.051 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:32.327 | INFO     | __main__:main:155 - [img_095.png] 3 cards placed.
+2025-11-07 16:23:32.784 | INFO     | __main__:main:155 - [img_096.png] 2 cards placed.
+2025-11-07 16:23:33.407 | INFO     | __main__:main:155 - [img_097.png] 3 cards placed.
+2025-11-07 16:23:33.542 | INFO     | __main__:main:155 - [img_098.png] 2 cards placed.
+2025-11-07 16:23:34.344 | INFO     | __main__:main:155 - [img_099.png] 4 cards placed.
+2025-11-07 16:23:35.106 | INFO     | __main__:main:155 - [img_100.png] 4 cards placed.
+2025-11-07 16:23:35.382 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:35.794 | INFO     | __main__:main:155 - [img_101.png] 4 cards placed.
+2025-11-07 16:23:36.565 | INFO     | __main__:main:155 - [img_102.png] 5 cards placed.
+2025-11-07 16:23:36.759 | INFO     | __main__:main:155 - [img_103.png] 4 cards placed.
+2025-11-07 16:23:36.915 | INFO     | __main__:main:155 - [img_104.png] 3 cards placed.
+2025-11-07 16:23:37.157 | INFO     | __main__:main:155 - [img_105.png] 5 cards placed.
+2025-11-07 16:23:37.649 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:38.004 | INFO     | __main__:main:155 - [img_106.png] 4 cards placed.
+2025-11-07 16:23:38.033 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:38.038 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:38.038 | WARNING  | __main__:main:144 - [photo-1570185616266-2eaa148b78e3.jpg] No valid cards placed, skipping.
+2025-11-07 16:23:38.266 | INFO     | __main__:main:155 - [img_108.png] 4 cards placed.
+2025-11-07 16:23:38.298 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:38.850 | INFO     | __main__:main:155 - [img_109.png] 2 cards placed.
+2025-11-07 16:23:39.032 | INFO     | __main__:main:155 - [img_110.png] 4 cards placed.
+2025-11-07 16:23:39.148 | INFO     | __main__:main:155 - [img_111.png] 2 cards placed.
+2025-11-07 16:23:39.262 | INFO     | __main__:main:155 - [img_112.png] 2 cards placed.
+2025-11-07 16:23:40.082 | INFO     | __main__:main:155 - [img_113.png] 4 cards placed.
+2025-11-07 16:23:40.275 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:40.280 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:40.351 | INFO     | __main__:main:155 - [img_114.png] 1 cards placed.
+2025-11-07 16:23:40.637 | INFO     | __main__:main:155 - [img_115.png] 5 cards placed.
+2025-11-07 16:23:41.357 | INFO     | __main__:main:155 - [img_116.png] 3 cards placed.
+2025-11-07 16:23:42.055 | INFO     | __main__:main:155 - [img_117.png] 4 cards placed.
+2025-11-07 16:23:42.490 | INFO     | __main__:main:155 - [img_118.png] 2 cards placed.
+2025-11-07 16:23:42.654 | INFO     | __main__:main:155 - [img_119.png] 3 cards placed.
+2025-11-07 16:23:43.086 | INFO     | __main__:main:155 - [img_120.png] 2 cards placed.
+2025-11-07 16:23:43.270 | INFO     | __main__:main:155 - [img_121.png] 4 cards placed.
+2025-11-07 16:23:43.934 | INFO     | __main__:main:155 - [img_122.png] 4 cards placed.
+2025-11-07 16:23:44.427 | INFO     | __main__:main:155 - [img_123.png] 3 cards placed.
+2025-11-07 16:23:44.635 | INFO     | __main__:main:155 - [img_124.png] 4 cards placed.
+2025-11-07 16:23:45.471 | INFO     | __main__:main:155 - [img_125.png] 5 cards placed.
+2025-11-07 16:23:45.655 | INFO     | __main__:main:155 - [img_126.png] 4 cards placed.
+2025-11-07 16:23:45.817 | INFO     | __main__:main:155 - [img_127.png] 3 cards placed.
+2025-11-07 16:23:46.047 | INFO     | __main__:main:155 - [img_128.png] 5 cards placed.
+2025-11-07 16:23:46.218 | INFO     | __main__:main:155 - [img_129.png] 3 cards placed.
+2025-11-07 16:23:46.950 | INFO     | __main__:main:155 - [img_130.png] 5 cards placed.
+2025-11-07 16:23:47.845 | INFO     | __main__:main:155 - [img_131.png] 5 cards placed.
+2025-11-07 16:23:48.053 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:48.060 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:48.067 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:48.072 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:48.187 | INFO     | __main__:main:155 - [img_132.png] 1 cards placed.
+2025-11-07 16:23:48.436 | INFO     | __main__:main:155 - [img_133.png] 5 cards placed.
+2025-11-07 16:23:49.291 | INFO     | __main__:main:155 - [img_134.png] 4 cards placed.
+2025-11-07 16:23:49.941 | INFO     | __main__:main:155 - [img_135.png] 4 cards placed.
+2025-11-07 16:23:50.311 | INFO     | __main__:main:155 - [img_136.png] 2 cards placed.
+2025-11-07 16:23:50.827 | INFO     | __main__:main:155 - [img_137.png] 3 cards placed.
+2025-11-07 16:23:51.014 | INFO     | __main__:main:155 - [img_138.png] 4 cards placed.
+2025-11-07 16:23:51.156 | INFO     | __main__:main:155 - [img_139.png] 3 cards placed.
+2025-11-07 16:23:51.272 | INFO     | __main__:main:155 - [img_140.png] 2 cards placed.
+2025-11-07 16:23:51.932 | INFO     | __main__:main:155 - [img_141.png] 3 cards placed.
+2025-11-07 16:23:52.084 | INFO     | __main__:main:155 - [img_142.png] 2 cards placed.
+2025-11-07 16:23:52.253 | INFO     | __main__:main:155 - [img_143.png] 4 cards placed.
+2025-11-07 16:23:52.472 | INFO     | __main__:main:155 - [img_144.png] 4 cards placed.
+2025-11-07 16:23:52.493 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:52.683 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:52.746 | INFO     | __main__:main:155 - [img_145.png] 1 cards placed.
+2025-11-07 16:23:52.898 | INFO     | __main__:main:155 - [img_146.png] 3 cards placed.
+2025-11-07 16:23:53.362 | INFO     | __main__:main:155 - [img_147.png] 3 cards placed.
+2025-11-07 16:23:53.515 | INFO     | __main__:main:155 - [img_148.png] 4 cards placed.
+2025-11-07 16:23:53.913 | INFO     | __main__:main:155 - [img_149.png] 2 cards placed.
+2025-11-07 16:23:54.419 | INFO     | __main__:main:155 - [img_150.png] 2 cards placed.
+2025-11-07 16:23:54.776 | INFO     | __main__:main:155 - [img_151.png] 2 cards placed.
+2025-11-07 16:23:54.947 | INFO     | __main__:main:155 - [img_152.png] 5 cards placed.
+2025-11-07 16:23:55.582 | INFO     | __main__:main:155 - [img_153.png] 3 cards placed.
+2025-11-07 16:23:56.223 | INFO     | __main__:main:155 - [img_154.png] 3 cards placed.
+2025-11-07 16:23:56.259 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:56.861 | INFO     | __main__:main:155 - [img_155.png] 3 cards placed.
+2025-11-07 16:23:57.239 | INFO     | __main__:main:155 - [img_156.png] 2 cards placed.
+2025-11-07 16:23:57.457 | INFO     | __main__:main:155 - [img_157.png] 5 cards placed.
+2025-11-07 16:23:57.824 | INFO     | __main__:main:155 - [img_158.png] 3 cards placed.
+2025-11-07 16:23:57.959 | INFO     | __main__:main:155 - [img_159.png] 3 cards placed.
+2025-11-07 16:23:58.119 | INFO     | __main__:main:155 - [img_160.png] 3 cards placed.
+2025-11-07 16:23:58.926 | INFO     | __main__:main:155 - [img_161.png] 5 cards placed.
+2025-11-07 16:23:59.072 | INFO     | __main__:main:155 - [img_162.png] 4 cards placed.
+2025-11-07 16:23:59.561 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:59.945 | INFO     | __main__:main:155 - [img_163.png] 4 cards placed.
+2025-11-07 16:24:00.133 | INFO     | __main__:main:155 - [img_164.png] 4 cards placed.
+2025-11-07 16:24:00.294 | INFO     | __main__:main:155 - [img_165.png] 3 cards placed.
+2025-11-07 16:24:00.462 | INFO     | __main__:main:155 - [img_166.png] 4 cards placed.
+2025-11-07 16:24:00.501 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:00.505 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:00.827 | INFO     | __main__:main:155 - [img_167.png] 1 cards placed.
+2025-11-07 16:24:00.932 | INFO     | __main__:main:155 - [img_168.png] 2 cards placed.
+2025-11-07 16:24:01.512 | INFO     | __main__:main:155 - [img_169.png] 3 cards placed.
+2025-11-07 16:24:02.110 | INFO     | __main__:main:155 - [img_170.png] 4 cards placed.
+2025-11-07 16:24:02.236 | INFO     | __main__:main:155 - [img_171.png] 2 cards placed.
+2025-11-07 16:24:02.467 | INFO     | __main__:main:155 - [img_172.png] 5 cards placed.
+2025-11-07 16:24:02.491 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:02.951 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:03.035 | INFO     | __main__:main:155 - [img_173.png] 3 cards placed.
+2025-11-07 16:24:03.172 | INFO     | __main__:main:155 - [img_174.png] 2 cards placed.
+2025-11-07 16:24:03.635 | INFO     | __main__:main:155 - [img_175.png] 2 cards placed.
+2025-11-07 16:24:04.056 | INFO     | __main__:main:155 - [img_176.png] 2 cards placed.
+2025-11-07 16:24:04.537 | INFO     | __main__:main:155 - [img_177.png] 3 cards placed.
+2025-11-07 16:24:04.743 | INFO     | __main__:main:155 - [img_178.png] 5 cards placed.
+2025-11-07 16:24:04.778 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:05.007 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:05.132 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:05.238 | INFO     | __main__:main:155 - [img_179.png] 2 cards placed.
+2025-11-07 16:24:05.528 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:05.637 | INFO     | __main__:main:155 - [img_180.png] 2 cards placed.
+2025-11-07 16:24:06.333 | INFO     | __main__:main:155 - [img_181.png] 5 cards placed.
+2025-11-07 16:24:06.484 | INFO     | __main__:main:155 - [img_182.png] 3 cards placed.
+2025-11-07 16:24:06.732 | INFO     | __main__:main:155 - [img_183.png] 5 cards placed.
+2025-11-07 16:24:06.767 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:07.084 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:07.307 | INFO     | __main__:main:155 - [img_184.png] 3 cards placed.
+2025-11-07 16:24:07.467 | INFO     | __main__:main:155 - [img_185.png] 3 cards placed.
+2025-11-07 16:24:07.999 | INFO     | __main__:main:155 - [img_186.png] 3 cards placed.
+2025-11-07 16:24:08.150 | INFO     | __main__:main:155 - [img_187.png] 2 cards placed.
+2025-11-07 16:24:08.273 | INFO     | __main__:main:155 - [img_188.png] 3 cards placed.
+2025-11-07 16:24:08.308 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:08.581 | INFO     | __main__:main:155 - [img_189.png] 1 cards placed.
+2025-11-07 16:24:08.688 | INFO     | __main__:main:155 - [img_190.png] 2 cards placed.
+2025-11-07 16:24:08.901 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:09.429 | INFO     | __main__:main:155 - [img_191.png] 3 cards placed.
+2025-11-07 16:24:09.749 | INFO     | __main__:main:155 - [img_192.png] 2 cards placed.
+2025-11-07 16:24:09.874 | INFO     | __main__:main:155 - [img_193.png] 3 cards placed.
+2025-11-07 16:24:09.894 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:10.336 | INFO     | __main__:main:155 - [img_194.png] 2 cards placed.
+2025-11-07 16:24:10.497 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:10.929 | INFO     | __main__:main:155 - [img_195.png] 3 cards placed.
+2025-11-07 16:24:10.966 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:10.972 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:10.978 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:11.453 | INFO     | __main__:main:155 - [img_196.png] 2 cards placed.
+2025-11-07 16:24:11.602 | INFO     | __main__:main:155 - [img_197.png] 3 cards placed.
+2025-11-07 16:24:11.775 | INFO     | __main__:main:155 - [img_198.png] 5 cards placed.
+2025-11-07 16:24:11.814 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:12.394 | INFO     | __main__:main:155 - [img_199.png] 3 cards placed.
+2025-11-07 16:24:12.522 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:12.594 | INFO     | __main__:main:155 - [img_200.png] 1 cards placed.
+2025-11-07 16:24:12.718 | INFO     | __main__:main:155 - [img_201.png] 4 cards placed.
+2025-11-07 16:24:12.855 | INFO     | __main__:main:155 - [img_202.png] 2 cards placed.
+2025-11-07 16:24:12.960 | INFO     | __main__:main:155 - [img_203.png] 2 cards placed.
+2025-11-07 16:24:13.104 | INFO     | __main__:main:155 - [img_204.png] 3 cards placed.
+2025-11-07 16:24:13.327 | INFO     | __main__:main:155 - [img_205.png] 3 cards placed.
+2025-11-07 16:24:14.059 | INFO     | __main__:main:155 - [img_206.png] 5 cards placed.
+2025-11-07 16:24:14.613 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:14.710 | INFO     | __main__:main:155 - [img_207.png] 3 cards placed.
+2025-11-07 16:24:14.832 | INFO     | __main__:main:155 - [img_208.png] 2 cards placed.
+2025-11-07 16:24:14.855 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:15.102 | INFO     | __main__:main:155 - [img_209.png] 1 cards placed.
+2025-11-07 16:24:15.952 | INFO     | __main__:main:155 - [img_210.png] 5 cards placed.
+2025-11-07 16:24:15.972 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:16.370 | INFO     | __main__:main:155 - [img_211.png] 3 cards placed.
+2025-11-07 16:24:16.986 | INFO     | __main__:main:155 - [img_212.png] 3 cards placed.
+2025-11-07 16:24:17.163 | INFO     | __main__:main:155 - [img_213.png] 3 cards placed.
+2025-11-07 16:24:17.371 | INFO     | __main__:main:155 - [img_214.png] 4 cards placed.
+2025-11-07 16:24:17.550 | INFO     | __main__:main:155 - [img_215.png] 5 cards placed.
+2025-11-07 16:24:17.584 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:17.951 | INFO     | __main__:main:155 - [img_216.png] 2 cards placed.
+2025-11-07 16:24:18.162 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:18.296 | INFO     | __main__:main:155 - [img_217.png] 1 cards placed.
+2025-11-07 16:24:19.086 | INFO     | __main__:main:155 - [img_218.png] 4 cards placed.
+2025-11-07 16:24:19.113 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:19.955 | INFO     | __main__:main:155 - [img_219.png] 4 cards placed.
+2025-11-07 16:24:20.111 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:20.194 | INFO     | __main__:main:155 - [img_220.png] 1 cards placed.
+2025-11-07 16:24:20.230 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:20.333 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:20.821 | INFO     | __main__:main:155 - [img_221.png] 3 cards placed.
+2025-11-07 16:24:20.941 | INFO     | __main__:main:155 - [img_222.png] 2 cards placed.
+2025-11-07 16:24:21.250 | INFO     | __main__:main:155 - [img_223.png] 5 cards placed.
+2025-11-07 16:24:21.456 | INFO     | __main__:main:155 - [img_224.png] 5 cards placed.
+2025-11-07 16:24:21.838 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:21.956 | INFO     | __main__:main:155 - [img_225.png] 2 cards placed.
+2025-11-07 16:24:22.145 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:22.585 | INFO     | __main__:main:155 - [img_226.png] 4 cards placed.
+2025-11-07 16:24:23.287 | INFO     | __main__:main:155 - [img_227.png] 5 cards placed.
+2025-11-07 16:24:23.555 | INFO     | __main__:main:155 - [img_228.png] 5 cards placed.
+2025-11-07 16:24:23.985 | INFO     | __main__:main:155 - [img_229.png] 2 cards placed.
+2025-11-07 16:24:24.014 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:24.516 | INFO     | __main__:main:155 - [img_230.png] 3 cards placed.
+2025-11-07 16:24:24.733 | INFO     | __main__:main:155 - [img_231.png] 5 cards placed.
+2025-11-07 16:24:25.402 | INFO     | __main__:main:155 - [img_232.png] 4 cards placed.
+2025-11-07 16:24:25.900 | INFO     | __main__:main:155 - [img_233.png] 4 cards placed.
+2025-11-07 16:24:26.127 | INFO     | __main__:main:155 - [img_234.png] 5 cards placed.
+2025-11-07 16:24:26.414 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:26.758 | INFO     | __main__:main:155 - [img_235.png] 4 cards placed.
+2025-11-07 16:24:26.902 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:27.148 | INFO     | __main__:main:155 - [img_236.png] 2 cards placed.
+2025-11-07 16:24:27.691 | INFO     | __main__:main:155 - [img_237.png] 3 cards placed.
+2025-11-07 16:24:27.850 | INFO     | __main__:main:155 - [img_238.png] 3 cards placed.
+2025-11-07 16:24:28.025 | INFO     | __main__:main:155 - [img_239.png] 3 cards placed.
+2025-11-07 16:24:28.200 | INFO     | __main__:main:155 - [img_240.png] 3 cards placed.
+2025-11-07 16:24:28.337 | INFO     | __main__:main:155 - [img_241.png] 2 cards placed.
+2025-11-07 16:24:28.516 | INFO     | __main__:main:155 - [img_242.png] 3 cards placed.
+2025-11-07 16:24:29.168 | INFO     | __main__:main:155 - [img_243.png] 4 cards placed.
+2025-11-07 16:24:29.934 | INFO     | __main__:main:155 - [img_244.png] 5 cards placed.
+2025-11-07 16:24:30.151 | INFO     | __main__:main:155 - [img_245.png] 5 cards placed.
+2025-11-07 16:24:30.379 | INFO     | __main__:main:155 - [img_246.png] 5 cards placed.
+2025-11-07 16:24:30.530 | INFO     | __main__:main:155 - [img_247.png] 5 cards placed.
+2025-11-07 16:24:31.499 | INFO     | __main__:main:155 - [img_248.png] 5 cards placed.
+2025-11-07 16:24:31.986 | INFO     | __main__:main:155 - [img_249.png] 2 cards placed.
+2025-11-07 16:24:32.634 | INFO     | __main__:main:155 - [img_250.png] 4 cards placed.
+2025-11-07 16:24:33.261 | INFO     | __main__:main:155 - [img_251.png] 3 cards placed.
+2025-11-07 16:24:33.296 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:33.515 | INFO     | __main__:main:155 - [img_252.png] 1 cards placed.
+2025-11-07 16:24:33.545 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:33.551 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:33.557 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:33.558 | WARNING  | __main__:main:144 - [photo-1570185616266-2eaa148b78e3.jpg] No valid cards placed, skipping.
+2025-11-07 16:24:33.672 | INFO     | __main__:main:155 - [img_254.png] 3 cards placed.
+2025-11-07 16:24:33.822 | INFO     | __main__:main:155 - [img_255.png] 4 cards placed.
+2025-11-07 16:24:33.953 | INFO     | __main__:main:155 - [img_256.png] 2 cards placed.
+2025-11-07 16:24:34.080 | INFO     | __main__:main:155 - [img_257.png] 2 cards placed.
+2025-11-07 16:24:34.662 | INFO     | __main__:main:155 - [img_258.png] 3 cards placed.
+2025-11-07 16:24:35.439 | INFO     | __main__:main:155 - [img_259.png] 5 cards placed.
+2025-11-07 16:24:35.475 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:35.480 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:36.031 | INFO     | __main__:main:155 - [img_260.png] 3 cards placed.
+2025-11-07 16:24:36.419 | INFO     | __main__:main:155 - [img_261.png] 2 cards placed.
+2025-11-07 16:24:36.747 | INFO     | __main__:main:155 - [img_262.png] 2 cards placed.
+2025-11-07 16:24:36.850 | INFO     | __main__:main:155 - [img_263.png] 2 cards placed.
+2025-11-07 16:24:37.348 | INFO     | __main__:main:155 - [img_264.png] 3 cards placed.
+2025-11-07 16:24:37.471 | INFO     | __main__:main:155 - [img_265.png] 2 cards placed.
+2025-11-07 16:24:38.192 | INFO     | __main__:main:155 - [img_266.png] 3 cards placed.
+2025-11-07 16:24:38.800 | INFO     | __main__:main:155 - [img_267.png] 4 cards placed.
+2025-11-07 16:24:38.958 | INFO     | __main__:main:155 - [img_268.png] 3 cards placed.
+2025-11-07 16:24:38.992 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:38.998 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:38.998 | WARNING  | __main__:main:144 - [photo-1570185616266-2eaa148b78e3.jpg] No valid cards placed, skipping.
+2025-11-07 16:24:39.522 | INFO     | __main__:main:155 - [img_270.png] 3 cards placed.
+2025-11-07 16:24:39.771 | INFO     | __main__:main:155 - [img_271.png] 5 cards placed.
+2025-11-07 16:24:40.088 | INFO     | __main__:main:155 - [img_272.png] 2 cards placed.
+2025-11-07 16:24:40.127 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:40.909 | INFO     | __main__:main:155 - [img_273.png] 4 cards placed.
+2025-11-07 16:24:41.096 | INFO     | __main__:main:155 - [img_274.png] 4 cards placed.
+2025-11-07 16:24:41.443 | INFO     | __main__:main:155 - [img_275.png] 2 cards placed.
+2025-11-07 16:24:41.570 | INFO     | __main__:main:155 - [img_276.png] 3 cards placed.
+2025-11-07 16:24:42.031 | INFO     | __main__:main:155 - [img_277.png] 3 cards placed.
+2025-11-07 16:24:42.189 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:42.401 | INFO     | __main__:main:155 - [img_278.png] 2 cards placed.
+2025-11-07 16:24:42.421 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:42.426 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:42.430 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:42.821 | INFO     | __main__:main:155 - [img_279.png] 2 cards placed.
+2025-11-07 16:24:43.745 | INFO     | __main__:main:155 - [img_280.png] 5 cards placed.
+2025-11-07 16:24:43.881 | INFO     | __main__:main:155 - [img_281.png] 3 cards placed.
+2025-11-07 16:24:44.043 | INFO     | __main__:main:155 - [img_282.png] 2 cards placed.
+2025-11-07 16:24:44.878 | INFO     | __main__:main:155 - [img_283.png] 5 cards placed.
+2025-11-07 16:24:45.053 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:45.582 | INFO     | __main__:main:155 - [img_284.png] 4 cards placed.
+2025-11-07 16:24:45.825 | INFO     | __main__:main:155 - [img_285.png] 4 cards placed.
+2025-11-07 16:24:45.982 | INFO     | __main__:main:155 - [img_286.png] 3 cards placed.
+2025-11-07 16:24:46.659 | INFO     | __main__:main:155 - [img_287.png] 4 cards placed.
+2025-11-07 16:24:46.682 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:46.928 | INFO     | __main__:main:155 - [img_288.png] 1 cards placed.
+2025-11-07 16:24:47.061 | INFO     | __main__:main:155 - [img_289.png] 2 cards placed.
+2025-11-07 16:24:47.393 | INFO     | __main__:main:155 - [img_290.png] 2 cards placed.
+2025-11-07 16:24:47.524 | INFO     | __main__:main:155 - [img_291.png] 3 cards placed.
+2025-11-07 16:24:47.800 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:47.937 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:48.055 | INFO     | __main__:main:155 - [img_292.png] 3 cards placed.
+2025-11-07 16:24:48.258 | INFO     | __main__:main:155 - [img_293.png] 4 cards placed.
+2025-11-07 16:24:48.775 | INFO     | __main__:main:155 - [img_294.png] 4 cards placed.
+2025-11-07 16:24:48.927 | INFO     | __main__:main:155 - [img_295.png] 4 cards placed.
+2025-11-07 16:24:49.146 | INFO     | __main__:main:155 - [img_296.png] 4 cards placed.
+2025-11-07 16:24:49.840 | INFO     | __main__:main:155 - [img_297.png] 4 cards placed.
+2025-11-07 16:24:50.080 | INFO     | __main__:main:155 - [img_298.png] 4 cards placed.
+2025-11-07 16:24:50.114 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:50.380 | INFO     | __main__:main:155 - [img_299.png] 1 cards placed.
+2025-11-07 16:24:50.381 | INFO     | __main__:main:157 - ✅ Dataset generation completed.

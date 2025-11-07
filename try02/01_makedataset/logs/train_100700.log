@@ -1,0 +1,14 @@
+/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py:34: UserWarning: Argument(s) 'value' are not valid for transform SafeRotate
+  SafeRotate(limit=10, border_mode=cv2.BORDER_CONSTANT, value=(255, 255, 255), p=0.9),
+/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/albumentations/core/validation.py:114: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py:35: UserWarning: Argument(s) 'value' are not valid for transform ShiftScaleRotate
+  ShiftScaleRotate(shift_limit=0.08, scale_limit=0.15, rotate_limit=10,
+2025-11-07 16:29:55.623 | INFO     | __main__:main:122 - Loaded 49 backgrounds, 4 cards.
+🎨 Generating dataset:   0%|          | 0/300 [00:00<?, ?it/s]🎨 Generating dataset:   0%|          | 0/300 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py", line 181, in <module>
+    main(num_images=300)
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py", line 171, in main
+    save_yolo_label(boxes,
+NameError: name 'save_yolo_label' is not defined

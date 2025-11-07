@@ -83,4 +83,41 @@ Fri Nov  7 16:10:19 2025
 🔍 YOLOv8-Seg Detection:  59%|█████▉    | 59/100 [02:38<01:49,  2.67s/it]2025-11-07 16:13:03.315 | INFO     | __main__:save_segments:95 - [aug_059] Detected 1 card-like objects.
 🔍 YOLOv8-Seg Detection:  60%|██████    | 60/100 [02:41<01:47,  2.69s/it]2025-11-07 16:13:05.894 | WARNING  | __main__:save_segments:46 - [aug_060] No objects detected.
 🔍 YOLOv8-Seg Detection:  61%|██████    | 61/100 [02:43<01:43,  2.66s/it]2025-11-07 16:13:08.467 | WARNING  | __main__:save_segments:46 - [aug_061] No objects detected.
-🔍 YOLOv8-Seg Detection:  62%|██████▏   | 62/100 [02:46<01:40,  2.63s/it]
+🔍 YOLOv8-Seg Detection:  62%|██████▏   | 62/100 [02:46<01:40,  2.63s/it]2025-11-07 16:13:11.167 | INFO     | __main__:save_segments:95 - [aug_062] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  63%|██████▎   | 63/100 [02:49<01:38,  2.65s/it]2025-11-07 16:13:13.854 | INFO     | __main__:save_segments:95 - [aug_063] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  64%|██████▍   | 64/100 [02:51<01:35,  2.66s/it]2025-11-07 16:13:16.554 | INFO     | __main__:save_segments:95 - [aug_064] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  65%|██████▌   | 65/100 [02:54<01:33,  2.67s/it]2025-11-07 16:13:19.190 | INFO     | __main__:save_segments:95 - [aug_065] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  66%|██████▌   | 66/100 [02:57<01:30,  2.66s/it]2025-11-07 16:13:21.900 | INFO     | __main__:save_segments:95 - [aug_066] Detected 4 card-like objects.
+🔍 YOLOv8-Seg Detection:  67%|██████▋   | 67/100 [02:59<01:28,  2.68s/it]2025-11-07 16:13:24.475 | WARNING  | __main__:save_segments:46 - [aug_067] No objects detected.
+🔍 YOLOv8-Seg Detection:  68%|██████▊   | 68/100 [03:02<01:24,  2.65s/it]2025-11-07 16:13:27.194 | INFO     | __main__:save_segments:95 - [aug_068] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  69%|██████▉   | 69/100 [03:05<01:22,  2.67s/it]2025-11-07 16:13:29.758 | WARNING  | __main__:save_segments:46 - [aug_069] No objects detected.
+🔍 YOLOv8-Seg Detection:  70%|███████   | 70/100 [03:07<01:19,  2.64s/it]2025-11-07 16:13:32.321 | WARNING  | __main__:save_segments:46 - [aug_070] No objects detected.
+🔍 YOLOv8-Seg Detection:  71%|███████   | 71/100 [03:10<01:15,  2.61s/it]2025-11-07 16:13:35.033 | INFO     | __main__:save_segments:95 - [aug_071] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  72%|███████▏  | 72/100 [03:12<01:14,  2.64s/it]2025-11-07 16:13:37.717 | INFO     | __main__:save_segments:95 - [aug_072] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  73%|███████▎  | 73/100 [03:15<01:11,  2.66s/it]2025-11-07 16:13:40.472 | INFO     | __main__:save_segments:95 - [aug_073] Detected 3 card-like objects.
+🔍 YOLOv8-Seg Detection:  74%|███████▍  | 74/100 [03:18<01:09,  2.69s/it]2025-11-07 16:13:43.175 | INFO     | __main__:save_segments:95 - [aug_074] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  75%|███████▌  | 75/100 [03:21<01:07,  2.69s/it]2025-11-07 16:13:45.851 | INFO     | __main__:save_segments:95 - [aug_075] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  76%|███████▌  | 76/100 [03:23<01:04,  2.69s/it]2025-11-07 16:13:48.425 | WARNING  | __main__:save_segments:46 - [aug_076] No objects detected.
+🔍 YOLOv8-Seg Detection:  77%|███████▋  | 77/100 [03:26<01:01,  2.65s/it]2025-11-07 16:13:51.122 | INFO     | __main__:save_segments:95 - [aug_077] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  78%|███████▊  | 78/100 [03:29<00:58,  2.67s/it][ WARN:0@213.683] global loadsave.cpp:275 findDecoder imread_('/data/dydtkddhkdwk/20251107_NameCard/01_Background/output/aug_078.png'): can't open/read file: check file path/integrity
+🔍 YOLOv8-Seg Detection:  79%|███████▉  | 79/100 [03:31<00:55,  2.63s/it]🔍 YOLOv8-Seg Detection:  79%|███████▉  | 79/100 [03:31<00:56,  2.68s/it]
+Traceback (most recent call last):
+  File "/data/dydtkddhkdwk/20251107_NameCard/02_ObjectDetection/engine_detect.py", line 123, in <module>
+  File "/data/dydtkddhkdwk/20251107_NameCard/02_ObjectDetection/engine_detect.py", line 108, in main
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/ultralytics/engine/model.py", line 540, in predict
+    return self.predictor.predict_cli(source=source) if is_cli else self.predictor(source=source, stream=stream)
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/ultralytics/engine/predictor.py", line 225, in __call__
+    return list(self.stream_inference(source, model, *args, **kwargs))  # merge list of Result into one
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 38, in generator_context
+    response = gen.send(None)
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/ultralytics/engine/predictor.py", line 299, in stream_inference
+    self.setup_source(source if source is not None else self.args.source)
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/ultralytics/engine/predictor.py", line 255, in setup_source
+    self.dataset = load_inference_source(
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/ultralytics/data/build.py", line 431, in load_inference_source
+    dataset = LoadImagesAndVideos(source, batch=batch, vid_stride=vid_stride, channels=channels)
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/ultralytics/data/loaders.py", line 369, in __init__
+    raise FileNotFoundError(f"{p} does not exist")
+FileNotFoundError: /data/dydtkddhkdwk/20251107_NameCard/01_Background/output/aug_079.png does not exist
+=== Job Completed ===
+Fri 07 Nov 2025 04:13:54 PM KST

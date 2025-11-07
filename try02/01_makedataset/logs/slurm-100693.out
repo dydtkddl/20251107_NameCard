@@ -1,0 +1,37 @@
+Fri 07 Nov 2025 04:21:38 PM KST
+Working Directory: /data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset
+Fri Nov  7 16:21:38 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.07             Driver Version: 535.161.07   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 3090        On  | 00000000:03:00.0 Off |                  N/A |
+| 53%   24C    P8              29W / 350W |      1MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/albumentations/core/validation.py:114: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+2025-11-07 16:21:40.758 | INFO     | __main__:main:117 - Loaded 49 backgrounds, 4 cards.
+🎨 Generating dataset:   0%|          | 0/300 [00:00<?, ?it/s]2025-11-07 16:21:41.014 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+🎨 Generating dataset:   0%|          | 0/300 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py", line 154, in <module>
+    main(num_images=300)
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py", line 144, in main
+    save_yolo_label(boxes,
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py", line 103, in save_yolo_label
+    for x1, y1, x2, y2 in bbox_list:
+TypeError: cannot unpack non-iterable NoneType object
+=== Job Completed ===
+Fri 07 Nov 2025 04:21:41 PM KST

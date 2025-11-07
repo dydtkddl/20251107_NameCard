@@ -1,0 +1,428 @@
+Fri 07 Nov 2025 04:22:54 PM KST
+Working Directory: /data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset
+Fri Nov  7 16:22:54 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.07             Driver Version: 535.161.07   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 3090        On  | 00000000:03:00.0 Off |                  N/A |
+| 53%   24C    P8              29W / 350W |      1MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/albumentations/core/validation.py:114: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+2025-11-07 16:22:57.493 | INFO     | __main__:main:115 - Loaded 49 backgrounds, 4 cards.
+🎨 Generating dataset:   0%|          | 0/300 [00:00<?, ?it/s]2025-11-07 16:22:58.303 | INFO     | __main__:main:155 - [img_000.png] 3 cards placed.
+🎨 Generating dataset:   0%|          | 1/300 [00:00<04:01,  1.24it/s]2025-11-07 16:22:58.472 | INFO     | __main__:main:155 - [img_001.png] 2 cards placed.
+🎨 Generating dataset:   1%|          | 2/300 [00:00<02:08,  2.31it/s]2025-11-07 16:22:58.610 | INFO     | __main__:main:155 - [img_002.png] 3 cards placed.
+🎨 Generating dataset:   1%|          | 3/300 [00:01<01:28,  3.36it/s]2025-11-07 16:22:58.763 | INFO     | __main__:main:155 - [img_003.png] 2 cards placed.
+🎨 Generating dataset:   1%|▏         | 4/300 [00:01<01:11,  4.16it/s]2025-11-07 16:22:58.860 | INFO     | __main__:main:155 - [img_004.png] 2 cards placed.
+2025-11-07 16:22:58.971 | INFO     | __main__:main:155 - [img_005.png] 2 cards placed.
+🎨 Generating dataset:   2%|▏         | 6/300 [00:01<00:49,  5.94it/s]2025-11-07 16:22:59.695 | INFO     | __main__:main:155 - [img_006.png] 4 cards placed.
+🎨 Generating dataset:   2%|▏         | 7/300 [00:02<01:33,  3.12it/s]2025-11-07 16:22:59.791 | INFO     | __main__:main:155 - [img_007.png] 2 cards placed.
+2025-11-07 16:23:00.533 | INFO     | __main__:main:155 - [img_008.png] 4 cards placed.
+🎨 Generating dataset:   3%|▎         | 9/300 [00:03<01:45,  2.75it/s]2025-11-07 16:23:00.838 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:00.843 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:00.956 | INFO     | __main__:main:155 - [img_009.png] 2 cards placed.
+🎨 Generating dataset:   3%|▎         | 10/300 [00:03<01:49,  2.64it/s]2025-11-07 16:23:01.077 | INFO     | __main__:main:155 - [img_010.png] 2 cards placed.
+🎨 Generating dataset:   4%|▎         | 11/300 [00:03<01:30,  3.20it/s]2025-11-07 16:23:01.262 | INFO     | __main__:main:155 - [img_011.png] 4 cards placed.
+🎨 Generating dataset:   4%|▍         | 12/300 [00:03<01:20,  3.59it/s]2025-11-07 16:23:01.835 | INFO     | __main__:main:155 - [img_012.png] 3 cards placed.
+🎨 Generating dataset:   4%|▍         | 13/300 [00:04<01:43,  2.78it/s]2025-11-07 16:23:02.039 | INFO     | __main__:main:155 - [img_013.png] 3 cards placed.
+🎨 Generating dataset:   5%|▍         | 14/300 [00:04<01:30,  3.17it/s]2025-11-07 16:23:02.678 | INFO     | __main__:main:155 - [img_014.png] 3 cards placed.
+🎨 Generating dataset:   5%|▌         | 15/300 [00:05<01:56,  2.45it/s]2025-11-07 16:23:02.850 | INFO     | __main__:main:155 - [img_015.png] 2 cards placed.
+🎨 Generating dataset:   5%|▌         | 16/300 [00:05<01:36,  2.94it/s]2025-11-07 16:23:02.912 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:02.917 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:02.917 | WARNING  | __main__:main:144 - [photo-1570185616266-2eaa148b78e3.jpg] No valid cards placed, skipping.
+2025-11-07 16:23:03.104 | INFO     | __main__:main:155 - [img_017.png] 3 cards placed.
+🎨 Generating dataset:   6%|▌         | 18/300 [00:05<01:08,  4.11it/s]2025-11-07 16:23:03.234 | INFO     | __main__:main:155 - [img_018.png] 2 cards placed.
+🎨 Generating dataset:   6%|▋         | 19/300 [00:05<01:00,  4.64it/s]2025-11-07 16:23:03.389 | INFO     | __main__:main:155 - [img_019.png] 5 cards placed.
+🎨 Generating dataset:   7%|▋         | 20/300 [00:05<00:55,  5.01it/s]2025-11-07 16:23:03.940 | INFO     | __main__:main:155 - [img_020.png] 4 cards placed.
+🎨 Generating dataset:   7%|▋         | 21/300 [00:06<01:22,  3.39it/s]2025-11-07 16:23:04.153 | INFO     | __main__:main:155 - [img_021.png] 5 cards placed.
+🎨 Generating dataset:   7%|▋         | 22/300 [00:06<01:15,  3.68it/s]2025-11-07 16:23:04.409 | INFO     | __main__:main:155 - [img_022.png] 5 cards placed.
+🎨 Generating dataset:   8%|▊         | 23/300 [00:06<01:14,  3.74it/s]2025-11-07 16:23:04.635 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:04.641 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:04.758 | INFO     | __main__:main:155 - [img_023.png] 1 cards placed.
+🎨 Generating dataset:   8%|▊         | 24/300 [00:07<01:20,  3.44it/s]2025-11-07 16:23:04.871 | INFO     | __main__:main:155 - [img_024.png] 2 cards placed.
+🎨 Generating dataset:   8%|▊         | 25/300 [00:07<01:05,  4.18it/s]2025-11-07 16:23:05.113 | INFO     | __main__:main:155 - [img_025.png] 5 cards placed.
+🎨 Generating dataset:   9%|▊         | 26/300 [00:07<01:05,  4.17it/s]2025-11-07 16:23:05.300 | INFO     | __main__:main:155 - [img_026.png] 5 cards placed.
+🎨 Generating dataset:   9%|▉         | 27/300 [00:07<01:01,  4.46it/s]2025-11-07 16:23:05.479 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:05.553 | INFO     | __main__:main:155 - [img_027.png] 1 cards placed.
+🎨 Generating dataset:   9%|▉         | 28/300 [00:08<01:03,  4.30it/s]2025-11-07 16:23:05.879 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:05.980 | INFO     | __main__:main:155 - [img_028.png] 2 cards placed.
+🎨 Generating dataset:  10%|▉         | 29/300 [00:08<01:18,  3.44it/s]2025-11-07 16:23:06.018 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:06.956 | INFO     | __main__:main:155 - [img_029.png] 4 cards placed.
+🎨 Generating dataset:  10%|█         | 30/300 [00:09<02:13,  2.02it/s]2025-11-07 16:23:07.614 | INFO     | __main__:main:155 - [img_030.png] 4 cards placed.
+🎨 Generating dataset:  10%|█         | 31/300 [00:10<02:26,  1.84it/s]2025-11-07 16:23:07.742 | INFO     | __main__:main:155 - [img_031.png] 5 cards placed.
+🎨 Generating dataset:  11%|█         | 32/300 [00:10<01:52,  2.38it/s]2025-11-07 16:23:07.851 | INFO     | __main__:main:155 - [img_032.png] 2 cards placed.
+🎨 Generating dataset:  11%|█         | 33/300 [00:10<01:27,  3.06it/s]2025-11-07 16:23:08.082 | INFO     | __main__:main:155 - [img_033.png] 4 cards placed.
+🎨 Generating dataset:  11%|█▏        | 34/300 [00:10<01:19,  3.36it/s]2025-11-07 16:23:08.708 | INFO     | __main__:main:155 - [img_034.png] 4 cards placed.
+🎨 Generating dataset:  12%|█▏        | 35/300 [00:11<01:45,  2.52it/s]2025-11-07 16:23:09.336 | INFO     | __main__:main:155 - [img_035.png] 4 cards placed.
+🎨 Generating dataset:  12%|█▏        | 36/300 [00:11<02:02,  2.15it/s]2025-11-07 16:23:09.828 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:10.047 | INFO     | __main__:main:155 - [img_036.png] 4 cards placed.
+🎨 Generating dataset:  12%|█▏        | 37/300 [00:12<02:21,  1.85it/s]2025-11-07 16:23:10.192 | INFO     | __main__:main:155 - [img_037.png] 2 cards placed.
+🎨 Generating dataset:  13%|█▎        | 38/300 [00:12<01:50,  2.38it/s]2025-11-07 16:23:10.230 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:10.410 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:10.673 | INFO     | __main__:main:155 - [img_038.png] 2 cards placed.
+🎨 Generating dataset:  13%|█▎        | 39/300 [00:13<01:54,  2.28it/s]2025-11-07 16:23:10.716 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:10.721 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:10.726 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:10.960 | INFO     | __main__:main:155 - [img_039.png] 1 cards placed.
+🎨 Generating dataset:  13%|█▎        | 40/300 [00:13<01:42,  2.54it/s]2025-11-07 16:23:11.454 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:11.521 | INFO     | __main__:main:155 - [img_040.png] 3 cards placed.
+🎨 Generating dataset:  14%|█▎        | 41/300 [00:14<01:54,  2.25it/s]2025-11-07 16:23:12.086 | INFO     | __main__:main:155 - [img_041.png] 3 cards placed.
+🎨 Generating dataset:  14%|█▍        | 42/300 [00:14<02:03,  2.08it/s]2025-11-07 16:23:12.327 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:12.840 | INFO     | __main__:main:155 - [img_042.png] 3 cards placed.
+🎨 Generating dataset:  14%|█▍        | 43/300 [00:15<02:24,  1.78it/s]2025-11-07 16:23:13.381 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:13.587 | INFO     | __main__:main:155 - [img_043.png] 4 cards placed.
+🎨 Generating dataset:  15%|█▍        | 44/300 [00:16<02:38,  1.62it/s]2025-11-07 16:23:14.182 | INFO     | __main__:main:155 - [img_044.png] 3 cards placed.
+🎨 Generating dataset:  15%|█▌        | 45/300 [00:16<02:35,  1.64it/s]2025-11-07 16:23:14.271 | INFO     | __main__:main:155 - [img_045.png] 2 cards placed.
+2025-11-07 16:23:15.183 | INFO     | __main__:main:155 - [img_046.png] 5 cards placed.
+🎨 Generating dataset:  16%|█▌        | 47/300 [00:17<02:21,  1.79it/s]2025-11-07 16:23:15.381 | INFO     | __main__:main:155 - [img_047.png] 5 cards placed.
+🎨 Generating dataset:  16%|█▌        | 48/300 [00:17<01:58,  2.13it/s]2025-11-07 16:23:15.514 | INFO     | __main__:main:155 - [img_048.png] 2 cards placed.
+🎨 Generating dataset:  16%|█▋        | 49/300 [00:18<01:35,  2.62it/s]2025-11-07 16:23:15.856 | INFO     | __main__:main:155 - [img_049.png] 2 cards placed.
+🎨 Generating dataset:  17%|█▋        | 50/300 [00:18<01:32,  2.70it/s]2025-11-07 16:23:15.967 | INFO     | __main__:main:155 - [img_050.png] 2 cards placed.
+🎨 Generating dataset:  17%|█▋        | 51/300 [00:18<01:14,  3.35it/s]2025-11-07 16:23:16.374 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:16.381 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:16.472 | INFO     | __main__:main:155 - [img_051.png] 2 cards placed.
+🎨 Generating dataset:  17%|█▋        | 52/300 [00:18<01:28,  2.80it/s]2025-11-07 16:23:16.614 | INFO     | __main__:main:155 - [img_052.png] 4 cards placed.
+🎨 Generating dataset:  18%|█▊        | 53/300 [00:19<01:12,  3.39it/s]2025-11-07 16:23:16.808 | INFO     | __main__:main:155 - [img_053.png] 4 cards placed.
+🎨 Generating dataset:  18%|█▊        | 54/300 [00:19<01:05,  3.77it/s]2025-11-07 16:23:16.842 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:16.846 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:16.846 | WARNING  | __main__:main:144 - [photo-1570185616266-2eaa148b78e3.jpg] No valid cards placed, skipping.
+2025-11-07 16:23:17.339 | INFO     | __main__:main:155 - [img_055.png] 3 cards placed.
+🎨 Generating dataset:  19%|█▊        | 56/300 [00:19<01:04,  3.77it/s]2025-11-07 16:23:17.493 | INFO     | __main__:main:155 - [img_056.png] 2 cards placed.
+🎨 Generating dataset:  19%|█▉        | 57/300 [00:19<00:57,  4.20it/s]2025-11-07 16:23:17.616 | INFO     | __main__:main:155 - [img_057.png] 2 cards placed.
+🎨 Generating dataset:  19%|█▉        | 58/300 [00:20<00:50,  4.80it/s]2025-11-07 16:23:18.356 | INFO     | __main__:main:155 - [img_058.png] 5 cards placed.
+🎨 Generating dataset:  20%|█▉        | 59/300 [00:20<01:24,  2.84it/s]2025-11-07 16:23:18.598 | INFO     | __main__:main:155 - [img_059.png] 5 cards placed.
+🎨 Generating dataset:  20%|██        | 60/300 [00:21<01:17,  3.11it/s]2025-11-07 16:23:19.034 | INFO     | __main__:main:155 - [img_060.png] 2 cards placed.
+🎨 Generating dataset:  20%|██        | 61/300 [00:21<01:24,  2.82it/s]2025-11-07 16:23:19.258 | INFO     | __main__:main:155 - [img_061.png] 5 cards placed.
+🎨 Generating dataset:  21%|██        | 62/300 [00:21<01:15,  3.16it/s]2025-11-07 16:23:19.431 | INFO     | __main__:main:155 - [img_062.png] 4 cards placed.
+🎨 Generating dataset:  21%|██        | 63/300 [00:21<01:05,  3.64it/s]2025-11-07 16:23:20.149 | INFO     | __main__:main:155 - [img_063.png] 3 cards placed.
+🎨 Generating dataset:  21%|██▏       | 64/300 [00:22<01:35,  2.47it/s]2025-11-07 16:23:20.273 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:20.621 | INFO     | __main__:main:155 - [img_064.png] 3 cards placed.
+🎨 Generating dataset:  22%|██▏       | 65/300 [00:23<01:39,  2.35it/s]2025-11-07 16:23:20.640 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:20.969 | INFO     | __main__:main:155 - [img_065.png] 2 cards placed.
+🎨 Generating dataset:  22%|██▏       | 66/300 [00:23<01:34,  2.49it/s]2025-11-07 16:23:21.771 | INFO     | __main__:main:155 - [img_066.png] 5 cards placed.
+🎨 Generating dataset:  22%|██▏       | 67/300 [00:24<02:01,  1.92it/s]2025-11-07 16:23:22.257 | INFO     | __main__:main:155 - [img_067.png] 2 cards placed.
+🎨 Generating dataset:  23%|██▎       | 68/300 [00:24<01:58,  1.96it/s]2025-11-07 16:23:22.596 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:22.679 | INFO     | __main__:main:155 - [img_068.png] 2 cards placed.
+🎨 Generating dataset:  23%|██▎       | 69/300 [00:25<01:51,  2.07it/s]2025-11-07 16:23:22.782 | INFO     | __main__:main:155 - [img_069.png] 2 cards placed.
+🎨 Generating dataset:  23%|██▎       | 70/300 [00:25<01:25,  2.70it/s]2025-11-07 16:23:23.026 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:23.373 | INFO     | __main__:main:155 - [img_070.png] 3 cards placed.
+🎨 Generating dataset:  24%|██▎       | 71/300 [00:25<01:39,  2.29it/s]2025-11-07 16:23:23.725 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:23.833 | INFO     | __main__:main:155 - [img_071.png] 2 cards placed.
+🎨 Generating dataset:  24%|██▍       | 72/300 [00:26<01:41,  2.26it/s]2025-11-07 16:23:23.862 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:24.107 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:24.221 | INFO     | __main__:main:155 - [img_072.png] 1 cards placed.
+🎨 Generating dataset:  24%|██▍       | 73/300 [00:26<01:36,  2.34it/s]2025-11-07 16:23:24.323 | INFO     | __main__:main:155 - [img_073.png] 2 cards placed.
+🎨 Generating dataset:  25%|██▍       | 74/300 [00:26<01:14,  3.03it/s]2025-11-07 16:23:24.515 | INFO     | __main__:main:155 - [img_074.png] 4 cards placed.
+🎨 Generating dataset:  25%|██▌       | 75/300 [00:27<01:04,  3.47it/s]2025-11-07 16:23:24.854 | INFO     | __main__:main:155 - [img_075.png] 2 cards placed.
+🎨 Generating dataset:  25%|██▌       | 76/300 [00:27<01:07,  3.30it/s]2025-11-07 16:23:25.071 | INFO     | __main__:main:155 - [img_076.png] 4 cards placed.
+🎨 Generating dataset:  26%|██▌       | 77/300 [00:27<01:01,  3.60it/s]2025-11-07 16:23:25.217 | INFO     | __main__:main:155 - [img_077.png] 2 cards placed.
+🎨 Generating dataset:  26%|██▌       | 78/300 [00:27<00:52,  4.20it/s]2025-11-07 16:23:25.379 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:25.830 | INFO     | __main__:main:155 - [img_078.png] 4 cards placed.
+🎨 Generating dataset:  26%|██▋       | 79/300 [00:28<01:17,  2.85it/s]2025-11-07 16:23:26.530 | INFO     | __main__:main:155 - [img_079.png] 4 cards placed.
+🎨 Generating dataset:  27%|██▋       | 80/300 [00:29<01:40,  2.20it/s]2025-11-07 16:23:26.743 | INFO     | __main__:main:155 - [img_080.png] 5 cards placed.
+🎨 Generating dataset:  27%|██▋       | 81/300 [00:29<01:23,  2.61it/s]2025-11-07 16:23:26.883 | INFO     | __main__:main:155 - [img_081.png] 3 cards placed.
+🎨 Generating dataset:  27%|██▋       | 82/300 [00:29<01:07,  3.23it/s]2025-11-07 16:23:27.081 | INFO     | __main__:main:155 - [img_082.png] 3 cards placed.
+🎨 Generating dataset:  28%|██▊       | 83/300 [00:29<00:59,  3.62it/s]2025-11-07 16:23:27.281 | INFO     | __main__:main:155 - [img_083.png] 4 cards placed.
+🎨 Generating dataset:  28%|██▊       | 84/300 [00:29<00:54,  3.95it/s]2025-11-07 16:23:27.983 | INFO     | __main__:main:155 - [img_084.png] 3 cards placed.
+🎨 Generating dataset:  28%|██▊       | 85/300 [00:30<01:23,  2.58it/s]2025-11-07 16:23:28.158 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:28.498 | INFO     | __main__:main:155 - [img_085.png] 2 cards placed.
+🎨 Generating dataset:  29%|██▊       | 86/300 [00:31<01:31,  2.35it/s]2025-11-07 16:23:29.238 | INFO     | __main__:main:155 - [img_086.png] 5 cards placed.
+🎨 Generating dataset:  29%|██▉       | 87/300 [00:31<01:50,  1.92it/s]2025-11-07 16:23:29.863 | INFO     | __main__:main:155 - [img_087.png] 3 cards placed.
+🎨 Generating dataset:  29%|██▉       | 88/300 [00:32<01:56,  1.81it/s]2025-11-07 16:23:30.016 | INFO     | __main__:main:155 - [img_088.png] 3 cards placed.
+🎨 Generating dataset:  30%|██▉       | 89/300 [00:32<01:31,  2.31it/s]2025-11-07 16:23:30.201 | INFO     | __main__:main:155 - [img_089.png] 5 cards placed.
+🎨 Generating dataset:  30%|███       | 90/300 [00:32<01:15,  2.79it/s]2025-11-07 16:23:30.240 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:31.103 | INFO     | __main__:main:155 - [img_090.png] 4 cards placed.
+🎨 Generating dataset:  30%|███       | 91/300 [00:33<01:48,  1.92it/s]2025-11-07 16:23:31.252 | INFO     | __main__:main:155 - [img_091.png] 3 cards placed.
+🎨 Generating dataset:  31%|███       | 92/300 [00:33<01:25,  2.44it/s]2025-11-07 16:23:31.431 | INFO     | __main__:main:155 - [img_092.png] 5 cards placed.
+🎨 Generating dataset:  31%|███       | 93/300 [00:33<01:10,  2.94it/s]2025-11-07 16:23:31.564 | INFO     | __main__:main:155 - [img_093.png] 3 cards placed.
+🎨 Generating dataset:  31%|███▏      | 94/300 [00:34<00:57,  3.60it/s]2025-11-07 16:23:31.698 | INFO     | __main__:main:155 - [img_094.png] 3 cards placed.
+🎨 Generating dataset:  32%|███▏      | 95/300 [00:34<00:48,  4.26it/s]2025-11-07 16:23:32.051 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:32.327 | INFO     | __main__:main:155 - [img_095.png] 3 cards placed.
+🎨 Generating dataset:  32%|███▏      | 96/300 [00:34<01:12,  2.83it/s]2025-11-07 16:23:32.784 | INFO     | __main__:main:155 - [img_096.png] 2 cards placed.
+🎨 Generating dataset:  32%|███▏      | 97/300 [00:35<01:17,  2.60it/s]2025-11-07 16:23:33.407 | INFO     | __main__:main:155 - [img_097.png] 3 cards placed.
+🎨 Generating dataset:  33%|███▎      | 98/300 [00:35<01:32,  2.19it/s]2025-11-07 16:23:33.542 | INFO     | __main__:main:155 - [img_098.png] 2 cards placed.
+🎨 Generating dataset:  33%|███▎      | 99/300 [00:36<01:12,  2.78it/s]2025-11-07 16:23:34.344 | INFO     | __main__:main:155 - [img_099.png] 4 cards placed.
+🎨 Generating dataset:  33%|███▎      | 100/300 [00:36<01:38,  2.03it/s]2025-11-07 16:23:35.106 | INFO     | __main__:main:155 - [img_100.png] 4 cards placed.
+🎨 Generating dataset:  34%|███▎      | 101/300 [00:37<01:54,  1.74it/s]2025-11-07 16:23:35.382 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:35.794 | INFO     | __main__:main:155 - [img_101.png] 4 cards placed.
+🎨 Generating dataset:  34%|███▍      | 102/300 [00:38<02:00,  1.65it/s]2025-11-07 16:23:36.565 | INFO     | __main__:main:155 - [img_102.png] 5 cards placed.
+🎨 Generating dataset:  34%|███▍      | 103/300 [00:39<02:09,  1.52it/s]2025-11-07 16:23:36.759 | INFO     | __main__:main:155 - [img_103.png] 4 cards placed.
+🎨 Generating dataset:  35%|███▍      | 104/300 [00:39<01:41,  1.93it/s]2025-11-07 16:23:36.915 | INFO     | __main__:main:155 - [img_104.png] 3 cards placed.
+🎨 Generating dataset:  35%|███▌      | 105/300 [00:39<01:19,  2.44it/s]2025-11-07 16:23:37.157 | INFO     | __main__:main:155 - [img_105.png] 5 cards placed.
+🎨 Generating dataset:  35%|███▌      | 106/300 [00:39<01:09,  2.79it/s]2025-11-07 16:23:37.649 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:38.004 | INFO     | __main__:main:155 - [img_106.png] 4 cards placed.
+🎨 Generating dataset:  36%|███▌      | 107/300 [00:40<01:37,  1.98it/s]2025-11-07 16:23:38.033 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:38.038 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:38.038 | WARNING  | __main__:main:144 - [photo-1570185616266-2eaa148b78e3.jpg] No valid cards placed, skipping.
+2025-11-07 16:23:38.266 | INFO     | __main__:main:155 - [img_108.png] 4 cards placed.
+🎨 Generating dataset:  36%|███▋      | 109/300 [00:40<01:03,  3.01it/s]2025-11-07 16:23:38.298 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:38.850 | INFO     | __main__:main:155 - [img_109.png] 2 cards placed.
+🎨 Generating dataset:  37%|███▋      | 110/300 [00:41<01:15,  2.53it/s]2025-11-07 16:23:39.032 | INFO     | __main__:main:155 - [img_110.png] 4 cards placed.
+🎨 Generating dataset:  37%|███▋      | 111/300 [00:41<01:04,  2.95it/s]2025-11-07 16:23:39.148 | INFO     | __main__:main:155 - [img_111.png] 2 cards placed.
+🎨 Generating dataset:  37%|███▋      | 112/300 [00:41<00:52,  3.59it/s]2025-11-07 16:23:39.262 | INFO     | __main__:main:155 - [img_112.png] 2 cards placed.
+🎨 Generating dataset:  38%|███▊      | 113/300 [00:41<00:43,  4.30it/s]2025-11-07 16:23:40.082 | INFO     | __main__:main:155 - [img_113.png] 4 cards placed.
+🎨 Generating dataset:  38%|███▊      | 114/300 [00:42<01:14,  2.50it/s]2025-11-07 16:23:40.275 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:40.280 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:40.351 | INFO     | __main__:main:155 - [img_114.png] 1 cards placed.
+🎨 Generating dataset:  38%|███▊      | 115/300 [00:42<01:07,  2.76it/s]2025-11-07 16:23:40.637 | INFO     | __main__:main:155 - [img_115.png] 5 cards placed.
+🎨 Generating dataset:  39%|███▊      | 116/300 [00:43<01:02,  2.94it/s]2025-11-07 16:23:41.357 | INFO     | __main__:main:155 - [img_116.png] 3 cards placed.
+🎨 Generating dataset:  39%|███▉      | 117/300 [00:43<01:22,  2.21it/s]2025-11-07 16:23:42.055 | INFO     | __main__:main:155 - [img_117.png] 4 cards placed.
+🎨 Generating dataset:  39%|███▉      | 118/300 [00:44<01:35,  1.90it/s]2025-11-07 16:23:42.490 | INFO     | __main__:main:155 - [img_118.png] 2 cards placed.
+🎨 Generating dataset:  40%|███▉      | 119/300 [00:44<01:30,  2.01it/s]2025-11-07 16:23:42.654 | INFO     | __main__:main:155 - [img_119.png] 3 cards placed.
+🎨 Generating dataset:  40%|████      | 120/300 [00:45<01:11,  2.51it/s]2025-11-07 16:23:43.086 | INFO     | __main__:main:155 - [img_120.png] 2 cards placed.
+🎨 Generating dataset:  40%|████      | 121/300 [00:45<01:13,  2.45it/s]2025-11-07 16:23:43.270 | INFO     | __main__:main:155 - [img_121.png] 4 cards placed.
+🎨 Generating dataset:  41%|████      | 122/300 [00:45<01:00,  2.93it/s]2025-11-07 16:23:43.934 | INFO     | __main__:main:155 - [img_122.png] 4 cards placed.
+🎨 Generating dataset:  41%|████      | 123/300 [00:46<01:17,  2.28it/s]2025-11-07 16:23:44.427 | INFO     | __main__:main:155 - [img_123.png] 3 cards placed.
+🎨 Generating dataset:  41%|████▏     | 124/300 [00:46<01:19,  2.20it/s]2025-11-07 16:23:44.635 | INFO     | __main__:main:155 - [img_124.png] 4 cards placed.
+🎨 Generating dataset:  42%|████▏     | 125/300 [00:47<01:06,  2.63it/s]2025-11-07 16:23:45.471 | INFO     | __main__:main:155 - [img_125.png] 5 cards placed.
+🎨 Generating dataset:  42%|████▏     | 126/300 [00:47<01:29,  1.93it/s]2025-11-07 16:23:45.655 | INFO     | __main__:main:155 - [img_126.png] 4 cards placed.
+🎨 Generating dataset:  42%|████▏     | 127/300 [00:48<01:12,  2.40it/s]2025-11-07 16:23:45.817 | INFO     | __main__:main:155 - [img_127.png] 3 cards placed.
+🎨 Generating dataset:  43%|████▎     | 128/300 [00:48<00:58,  2.93it/s]2025-11-07 16:23:46.047 | INFO     | __main__:main:155 - [img_128.png] 5 cards placed.
+🎨 Generating dataset:  43%|████▎     | 129/300 [00:48<00:52,  3.25it/s]2025-11-07 16:23:46.218 | INFO     | __main__:main:155 - [img_129.png] 3 cards placed.
+🎨 Generating dataset:  43%|████▎     | 130/300 [00:48<00:45,  3.75it/s]2025-11-07 16:23:46.950 | INFO     | __main__:main:155 - [img_130.png] 5 cards placed.
+🎨 Generating dataset:  44%|████▎     | 131/300 [00:49<01:08,  2.46it/s]2025-11-07 16:23:47.845 | INFO     | __main__:main:155 - [img_131.png] 5 cards placed.
+🎨 Generating dataset:  44%|████▍     | 132/300 [00:50<01:32,  1.81it/s]2025-11-07 16:23:48.053 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:48.060 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:48.067 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:48.072 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:48.187 | INFO     | __main__:main:155 - [img_132.png] 1 cards placed.
+🎨 Generating dataset:  44%|████▍     | 133/300 [00:50<01:21,  2.04it/s]2025-11-07 16:23:48.436 | INFO     | __main__:main:155 - [img_133.png] 5 cards placed.
+🎨 Generating dataset:  45%|████▍     | 134/300 [00:50<01:09,  2.40it/s]2025-11-07 16:23:49.291 | INFO     | __main__:main:155 - [img_134.png] 4 cards placed.
+🎨 Generating dataset:  45%|████▌     | 135/300 [00:51<01:30,  1.82it/s]2025-11-07 16:23:49.941 | INFO     | __main__:main:155 - [img_135.png] 4 cards placed.
+🎨 Generating dataset:  45%|████▌     | 136/300 [00:52<01:34,  1.73it/s]2025-11-07 16:23:50.311 | INFO     | __main__:main:155 - [img_136.png] 2 cards placed.
+🎨 Generating dataset:  46%|████▌     | 137/300 [00:52<01:24,  1.94it/s]2025-11-07 16:23:50.827 | INFO     | __main__:main:155 - [img_137.png] 3 cards placed.
+🎨 Generating dataset:  46%|████▌     | 138/300 [00:53<01:23,  1.94it/s]2025-11-07 16:23:51.014 | INFO     | __main__:main:155 - [img_138.png] 4 cards placed.
+🎨 Generating dataset:  46%|████▋     | 139/300 [00:53<01:07,  2.40it/s]2025-11-07 16:23:51.156 | INFO     | __main__:main:155 - [img_139.png] 3 cards placed.
+🎨 Generating dataset:  47%|████▋     | 140/300 [00:53<00:53,  2.99it/s]2025-11-07 16:23:51.272 | INFO     | __main__:main:155 - [img_140.png] 2 cards placed.
+🎨 Generating dataset:  47%|████▋     | 141/300 [00:53<00:42,  3.72it/s]2025-11-07 16:23:51.932 | INFO     | __main__:main:155 - [img_141.png] 3 cards placed.
+🎨 Generating dataset:  47%|████▋     | 142/300 [00:54<01:01,  2.59it/s]2025-11-07 16:23:52.084 | INFO     | __main__:main:155 - [img_142.png] 2 cards placed.
+🎨 Generating dataset:  48%|████▊     | 143/300 [00:54<00:49,  3.16it/s]2025-11-07 16:23:52.253 | INFO     | __main__:main:155 - [img_143.png] 4 cards placed.
+🎨 Generating dataset:  48%|████▊     | 144/300 [00:54<00:42,  3.68it/s]2025-11-07 16:23:52.472 | INFO     | __main__:main:155 - [img_144.png] 4 cards placed.
+🎨 Generating dataset:  48%|████▊     | 145/300 [00:54<00:39,  3.91it/s]2025-11-07 16:23:52.493 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:52.683 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:52.746 | INFO     | __main__:main:155 - [img_145.png] 1 cards placed.
+🎨 Generating dataset:  49%|████▊     | 146/300 [00:55<00:40,  3.82it/s]2025-11-07 16:23:52.898 | INFO     | __main__:main:155 - [img_146.png] 3 cards placed.
+🎨 Generating dataset:  49%|████▉     | 147/300 [00:55<00:34,  4.37it/s]2025-11-07 16:23:53.362 | INFO     | __main__:main:155 - [img_147.png] 3 cards placed.
+🎨 Generating dataset:  49%|████▉     | 148/300 [00:55<00:45,  3.34it/s]2025-11-07 16:23:53.515 | INFO     | __main__:main:155 - [img_148.png] 4 cards placed.
+🎨 Generating dataset:  50%|████▉     | 149/300 [00:56<00:38,  3.92it/s]2025-11-07 16:23:53.913 | INFO     | __main__:main:155 - [img_149.png] 2 cards placed.
+🎨 Generating dataset:  50%|█████     | 150/300 [00:56<00:44,  3.35it/s]2025-11-07 16:23:54.419 | INFO     | __main__:main:155 - [img_150.png] 2 cards placed.
+🎨 Generating dataset:  50%|█████     | 151/300 [00:56<00:53,  2.77it/s]2025-11-07 16:23:54.776 | INFO     | __main__:main:155 - [img_151.png] 2 cards placed.
+🎨 Generating dataset:  51%|█████     | 152/300 [00:57<00:53,  2.78it/s]2025-11-07 16:23:54.947 | INFO     | __main__:main:155 - [img_152.png] 5 cards placed.
+🎨 Generating dataset:  51%|█████     | 153/300 [00:57<00:44,  3.30it/s]2025-11-07 16:23:55.582 | INFO     | __main__:main:155 - [img_153.png] 3 cards placed.
+🎨 Generating dataset:  51%|█████▏    | 154/300 [00:58<00:58,  2.48it/s]2025-11-07 16:23:56.223 | INFO     | __main__:main:155 - [img_154.png] 3 cards placed.
+🎨 Generating dataset:  52%|█████▏    | 155/300 [00:58<01:08,  2.11it/s]2025-11-07 16:23:56.259 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:56.861 | INFO     | __main__:main:155 - [img_155.png] 3 cards placed.
+🎨 Generating dataset:  52%|█████▏    | 156/300 [00:59<01:15,  1.91it/s]2025-11-07 16:23:57.239 | INFO     | __main__:main:155 - [img_156.png] 2 cards placed.
+🎨 Generating dataset:  52%|█████▏    | 157/300 [00:59<01:08,  2.09it/s]2025-11-07 16:23:57.457 | INFO     | __main__:main:155 - [img_157.png] 5 cards placed.
+🎨 Generating dataset:  53%|█████▎    | 158/300 [00:59<00:56,  2.49it/s]2025-11-07 16:23:57.824 | INFO     | __main__:main:155 - [img_158.png] 3 cards placed.
+🎨 Generating dataset:  53%|█████▎    | 159/300 [01:00<00:55,  2.56it/s]2025-11-07 16:23:57.959 | INFO     | __main__:main:155 - [img_159.png] 3 cards placed.
+🎨 Generating dataset:  53%|█████▎    | 160/300 [01:00<00:43,  3.18it/s]2025-11-07 16:23:58.119 | INFO     | __main__:main:155 - [img_160.png] 3 cards placed.
+🎨 Generating dataset:  54%|█████▎    | 161/300 [01:00<00:37,  3.73it/s]2025-11-07 16:23:58.926 | INFO     | __main__:main:155 - [img_161.png] 5 cards placed.
+🎨 Generating dataset:  54%|█████▍    | 162/300 [01:01<00:59,  2.33it/s]2025-11-07 16:23:59.072 | INFO     | __main__:main:155 - [img_162.png] 4 cards placed.
+🎨 Generating dataset:  54%|█████▍    | 163/300 [01:01<00:47,  2.90it/s]2025-11-07 16:23:59.561 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:23:59.945 | INFO     | __main__:main:155 - [img_163.png] 4 cards placed.
+🎨 Generating dataset:  55%|█████▍    | 164/300 [01:02<01:08,  1.99it/s]2025-11-07 16:24:00.133 | INFO     | __main__:main:155 - [img_164.png] 4 cards placed.
+🎨 Generating dataset:  55%|█████▌    | 165/300 [01:02<00:55,  2.45it/s]2025-11-07 16:24:00.294 | INFO     | __main__:main:155 - [img_165.png] 3 cards placed.
+🎨 Generating dataset:  55%|█████▌    | 166/300 [01:02<00:44,  2.99it/s]2025-11-07 16:24:00.462 | INFO     | __main__:main:155 - [img_166.png] 4 cards placed.
+🎨 Generating dataset:  56%|█████▌    | 167/300 [01:02<00:37,  3.52it/s]2025-11-07 16:24:00.501 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:00.505 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:00.827 | INFO     | __main__:main:155 - [img_167.png] 1 cards placed.
+🎨 Generating dataset:  56%|█████▌    | 168/300 [01:03<00:40,  3.24it/s]2025-11-07 16:24:00.932 | INFO     | __main__:main:155 - [img_168.png] 2 cards placed.
+🎨 Generating dataset:  56%|█████▋    | 169/300 [01:03<00:32,  4.04it/s]2025-11-07 16:24:01.512 | INFO     | __main__:main:155 - [img_169.png] 3 cards placed.
+🎨 Generating dataset:  57%|█████▋    | 170/300 [01:04<00:45,  2.88it/s]2025-11-07 16:24:02.110 | INFO     | __main__:main:155 - [img_170.png] 4 cards placed.
+🎨 Generating dataset:  57%|█████▋    | 171/300 [01:04<00:54,  2.37it/s]2025-11-07 16:24:02.236 | INFO     | __main__:main:155 - [img_171.png] 2 cards placed.
+🎨 Generating dataset:  57%|█████▋    | 172/300 [01:04<00:42,  3.00it/s]2025-11-07 16:24:02.467 | INFO     | __main__:main:155 - [img_172.png] 5 cards placed.
+🎨 Generating dataset:  58%|█████▊    | 173/300 [01:04<00:38,  3.30it/s]2025-11-07 16:24:02.491 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:02.951 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:03.035 | INFO     | __main__:main:155 - [img_173.png] 3 cards placed.
+🎨 Generating dataset:  58%|█████▊    | 174/300 [01:05<00:48,  2.62it/s]2025-11-07 16:24:03.172 | INFO     | __main__:main:155 - [img_174.png] 2 cards placed.
+🎨 Generating dataset:  58%|█████▊    | 175/300 [01:05<00:38,  3.24it/s]2025-11-07 16:24:03.635 | INFO     | __main__:main:155 - [img_175.png] 2 cards placed.
+🎨 Generating dataset:  59%|█████▊    | 176/300 [01:06<00:44,  2.82it/s]2025-11-07 16:24:04.056 | INFO     | __main__:main:155 - [img_176.png] 2 cards placed.
+🎨 Generating dataset:  59%|█████▉    | 177/300 [01:06<00:46,  2.67it/s]2025-11-07 16:24:04.537 | INFO     | __main__:main:155 - [img_177.png] 3 cards placed.
+🎨 Generating dataset:  59%|█████▉    | 178/300 [01:07<00:49,  2.46it/s]2025-11-07 16:24:04.743 | INFO     | __main__:main:155 - [img_178.png] 5 cards placed.
+🎨 Generating dataset:  60%|█████▉    | 179/300 [01:07<00:41,  2.89it/s]2025-11-07 16:24:04.778 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:05.007 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:05.132 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:05.238 | INFO     | __main__:main:155 - [img_179.png] 2 cards placed.
+🎨 Generating dataset:  60%|██████    | 180/300 [01:07<00:46,  2.56it/s]2025-11-07 16:24:05.528 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:05.637 | INFO     | __main__:main:155 - [img_180.png] 2 cards placed.
+🎨 Generating dataset:  60%|██████    | 181/300 [01:08<00:46,  2.54it/s]2025-11-07 16:24:06.333 | INFO     | __main__:main:155 - [img_181.png] 5 cards placed.
+🎨 Generating dataset:  61%|██████    | 182/300 [01:08<00:57,  2.07it/s]2025-11-07 16:24:06.484 | INFO     | __main__:main:155 - [img_182.png] 3 cards placed.
+🎨 Generating dataset:  61%|██████    | 183/300 [01:08<00:44,  2.60it/s]2025-11-07 16:24:06.732 | INFO     | __main__:main:155 - [img_183.png] 5 cards placed.
+🎨 Generating dataset:  61%|██████▏   | 184/300 [01:09<00:39,  2.91it/s]2025-11-07 16:24:06.767 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:07.084 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:07.307 | INFO     | __main__:main:155 - [img_184.png] 3 cards placed.
+🎨 Generating dataset:  62%|██████▏   | 185/300 [01:09<00:47,  2.42it/s]2025-11-07 16:24:07.467 | INFO     | __main__:main:155 - [img_185.png] 3 cards placed.
+🎨 Generating dataset:  62%|██████▏   | 186/300 [01:09<00:38,  2.97it/s]2025-11-07 16:24:07.999 | INFO     | __main__:main:155 - [img_186.png] 3 cards placed.
+🎨 Generating dataset:  62%|██████▏   | 187/300 [01:10<00:44,  2.53it/s]2025-11-07 16:24:08.150 | INFO     | __main__:main:155 - [img_187.png] 2 cards placed.
+🎨 Generating dataset:  63%|██████▎   | 188/300 [01:10<00:36,  3.10it/s]2025-11-07 16:24:08.273 | INFO     | __main__:main:155 - [img_188.png] 3 cards placed.
+🎨 Generating dataset:  63%|██████▎   | 189/300 [01:10<00:29,  3.81it/s]2025-11-07 16:24:08.308 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:08.581 | INFO     | __main__:main:155 - [img_189.png] 1 cards placed.
+🎨 Generating dataset:  63%|██████▎   | 190/300 [01:11<00:30,  3.62it/s]2025-11-07 16:24:08.688 | INFO     | __main__:main:155 - [img_190.png] 2 cards placed.
+🎨 Generating dataset:  64%|██████▎   | 191/300 [01:11<00:24,  4.44it/s]2025-11-07 16:24:08.901 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:09.429 | INFO     | __main__:main:155 - [img_191.png] 3 cards placed.
+🎨 Generating dataset:  64%|██████▍   | 192/300 [01:11<00:41,  2.63it/s]2025-11-07 16:24:09.749 | INFO     | __main__:main:155 - [img_192.png] 2 cards placed.
+🎨 Generating dataset:  64%|██████▍   | 193/300 [01:12<00:38,  2.76it/s]2025-11-07 16:24:09.874 | INFO     | __main__:main:155 - [img_193.png] 3 cards placed.
+🎨 Generating dataset:  65%|██████▍   | 194/300 [01:12<00:30,  3.44it/s]2025-11-07 16:24:09.894 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:10.336 | INFO     | __main__:main:155 - [img_194.png] 2 cards placed.
+🎨 Generating dataset:  65%|██████▌   | 195/300 [01:12<00:35,  2.92it/s]2025-11-07 16:24:10.497 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:10.929 | INFO     | __main__:main:155 - [img_195.png] 3 cards placed.
+🎨 Generating dataset:  65%|██████▌   | 196/300 [01:13<00:43,  2.40it/s]2025-11-07 16:24:10.966 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:10.972 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:10.978 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:11.453 | INFO     | __main__:main:155 - [img_196.png] 2 cards placed.
+🎨 Generating dataset:  66%|██████▌   | 197/300 [01:13<00:46,  2.22it/s]2025-11-07 16:24:11.602 | INFO     | __main__:main:155 - [img_197.png] 3 cards placed.
+🎨 Generating dataset:  66%|██████▌   | 198/300 [01:14<00:36,  2.78it/s]2025-11-07 16:24:11.775 | INFO     | __main__:main:155 - [img_198.png] 5 cards placed.
+🎨 Generating dataset:  66%|██████▋   | 199/300 [01:14<00:30,  3.30it/s]2025-11-07 16:24:11.814 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:12.394 | INFO     | __main__:main:155 - [img_199.png] 3 cards placed.
+🎨 Generating dataset:  67%|██████▋   | 200/300 [01:14<00:39,  2.51it/s]2025-11-07 16:24:12.522 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:12.594 | INFO     | __main__:main:155 - [img_200.png] 1 cards placed.
+🎨 Generating dataset:  67%|██████▋   | 201/300 [01:15<00:33,  2.95it/s]2025-11-07 16:24:12.718 | INFO     | __main__:main:155 - [img_201.png] 4 cards placed.
+🎨 Generating dataset:  67%|██████▋   | 202/300 [01:15<00:26,  3.64it/s]2025-11-07 16:24:12.855 | INFO     | __main__:main:155 - [img_202.png] 2 cards placed.
+🎨 Generating dataset:  68%|██████▊   | 203/300 [01:15<00:22,  4.29it/s]2025-11-07 16:24:12.960 | INFO     | __main__:main:155 - [img_203.png] 2 cards placed.
+🎨 Generating dataset:  68%|██████▊   | 204/300 [01:15<00:18,  5.14it/s]2025-11-07 16:24:13.104 | INFO     | __main__:main:155 - [img_204.png] 3 cards placed.
+🎨 Generating dataset:  68%|██████▊   | 205/300 [01:15<00:17,  5.57it/s]2025-11-07 16:24:13.327 | INFO     | __main__:main:155 - [img_205.png] 3 cards placed.
+🎨 Generating dataset:  69%|██████▊   | 206/300 [01:15<00:18,  5.19it/s]2025-11-07 16:24:14.059 | INFO     | __main__:main:155 - [img_206.png] 5 cards placed.
+🎨 Generating dataset:  69%|██████▉   | 207/300 [01:16<00:32,  2.82it/s]2025-11-07 16:24:14.613 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:14.710 | INFO     | __main__:main:155 - [img_207.png] 3 cards placed.
+🎨 Generating dataset:  69%|██████▉   | 208/300 [01:17<00:40,  2.26it/s]2025-11-07 16:24:14.832 | INFO     | __main__:main:155 - [img_208.png] 2 cards placed.
+🎨 Generating dataset:  70%|██████▉   | 209/300 [01:17<00:31,  2.88it/s]2025-11-07 16:24:14.855 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:15.102 | INFO     | __main__:main:155 - [img_209.png] 1 cards placed.
+🎨 Generating dataset:  70%|███████   | 210/300 [01:17<00:29,  3.09it/s]2025-11-07 16:24:15.952 | INFO     | __main__:main:155 - [img_210.png] 5 cards placed.
+🎨 Generating dataset:  70%|███████   | 211/300 [01:18<00:42,  2.08it/s]2025-11-07 16:24:15.972 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:16.370 | INFO     | __main__:main:155 - [img_211.png] 3 cards placed.
+🎨 Generating dataset:  71%|███████   | 212/300 [01:18<00:40,  2.16it/s]2025-11-07 16:24:16.986 | INFO     | __main__:main:155 - [img_212.png] 3 cards placed.
+🎨 Generating dataset:  71%|███████   | 213/300 [01:19<00:44,  1.97it/s]2025-11-07 16:24:17.163 | INFO     | __main__:main:155 - [img_213.png] 3 cards placed.
+🎨 Generating dataset:  71%|███████▏  | 214/300 [01:19<00:35,  2.44it/s]2025-11-07 16:24:17.371 | INFO     | __main__:main:155 - [img_214.png] 4 cards placed.
+🎨 Generating dataset:  72%|███████▏  | 215/300 [01:19<00:29,  2.87it/s]2025-11-07 16:24:17.550 | INFO     | __main__:main:155 - [img_215.png] 5 cards placed.
+🎨 Generating dataset:  72%|███████▏  | 216/300 [01:20<00:25,  3.36it/s]2025-11-07 16:24:17.584 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:17.951 | INFO     | __main__:main:155 - [img_216.png] 2 cards placed.
+🎨 Generating dataset:  72%|███████▏  | 217/300 [01:20<00:27,  3.04it/s]2025-11-07 16:24:18.162 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:18.296 | INFO     | __main__:main:155 - [img_217.png] 1 cards placed.
+🎨 Generating dataset:  73%|███████▎  | 218/300 [01:20<00:27,  3.00it/s]2025-11-07 16:24:19.086 | INFO     | __main__:main:155 - [img_218.png] 4 cards placed.
+🎨 Generating dataset:  73%|███████▎  | 219/300 [01:21<00:38,  2.13it/s]2025-11-07 16:24:19.113 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:19.955 | INFO     | __main__:main:155 - [img_219.png] 4 cards placed.
+🎨 Generating dataset:  73%|███████▎  | 220/300 [01:22<00:47,  1.69it/s]2025-11-07 16:24:20.111 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:20.194 | INFO     | __main__:main:155 - [img_220.png] 1 cards placed.
+🎨 Generating dataset:  74%|███████▎  | 221/300 [01:22<00:38,  2.06it/s]2025-11-07 16:24:20.230 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:20.333 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:20.821 | INFO     | __main__:main:155 - [img_221.png] 3 cards placed.
+🎨 Generating dataset:  74%|███████▍  | 222/300 [01:23<00:41,  1.90it/s]2025-11-07 16:24:20.941 | INFO     | __main__:main:155 - [img_222.png] 2 cards placed.
+🎨 Generating dataset:  74%|███████▍  | 223/300 [01:23<00:31,  2.47it/s]2025-11-07 16:24:21.250 | INFO     | __main__:main:155 - [img_223.png] 5 cards placed.
+🎨 Generating dataset:  75%|███████▍  | 224/300 [01:23<00:28,  2.66it/s]2025-11-07 16:24:21.456 | INFO     | __main__:main:155 - [img_224.png] 5 cards placed.
+🎨 Generating dataset:  75%|███████▌  | 225/300 [01:23<00:24,  3.07it/s]2025-11-07 16:24:21.838 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:21.956 | INFO     | __main__:main:155 - [img_225.png] 2 cards placed.
+🎨 Generating dataset:  75%|███████▌  | 226/300 [01:24<00:27,  2.65it/s]2025-11-07 16:24:22.145 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:22.585 | INFO     | __main__:main:155 - [img_226.png] 4 cards placed.
+🎨 Generating dataset:  76%|███████▌  | 227/300 [01:25<00:33,  2.21it/s]2025-11-07 16:24:23.287 | INFO     | __main__:main:155 - [img_227.png] 5 cards placed.
+🎨 Generating dataset:  76%|███████▌  | 228/300 [01:25<00:37,  1.90it/s]2025-11-07 16:24:23.555 | INFO     | __main__:main:155 - [img_228.png] 5 cards placed.
+🎨 Generating dataset:  76%|███████▋  | 229/300 [01:26<00:31,  2.22it/s]2025-11-07 16:24:23.985 | INFO     | __main__:main:155 - [img_229.png] 2 cards placed.
+🎨 Generating dataset:  77%|███████▋  | 230/300 [01:26<00:31,  2.25it/s]2025-11-07 16:24:24.014 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:24.516 | INFO     | __main__:main:155 - [img_230.png] 3 cards placed.
+🎨 Generating dataset:  77%|███████▋  | 231/300 [01:27<00:32,  2.13it/s]2025-11-07 16:24:24.733 | INFO     | __main__:main:155 - [img_231.png] 5 cards placed.
+🎨 Generating dataset:  77%|███████▋  | 232/300 [01:27<00:26,  2.54it/s]2025-11-07 16:24:25.402 | INFO     | __main__:main:155 - [img_232.png] 4 cards placed.
+🎨 Generating dataset:  78%|███████▊  | 233/300 [01:27<00:31,  2.10it/s]2025-11-07 16:24:25.900 | INFO     | __main__:main:155 - [img_233.png] 4 cards placed.
+🎨 Generating dataset:  78%|███████▊  | 234/300 [01:28<00:31,  2.07it/s]2025-11-07 16:24:26.127 | INFO     | __main__:main:155 - [img_234.png] 5 cards placed.
+🎨 Generating dataset:  78%|███████▊  | 235/300 [01:28<00:26,  2.46it/s]2025-11-07 16:24:26.414 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:26.758 | INFO     | __main__:main:155 - [img_235.png] 4 cards placed.
+🎨 Generating dataset:  79%|███████▊  | 236/300 [01:29<00:30,  2.11it/s]2025-11-07 16:24:26.902 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:27.148 | INFO     | __main__:main:155 - [img_236.png] 2 cards placed.
+🎨 Generating dataset:  79%|███████▉  | 237/300 [01:29<00:28,  2.23it/s]2025-11-07 16:24:27.691 | INFO     | __main__:main:155 - [img_237.png] 3 cards placed.
+🎨 Generating dataset:  79%|███████▉  | 238/300 [01:30<00:29,  2.10it/s]2025-11-07 16:24:27.850 | INFO     | __main__:main:155 - [img_238.png] 3 cards placed.
+🎨 Generating dataset:  80%|███████▉  | 239/300 [01:30<00:23,  2.62it/s]2025-11-07 16:24:28.025 | INFO     | __main__:main:155 - [img_239.png] 3 cards placed.
+🎨 Generating dataset:  80%|████████  | 240/300 [01:30<00:19,  3.13it/s]2025-11-07 16:24:28.200 | INFO     | __main__:main:155 - [img_240.png] 3 cards placed.
+🎨 Generating dataset:  80%|████████  | 241/300 [01:30<00:16,  3.62it/s]2025-11-07 16:24:28.337 | INFO     | __main__:main:155 - [img_241.png] 2 cards placed.
+🎨 Generating dataset:  81%|████████  | 242/300 [01:30<00:13,  4.27it/s]2025-11-07 16:24:28.516 | INFO     | __main__:main:155 - [img_242.png] 3 cards placed.
+🎨 Generating dataset:  81%|████████  | 243/300 [01:31<00:12,  4.59it/s]2025-11-07 16:24:29.168 | INFO     | __main__:main:155 - [img_243.png] 4 cards placed.
+🎨 Generating dataset:  81%|████████▏ | 244/300 [01:31<00:19,  2.87it/s]2025-11-07 16:24:29.934 | INFO     | __main__:main:155 - [img_244.png] 5 cards placed.
+🎨 Generating dataset:  82%|████████▏ | 245/300 [01:32<00:26,  2.11it/s]2025-11-07 16:24:30.151 | INFO     | __main__:main:155 - [img_245.png] 5 cards placed.
+🎨 Generating dataset:  82%|████████▏ | 246/300 [01:32<00:21,  2.52it/s]2025-11-07 16:24:30.379 | INFO     | __main__:main:155 - [img_246.png] 5 cards placed.
+🎨 Generating dataset:  82%|████████▏ | 247/300 [01:32<00:18,  2.89it/s]2025-11-07 16:24:30.530 | INFO     | __main__:main:155 - [img_247.png] 5 cards placed.
+🎨 Generating dataset:  83%|████████▎ | 248/300 [01:33<00:14,  3.48it/s]2025-11-07 16:24:31.499 | INFO     | __main__:main:155 - [img_248.png] 5 cards placed.
+🎨 Generating dataset:  83%|████████▎ | 249/300 [01:34<00:25,  2.03it/s]2025-11-07 16:24:31.986 | INFO     | __main__:main:155 - [img_249.png] 2 cards placed.
+🎨 Generating dataset:  83%|████████▎ | 250/300 [01:34<00:24,  2.04it/s]2025-11-07 16:24:32.634 | INFO     | __main__:main:155 - [img_250.png] 4 cards placed.
+🎨 Generating dataset:  84%|████████▎ | 251/300 [01:35<00:26,  1.86it/s]2025-11-07 16:24:33.261 | INFO     | __main__:main:155 - [img_251.png] 3 cards placed.
+🎨 Generating dataset:  84%|████████▍ | 252/300 [01:35<00:27,  1.77it/s]2025-11-07 16:24:33.296 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:33.515 | INFO     | __main__:main:155 - [img_252.png] 1 cards placed.
+🎨 Generating dataset:  84%|████████▍ | 253/300 [01:36<00:22,  2.12it/s]2025-11-07 16:24:33.545 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:33.551 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:33.557 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:33.558 | WARNING  | __main__:main:144 - [photo-1570185616266-2eaa148b78e3.jpg] No valid cards placed, skipping.
+2025-11-07 16:24:33.672 | INFO     | __main__:main:155 - [img_254.png] 3 cards placed.
+🎨 Generating dataset:  85%|████████▌ | 255/300 [01:36<00:13,  3.45it/s]2025-11-07 16:24:33.822 | INFO     | __main__:main:155 - [img_255.png] 4 cards placed.
+🎨 Generating dataset:  85%|████████▌ | 256/300 [01:36<00:11,  3.92it/s]2025-11-07 16:24:33.953 | INFO     | __main__:main:155 - [img_256.png] 2 cards placed.
+🎨 Generating dataset:  86%|████████▌ | 257/300 [01:36<00:09,  4.49it/s]2025-11-07 16:24:34.080 | INFO     | __main__:main:155 - [img_257.png] 2 cards placed.
+🎨 Generating dataset:  86%|████████▌ | 258/300 [01:36<00:08,  5.09it/s]2025-11-07 16:24:34.662 | INFO     | __main__:main:155 - [img_258.png] 3 cards placed.
+🎨 Generating dataset:  86%|████████▋ | 259/300 [01:37<00:12,  3.28it/s]2025-11-07 16:24:35.439 | INFO     | __main__:main:155 - [img_259.png] 5 cards placed.
+🎨 Generating dataset:  87%|████████▋ | 260/300 [01:37<00:17,  2.27it/s]2025-11-07 16:24:35.475 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:35.480 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:36.031 | INFO     | __main__:main:155 - [img_260.png] 3 cards placed.
+🎨 Generating dataset:  87%|████████▋ | 261/300 [01:38<00:18,  2.07it/s]2025-11-07 16:24:36.419 | INFO     | __main__:main:155 - [img_261.png] 2 cards placed.
+🎨 Generating dataset:  87%|████████▋ | 262/300 [01:38<00:17,  2.20it/s]2025-11-07 16:24:36.747 | INFO     | __main__:main:155 - [img_262.png] 2 cards placed.
+🎨 Generating dataset:  88%|████████▊ | 263/300 [01:39<00:15,  2.39it/s]2025-11-07 16:24:36.850 | INFO     | __main__:main:155 - [img_263.png] 2 cards placed.
+🎨 Generating dataset:  88%|████████▊ | 264/300 [01:39<00:11,  3.08it/s]2025-11-07 16:24:37.348 | INFO     | __main__:main:155 - [img_264.png] 3 cards placed.
+🎨 Generating dataset:  88%|████████▊ | 265/300 [01:39<00:13,  2.66it/s]2025-11-07 16:24:37.471 | INFO     | __main__:main:155 - [img_265.png] 2 cards placed.
+🎨 Generating dataset:  89%|████████▊ | 266/300 [01:39<00:10,  3.33it/s]2025-11-07 16:24:38.192 | INFO     | __main__:main:155 - [img_266.png] 3 cards placed.
+🎨 Generating dataset:  89%|████████▉ | 267/300 [01:40<00:14,  2.35it/s]2025-11-07 16:24:38.800 | INFO     | __main__:main:155 - [img_267.png] 4 cards placed.
+🎨 Generating dataset:  89%|████████▉ | 268/300 [01:41<00:15,  2.08it/s]2025-11-07 16:24:38.958 | INFO     | __main__:main:155 - [img_268.png] 3 cards placed.
+🎨 Generating dataset:  90%|████████▉ | 269/300 [01:41<00:11,  2.60it/s]2025-11-07 16:24:38.992 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:38.998 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:38.998 | WARNING  | __main__:main:144 - [photo-1570185616266-2eaa148b78e3.jpg] No valid cards placed, skipping.
+2025-11-07 16:24:39.522 | INFO     | __main__:main:155 - [img_270.png] 3 cards placed.
+🎨 Generating dataset:  90%|█████████ | 271/300 [01:42<00:09,  2.97it/s]2025-11-07 16:24:39.771 | INFO     | __main__:main:155 - [img_271.png] 5 cards placed.
+🎨 Generating dataset:  91%|█████████ | 272/300 [01:42<00:08,  3.17it/s]2025-11-07 16:24:40.088 | INFO     | __main__:main:155 - [img_272.png] 2 cards placed.
+🎨 Generating dataset:  91%|█████████ | 273/300 [01:42<00:08,  3.17it/s]2025-11-07 16:24:40.127 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:40.909 | INFO     | __main__:main:155 - [img_273.png] 4 cards placed.
+🎨 Generating dataset:  91%|█████████▏| 274/300 [01:43<00:11,  2.21it/s]2025-11-07 16:24:41.096 | INFO     | __main__:main:155 - [img_274.png] 4 cards placed.
+🎨 Generating dataset:  92%|█████████▏| 275/300 [01:43<00:09,  2.64it/s]2025-11-07 16:24:41.443 | INFO     | __main__:main:155 - [img_275.png] 2 cards placed.
+🎨 Generating dataset:  92%|█████████▏| 276/300 [01:43<00:08,  2.71it/s]2025-11-07 16:24:41.570 | INFO     | __main__:main:155 - [img_276.png] 3 cards placed.
+🎨 Generating dataset:  92%|█████████▏| 277/300 [01:44<00:06,  3.34it/s]2025-11-07 16:24:42.031 | INFO     | __main__:main:155 - [img_277.png] 3 cards placed.
+🎨 Generating dataset:  93%|█████████▎| 278/300 [01:44<00:07,  2.88it/s]2025-11-07 16:24:42.189 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:42.401 | INFO     | __main__:main:155 - [img_278.png] 2 cards placed.
+🎨 Generating dataset:  93%|█████████▎| 279/300 [01:44<00:07,  2.83it/s]2025-11-07 16:24:42.421 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:42.426 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:42.430 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:42.821 | INFO     | __main__:main:155 - [img_279.png] 2 cards placed.
+🎨 Generating dataset:  93%|█████████▎| 280/300 [01:45<00:07,  2.68it/s]2025-11-07 16:24:43.745 | INFO     | __main__:main:155 - [img_280.png] 5 cards placed.
+🎨 Generating dataset:  94%|█████████▎| 281/300 [01:46<00:10,  1.86it/s]2025-11-07 16:24:43.881 | INFO     | __main__:main:155 - [img_281.png] 3 cards placed.
+🎨 Generating dataset:  94%|█████████▍| 282/300 [01:46<00:07,  2.40it/s]2025-11-07 16:24:44.043 | INFO     | __main__:main:155 - [img_282.png] 2 cards placed.
+🎨 Generating dataset:  94%|█████████▍| 283/300 [01:46<00:05,  2.93it/s]2025-11-07 16:24:44.878 | INFO     | __main__:main:155 - [img_283.png] 5 cards placed.
+🎨 Generating dataset:  95%|█████████▍| 284/300 [01:47<00:07,  2.05it/s]2025-11-07 16:24:45.053 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:45.582 | INFO     | __main__:main:155 - [img_284.png] 4 cards placed.
+🎨 Generating dataset:  95%|█████████▌| 285/300 [01:48<00:08,  1.81it/s]2025-11-07 16:24:45.825 | INFO     | __main__:main:155 - [img_285.png] 4 cards placed.
+🎨 Generating dataset:  95%|█████████▌| 286/300 [01:48<00:06,  2.17it/s]2025-11-07 16:24:45.982 | INFO     | __main__:main:155 - [img_286.png] 3 cards placed.
+🎨 Generating dataset:  96%|█████████▌| 287/300 [01:48<00:04,  2.71it/s]2025-11-07 16:24:46.659 | INFO     | __main__:main:155 - [img_287.png] 4 cards placed.
+🎨 Generating dataset:  96%|█████████▌| 288/300 [01:49<00:05,  2.17it/s]2025-11-07 16:24:46.682 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:46.928 | INFO     | __main__:main:155 - [img_288.png] 1 cards placed.
+🎨 Generating dataset:  96%|█████████▋| 289/300 [01:49<00:04,  2.48it/s]2025-11-07 16:24:47.061 | INFO     | __main__:main:155 - [img_289.png] 2 cards placed.
+🎨 Generating dataset:  97%|█████████▋| 290/300 [01:49<00:03,  3.10it/s]2025-11-07 16:24:47.393 | INFO     | __main__:main:155 - [img_290.png] 2 cards placed.
+🎨 Generating dataset:  97%|█████████▋| 291/300 [01:49<00:02,  3.07it/s]2025-11-07 16:24:47.524 | INFO     | __main__:main:155 - [img_291.png] 3 cards placed.
+🎨 Generating dataset:  97%|█████████▋| 292/300 [01:50<00:02,  3.74it/s]2025-11-07 16:24:47.800 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:47.937 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:48.055 | INFO     | __main__:main:155 - [img_292.png] 3 cards placed.
+🎨 Generating dataset:  98%|█████████▊| 293/300 [01:50<00:02,  2.89it/s]2025-11-07 16:24:48.258 | INFO     | __main__:main:155 - [img_293.png] 4 cards placed.
+🎨 Generating dataset:  98%|█████████▊| 294/300 [01:50<00:01,  3.30it/s]2025-11-07 16:24:48.775 | INFO     | __main__:main:155 - [img_294.png] 4 cards placed.
+🎨 Generating dataset:  98%|█████████▊| 295/300 [01:51<00:01,  2.72it/s]2025-11-07 16:24:48.927 | INFO     | __main__:main:155 - [img_295.png] 4 cards placed.
+🎨 Generating dataset:  99%|█████████▊| 296/300 [01:51<00:01,  3.30it/s]2025-11-07 16:24:49.146 | INFO     | __main__:main:155 - [img_296.png] 4 cards placed.
+🎨 Generating dataset:  99%|█████████▉| 297/300 [01:51<00:00,  3.60it/s]2025-11-07 16:24:49.840 | INFO     | __main__:main:155 - [img_297.png] 4 cards placed.
+🎨 Generating dataset:  99%|█████████▉| 298/300 [01:52<00:00,  2.48it/s]2025-11-07 16:24:50.080 | INFO     | __main__:main:155 - [img_298.png] 4 cards placed.
+🎨 Generating dataset: 100%|█████████▉| 299/300 [01:52<00:00,  2.83it/s]2025-11-07 16:24:50.114 | WARNING  | __main__:paste_card:75 - Card larger than background, skipping.
+2025-11-07 16:24:50.380 | INFO     | __main__:main:155 - [img_299.png] 1 cards placed.
+🎨 Generating dataset: 100%|██████████| 300/300 [01:52<00:00,  2.96it/s]🎨 Generating dataset: 100%|██████████| 300/300 [01:52<00:00,  2.66it/s]
+2025-11-07 16:24:50.381 | INFO     | __main__:main:157 - ✅ Dataset generation completed.
+=== Job Completed ===
+Fri 07 Nov 2025 04:24:50 PM KST

@@ -1,0 +1,16 @@
+/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/albumentations/core/validation.py:114: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+2025-11-07 16:20:46.489 | INFO     | __main__:main:107 - Loaded 49 backgrounds, 4 cards.
+🎨 Generating dataset:   0%|          | 0/300 [00:00<?, ?it/s]🎨 Generating dataset:   0%|          | 0/300 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py", line 144, in <module>
+    main(num_images=300)
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py", line 126, in main
+    composed, mask_card, bbox = paste_card(composed, card_img)
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py", line 69, in paste_card
+    x_offset = random.randint(0, bg_w - card_w)
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/random.py", line 370, in randint
+    return self.randrange(a, b+1)
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/random.py", line 353, in randrange
+    raise ValueError("empty range for randrange() (%d, %d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0, -168, -168)

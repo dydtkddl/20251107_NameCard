@@ -1,0 +1,28 @@
+Fri 07 Nov 2025 09:50:40 PM KST
+Working Directory: /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model
+Fri Nov  7 21:50:40 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.07             Driver Version: 535.161.07   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 3090        On  | 00000000:89:00.0 Off |                  N/A |
+| 51%   24C    P8              20W / 350W |      1MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Traceback (most recent call last):
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/engine.py", line 21, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+=== Job Completed ===
+Fri 07 Nov 2025 09:50:45 PM KST

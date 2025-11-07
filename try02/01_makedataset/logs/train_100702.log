@@ -1,0 +1,806 @@
+/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py:34: UserWarning: Argument(s) 'value' are not valid for transform SafeRotate
+  SafeRotate(limit=10, border_mode=cv2.BORDER_CONSTANT, value=(255, 255, 255), p=0.9),
+/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/albumentations/core/validation.py:114: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+/data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/engine.py:35: UserWarning: Argument(s) 'value' are not valid for transform ShiftScaleRotate
+  ShiftScaleRotate(shift_limit=0.08, scale_limit=0.15, rotate_limit=10,
+2025-11-07 16:32:35.945 | INFO     | __main__:main:148 - Loaded 49 backgrounds, 4 cards.
+🎨 Generating dataset:   0%|          | 0/300 [00:00<?, ?it/s]2025-11-07 16:32:35.983 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:35.985 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:35.987 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.051 | INFO     | __main__:main:201 - [train] train_000.png: 2 cards
+🎨 Generating dataset:   0%|          | 1/300 [00:00<00:31,  9.53it/s]2025-11-07 16:32:36.124 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.128 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.202 | INFO     | __main__:main:201 - [train] train_001.png: 2 cards
+🎨 Generating dataset:   1%|          | 2/300 [00:00<00:39,  7.56it/s]2025-11-07 16:32:36.280 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.283 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.378 | INFO     | __main__:main:201 - [train] train_002.png: 2 cards
+🎨 Generating dataset:   1%|          | 3/300 [00:00<00:45,  6.57it/s]2025-11-07 16:32:36.526 | INFO     | __main__:main:201 - [train] train_003.png: 2 cards
+🎨 Generating dataset:   1%|▏         | 4/300 [00:00<00:44,  6.65it/s]2025-11-07 16:32:36.552 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.555 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.557 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.601 | INFO     | __main__:main:201 - [train] train_004.png: 1 cards
+2025-11-07 16:32:36.651 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.656 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.732 | INFO     | __main__:main:201 - [train] train_005.png: 1 cards
+🎨 Generating dataset:   2%|▏         | 6/300 [00:00<00:36,  7.98it/s]2025-11-07 16:32:36.854 | INFO     | __main__:main:201 - [train] train_006.png: 2 cards
+🎨 Generating dataset:   2%|▏         | 7/300 [00:00<00:36,  8.05it/s]2025-11-07 16:32:36.923 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.927 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.931 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:36.993 | INFO     | __main__:main:201 - [train] train_007.png: 2 cards
+🎨 Generating dataset:   3%|▎         | 8/300 [00:01<00:37,  7.79it/s]2025-11-07 16:32:37.047 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:37.050 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:37.054 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:37.122 | INFO     | __main__:main:201 - [train] train_008.png: 2 cards
+🎨 Generating dataset:   3%|▎         | 9/300 [00:01<00:37,  7.77it/s]2025-11-07 16:32:37.252 | INFO     | __main__:main:201 - [train] train_009.png: 2 cards
+🎨 Generating dataset:   3%|▎         | 10/300 [00:01<00:37,  7.74it/s]2025-11-07 16:32:37.381 | INFO     | __main__:main:201 - [train] train_010.png: 2 cards
+🎨 Generating dataset:   4%|▎         | 11/300 [00:01<00:37,  7.76it/s]2025-11-07 16:32:37.439 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:37.508 | INFO     | __main__:main:201 - [train] train_011.png: 2 cards
+🎨 Generating dataset:   4%|▍         | 12/300 [00:01<00:36,  7.79it/s]2025-11-07 16:32:37.577 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:37.644 | INFO     | __main__:main:201 - [train] train_012.png: 2 cards
+🎨 Generating dataset:   4%|▍         | 13/300 [00:01<00:37,  7.64it/s]2025-11-07 16:32:37.683 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:37.685 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:37.727 | INFO     | __main__:main:201 - [train] train_013.png: 3 cards
+2025-11-07 16:32:37.756 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:37.758 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:37.804 | INFO     | __main__:main:201 - [train] train_014.png: 3 cards
+🎨 Generating dataset:   5%|▌         | 15/300 [00:01<00:30,  9.30it/s]2025-11-07 16:32:37.830 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:37.833 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:37.836 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:37.881 | INFO     | __main__:main:201 - [train] train_015.png: 1 cards
+2025-11-07 16:32:38.004 | INFO     | __main__:main:201 - [train] train_016.png: 2 cards
+🎨 Generating dataset:   6%|▌         | 17/300 [00:02<00:29,  9.57it/s]2025-11-07 16:32:38.044 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.047 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.049 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.092 | INFO     | __main__:main:201 - [train] train_017.png: 2 cards
+2025-11-07 16:32:38.162 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.253 | INFO     | __main__:main:201 - [train] train_018.png: 1 cards
+🎨 Generating dataset:   6%|▋         | 19/300 [00:02<00:31,  8.96it/s]2025-11-07 16:32:38.332 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.404 | INFO     | __main__:main:201 - [train] train_019.png: 2 cards
+🎨 Generating dataset:   7%|▋         | 20/300 [00:02<00:33,  8.36it/s]2025-11-07 16:32:38.435 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.437 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.478 | INFO     | __main__:main:201 - [train] train_020.png: 3 cards
+2025-11-07 16:32:38.647 | INFO     | __main__:main:201 - [train] train_021.png: 2 cards
+🎨 Generating dataset:   7%|▋         | 22/300 [00:02<00:33,  8.30it/s]2025-11-07 16:32:38.699 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.721 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.724 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.797 | INFO     | __main__:main:201 - [train] train_022.png: 2 cards
+🎨 Generating dataset:   8%|▊         | 23/300 [00:02<00:35,  7.90it/s]2025-11-07 16:32:38.827 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.864 | INFO     | __main__:main:201 - [train] train_023.png: 3 cards
+2025-11-07 16:32:38.946 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.950 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:38.954 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.031 | INFO     | __main__:main:201 - [train] train_024.png: 2 cards
+🎨 Generating dataset:   8%|▊         | 25/300 [00:03<00:33,  8.13it/s]2025-11-07 16:32:39.064 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.106 | INFO     | __main__:main:201 - [train] train_025.png: 3 cards
+2025-11-07 16:32:39.128 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.131 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.177 | INFO     | __main__:main:201 - [train] train_026.png: 2 cards
+🎨 Generating dataset:   9%|▉         | 27/300 [00:03<00:28,  9.47it/s]2025-11-07 16:32:39.250 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.253 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.335 | INFO     | __main__:main:201 - [train] train_027.png: 2 cards
+🎨 Generating dataset:   9%|▉         | 28/300 [00:03<00:31,  8.62it/s]2025-11-07 16:32:39.388 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.391 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.468 | INFO     | __main__:main:201 - [train] train_028.png: 1 cards
+🎨 Generating dataset:  10%|▉         | 29/300 [00:03<00:32,  8.35it/s]2025-11-07 16:32:39.543 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.545 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.549 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.626 | INFO     | __main__:main:201 - [train] train_029.png: 2 cards
+🎨 Generating dataset:  10%|█         | 30/300 [00:03<00:34,  7.75it/s]2025-11-07 16:32:39.700 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.794 | INFO     | __main__:main:201 - [train] train_030.png: 2 cards
+🎨 Generating dataset:  10%|█         | 31/300 [00:03<00:37,  7.20it/s]2025-11-07 16:32:39.813 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.816 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.859 | INFO     | __main__:main:201 - [train] train_031.png: 1 cards
+2025-11-07 16:32:39.890 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.894 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.939 | INFO     | __main__:main:201 - [train] train_032.png: 2 cards
+🎨 Generating dataset:  11%|█         | 33/300 [00:03<00:29,  9.02it/s]2025-11-07 16:32:39.964 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.967 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.969 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:39.971 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.017 | INFO     | __main__:main:201 - [train] train_033.png: 1 cards
+2025-11-07 16:32:40.040 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.101 | INFO     | __main__:main:201 - [train] train_034.png: 1 cards
+🎨 Generating dataset:  12%|█▏        | 35/300 [00:04<00:26, 10.03it/s]2025-11-07 16:32:40.157 | INFO     | __main__:main:201 - [train] train_035.png: 2 cards
+2025-11-07 16:32:40.185 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.236 | INFO     | __main__:main:201 - [train] train_036.png: 3 cards
+🎨 Generating dataset:  12%|█▏        | 37/300 [00:04<00:23, 11.32it/s]2025-11-07 16:32:40.260 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.262 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.311 | INFO     | __main__:main:201 - [train] train_037.png: 2 cards
+2025-11-07 16:32:40.367 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.371 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.375 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.449 | INFO     | __main__:main:201 - [train] train_038.png: 2 cards
+🎨 Generating dataset:  13%|█▎        | 39/300 [00:04<00:24, 10.59it/s]2025-11-07 16:32:40.521 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.524 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.610 | INFO     | __main__:main:201 - [train] train_039.png: 2 cards
+2025-11-07 16:32:40.671 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.674 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.743 | INFO     | __main__:main:201 - [train] train_040.png: 2 cards
+🎨 Generating dataset:  14%|█▎        | 41/300 [00:04<00:28,  8.98it/s]2025-11-07 16:32:40.809 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.813 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.875 | INFO     | __main__:main:201 - [train] train_041.png: 2 cards
+🎨 Generating dataset:  14%|█▍        | 42/300 [00:04<00:29,  8.68it/s]2025-11-07 16:32:40.908 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.910 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.922 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:40.970 | INFO     | __main__:main:201 - [train] train_042.png: 2 cards
+2025-11-07 16:32:41.035 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.039 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.042 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.110 | INFO     | __main__:main:201 - [train] train_043.png: 2 cards
+🎨 Generating dataset:  15%|█▍        | 44/300 [00:05<00:29,  8.62it/s]2025-11-07 16:32:41.136 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.138 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.185 | INFO     | __main__:main:201 - [train] train_044.png: 1 cards
+2025-11-07 16:32:41.254 | INFO     | __main__:main:201 - [train] train_045.png: 3 cards
+🎨 Generating dataset:  15%|█▌        | 46/300 [00:05<00:25,  9.85it/s]2025-11-07 16:32:41.329 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.333 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.419 | INFO     | __main__:main:201 - [train] train_046.png: 2 cards
+2025-11-07 16:32:41.441 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.443 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.446 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.486 | INFO     | __main__:main:201 - [train] train_047.png: 1 cards
+🎨 Generating dataset:  16%|█▌        | 48/300 [00:05<00:26,  9.42it/s]2025-11-07 16:32:41.617 | INFO     | __main__:main:201 - [train] train_048.png: 2 cards
+🎨 Generating dataset:  16%|█▋        | 49/300 [00:05<00:27,  9.03it/s]2025-11-07 16:32:41.639 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.642 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.644 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.687 | INFO     | __main__:main:201 - [train] train_049.png: 1 cards
+2025-11-07 16:32:41.755 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.816 | INFO     | __main__:main:201 - [train] train_050.png: 2 cards
+🎨 Generating dataset:  17%|█▋        | 51/300 [00:05<00:26,  9.36it/s]2025-11-07 16:32:41.866 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.884 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.960 | INFO     | __main__:main:201 - [train] train_051.png: 2 cards
+🎨 Generating dataset:  17%|█▋        | 52/300 [00:06<00:28,  8.75it/s]2025-11-07 16:32:41.991 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:41.993 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:42.043 | INFO     | __main__:main:201 - [train] train_052.png: 3 cards
+2025-11-07 16:32:42.176 | INFO     | __main__:main:201 - [train] train_053.png: 2 cards
+🎨 Generating dataset:  18%|█▊        | 54/300 [00:06<00:27,  8.93it/s]2025-11-07 16:32:42.205 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:42.207 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:42.210 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:42.256 | INFO     | __main__:main:201 - [train] train_054.png: 1 cards
+2025-11-07 16:32:42.324 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:42.329 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:42.390 | INFO     | __main__:main:201 - [train] train_055.png: 2 cards
+🎨 Generating dataset:  19%|█▊        | 56/300 [00:06<00:26,  9.07it/s]2025-11-07 16:32:42.462 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:42.466 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:42.541 | INFO     | __main__:main:201 - [train] train_056.png: 2 cards
+🎨 Generating dataset:  19%|█▉        | 57/300 [00:06<00:28,  8.45it/s]2025-11-07 16:32:42.604 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:42.607 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:42.674 | INFO     | __main__:main:201 - [train] train_057.png: 2 cards
+🎨 Generating dataset:  19%|█▉        | 58/300 [00:06<00:29,  8.24it/s]2025-11-07 16:32:42.796 | INFO     | __main__:main:201 - [train] train_058.png: 2 cards
+🎨 Generating dataset:  20%|█▉        | 59/300 [00:06<00:29,  8.23it/s]2025-11-07 16:32:42.873 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:42.955 | INFO     | __main__:main:201 - [train] train_059.png: 2 cards
+🎨 Generating dataset:  20%|██        | 60/300 [00:07<00:31,  7.63it/s]2025-11-07 16:32:43.012 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.086 | INFO     | __main__:main:201 - [train] train_060.png: 2 cards
+🎨 Generating dataset:  20%|██        | 61/300 [00:07<00:31,  7.63it/s]2025-11-07 16:32:43.114 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.116 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.149 | INFO     | __main__:main:201 - [train] train_061.png: 3 cards
+2025-11-07 16:32:43.222 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.307 | INFO     | __main__:main:201 - [train] train_062.png: 2 cards
+🎨 Generating dataset:  21%|██        | 63/300 [00:07<00:28,  8.18it/s]2025-11-07 16:32:43.342 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.344 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.352 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.400 | INFO     | __main__:main:201 - [train] train_063.png: 2 cards
+2025-11-07 16:32:43.437 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.440 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.442 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.491 | INFO     | __main__:main:201 - [train] train_064.png: 1 cards
+🎨 Generating dataset:  22%|██▏       | 65/300 [00:07<00:26,  9.03it/s]2025-11-07 16:32:43.511 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.513 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.515 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.516 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.544 | INFO     | __main__:main:201 - [train] train_065.png: 1 cards
+2025-11-07 16:32:43.600 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.603 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.686 | INFO     | __main__:main:201 - [train] train_066.png: 1 cards
+🎨 Generating dataset:  22%|██▏       | 67/300 [00:07<00:24,  9.43it/s]2025-11-07 16:32:43.829 | INFO     | __main__:main:201 - [train] train_067.png: 2 cards
+🎨 Generating dataset:  23%|██▎       | 68/300 [00:07<00:26,  8.81it/s]2025-11-07 16:32:43.882 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:43.951 | INFO     | __main__:main:201 - [train] train_068.png: 1 cards
+🎨 Generating dataset:  23%|██▎       | 69/300 [00:08<00:26,  8.67it/s]2025-11-07 16:32:43.985 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.032 | INFO     | __main__:main:201 - [train] train_069.png: 2 cards
+2025-11-07 16:32:44.096 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.116 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.120 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.207 | INFO     | __main__:main:201 - [train] train_070.png: 2 cards
+🎨 Generating dataset:  24%|██▎       | 71/300 [00:08<00:27,  8.31it/s]2025-11-07 16:32:44.239 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.241 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.244 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.297 | INFO     | __main__:main:201 - [train] train_071.png: 2 cards
+2025-11-07 16:32:44.321 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.323 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.326 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.327 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.375 | INFO     | __main__:main:201 - [train] train_072.png: 1 cards
+🎨 Generating dataset:  24%|██▍       | 73/300 [00:08<00:24,  9.33it/s]2025-11-07 16:32:44.406 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.452 | INFO     | __main__:main:201 - [train] train_073.png: 4 cards
+2025-11-07 16:32:44.526 | INFO     | __main__:main:201 - [train] train_074.png: 3 cards
+🎨 Generating dataset:  25%|██▌       | 75/300 [00:08<00:21, 10.36it/s]2025-11-07 16:32:44.605 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.608 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.704 | INFO     | __main__:main:201 - [train] train_075.png: 2 cards
+2025-11-07 16:32:44.782 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.853 | INFO     | __main__:main:201 - [train] train_076.png: 2 cards
+🎨 Generating dataset:  26%|██▌       | 77/300 [00:08<00:26,  8.44it/s]2025-11-07 16:32:44.895 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.935 | INFO     | __main__:main:201 - [train] train_077.png: 3 cards
+2025-11-07 16:32:44.963 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.965 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.967 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:44.969 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.014 | INFO     | __main__:main:201 - [train] train_078.png: 1 cards
+🎨 Generating dataset:  26%|██▋       | 79/300 [00:09<00:23,  9.40it/s]2025-11-07 16:32:45.098 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.102 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.106 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.181 | INFO     | __main__:main:201 - [train] train_079.png: 2 cards
+2025-11-07 16:32:45.216 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.251 | INFO     | __main__:main:201 - [train] train_080.png: 4 cards
+🎨 Generating dataset:  27%|██▋       | 81/300 [00:09<00:24,  9.08it/s]2025-11-07 16:32:45.306 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.396 | INFO     | __main__:main:201 - [train] train_081.png: 1 cards
+🎨 Generating dataset:  27%|██▋       | 82/300 [00:09<00:25,  8.59it/s]2025-11-07 16:32:45.465 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.537 | INFO     | __main__:main:201 - [train] train_082.png: 2 cards
+🎨 Generating dataset:  28%|██▊       | 83/300 [00:09<00:26,  8.22it/s]2025-11-07 16:32:45.599 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.621 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.625 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.711 | INFO     | __main__:main:201 - [train] train_083.png: 2 cards
+🎨 Generating dataset:  28%|██▊       | 84/300 [00:09<00:28,  7.49it/s]2025-11-07 16:32:45.779 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.782 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.848 | INFO     | __main__:main:201 - [train] train_084.png: 2 cards
+🎨 Generating dataset:  28%|██▊       | 85/300 [00:09<00:28,  7.44it/s]2025-11-07 16:32:45.872 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.883 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.885 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:45.931 | INFO     | __main__:main:201 - [train] train_085.png: 2 cards
+2025-11-07 16:32:45.999 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.082 | INFO     | __main__:main:201 - [train] train_086.png: 2 cards
+🎨 Generating dataset:  29%|██▉       | 87/300 [00:10<00:27,  7.86it/s]2025-11-07 16:32:46.103 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.105 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.107 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.145 | INFO     | __main__:main:201 - [train] train_087.png: 1 cards
+2025-11-07 16:32:46.216 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.221 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.287 | INFO     | __main__:main:201 - [train] train_088.png: 2 cards
+🎨 Generating dataset:  30%|██▉       | 89/300 [00:10<00:24,  8.47it/s]2025-11-07 16:32:46.316 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.362 | INFO     | __main__:main:201 - [train] train_089.png: 2 cards
+2025-11-07 16:32:46.425 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.429 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.433 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.493 | INFO     | __main__:main:201 - [train] train_090.png: 2 cards
+🎨 Generating dataset:  30%|███       | 91/300 [00:10<00:23,  8.86it/s]2025-11-07 16:32:46.526 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.527 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.569 | INFO     | __main__:main:201 - [train] train_091.png: 2 cards
+2025-11-07 16:32:46.644 | INFO     | __main__:main:201 - [train] train_092.png: 2 cards
+🎨 Generating dataset:  31%|███       | 93/300 [00:10<00:20,  9.95it/s]2025-11-07 16:32:46.719 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.723 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.726 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.801 | INFO     | __main__:main:201 - [train] train_093.png: 2 cards
+2025-11-07 16:32:46.822 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.824 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.826 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.862 | INFO     | __main__:main:201 - [train] train_094.png: 2 cards
+🎨 Generating dataset:  32%|███▏      | 95/300 [00:10<00:21,  9.68it/s]2025-11-07 16:32:46.929 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:46.991 | INFO     | __main__:main:201 - [train] train_095.png: 2 cards
+🎨 Generating dataset:  32%|███▏      | 96/300 [00:11<00:22,  9.26it/s]2025-11-07 16:32:47.012 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.014 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.057 | INFO     | __main__:main:201 - [train] train_096.png: 1 cards
+2025-11-07 16:32:47.130 | INFO     | __main__:main:201 - [train] train_097.png: 3 cards
+🎨 Generating dataset:  33%|███▎      | 98/300 [00:11<00:19, 10.56it/s]2025-11-07 16:32:47.152 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.154 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.156 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.158 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.202 | INFO     | __main__:main:201 - [train] train_098.png: 1 cards
+2025-11-07 16:32:47.221 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.223 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.225 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.271 | INFO     | __main__:main:201 - [train] train_099.png: 2 cards
+🎨 Generating dataset:  33%|███▎      | 100/300 [00:11<00:17, 11.54it/s]2025-11-07 16:32:47.319 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.323 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.345 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.413 | INFO     | __main__:main:201 - [train] train_100.png: 2 cards
+2025-11-07 16:32:47.484 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.575 | INFO     | __main__:main:201 - [train] train_101.png: 2 cards
+🎨 Generating dataset:  34%|███▍      | 102/300 [00:11<00:21,  9.29it/s]2025-11-07 16:32:47.634 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.637 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.640 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.706 | INFO     | __main__:main:201 - [train] train_102.png: 2 cards
+2025-11-07 16:32:47.739 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.789 | INFO     | __main__:main:201 - [train] train_103.png: 2 cards
+🎨 Generating dataset:  35%|███▍      | 104/300 [00:11<00:21,  9.31it/s]2025-11-07 16:32:47.805 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.808 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:47.853 | INFO     | __main__:main:201 - [train] train_104.png: 1 cards
+2025-11-07 16:32:47.993 | INFO     | __main__:main:201 - [train] train_105.png: 2 cards
+🎨 Generating dataset:  35%|███▌      | 106/300 [00:12<00:20,  9.46it/s]2025-11-07 16:32:48.133 | INFO     | __main__:main:201 - [train] train_106.png: 2 cards
+🎨 Generating dataset:  36%|███▌      | 107/300 [00:12<00:21,  8.93it/s]2025-11-07 16:32:48.206 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:48.276 | INFO     | __main__:main:201 - [train] train_107.png: 2 cards
+🎨 Generating dataset:  36%|███▌      | 108/300 [00:12<00:22,  8.45it/s]2025-11-07 16:32:48.327 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:48.348 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:48.351 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:48.422 | INFO     | __main__:main:201 - [train] train_108.png: 2 cards
+🎨 Generating dataset:  36%|███▋      | 109/300 [00:12<00:23,  8.02it/s]2025-11-07 16:32:48.492 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:48.575 | INFO     | __main__:main:201 - [train] train_109.png: 2 cards
+🎨 Generating dataset:  37%|███▋      | 110/300 [00:12<00:25,  7.60it/s]2025-11-07 16:32:48.604 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:48.652 | INFO     | __main__:main:201 - [train] train_110.png: 2 cards
+2025-11-07 16:32:48.713 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:48.810 | INFO     | __main__:main:201 - [train] train_111.png: 1 cards
+🎨 Generating dataset:  37%|███▋      | 112/300 [00:12<00:23,  7.95it/s]2025-11-07 16:32:48.832 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:48.884 | INFO     | __main__:main:201 - [train] train_112.png: 1 cards
+2025-11-07 16:32:48.954 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:48.958 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.015 | INFO     | __main__:main:201 - [train] train_113.png: 2 cards
+🎨 Generating dataset:  38%|███▊      | 114/300 [00:13<00:21,  8.53it/s]2025-11-07 16:32:49.072 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.075 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.130 | INFO     | __main__:main:201 - [train] train_114.png: 2 cards
+🎨 Generating dataset:  38%|███▊      | 115/300 [00:13<00:21,  8.57it/s]2025-11-07 16:32:49.156 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.204 | INFO     | __main__:main:201 - [train] train_115.png: 1 cards
+2025-11-07 16:32:49.239 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.241 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.243 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.285 | INFO     | __main__:main:201 - [train] train_116.png: 2 cards
+🎨 Generating dataset:  39%|███▉      | 117/300 [00:13<00:18,  9.79it/s]2025-11-07 16:32:49.311 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.313 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.351 | INFO     | __main__:main:201 - [train] train_117.png: 1 cards
+2025-11-07 16:32:49.436 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.440 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.443 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.526 | INFO     | __main__:main:201 - [train] train_118.png: 2 cards
+🎨 Generating dataset:  40%|███▉      | 119/300 [00:13<00:19,  9.21it/s]2025-11-07 16:32:49.551 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.552 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.554 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.603 | INFO     | __main__:main:201 - [train] train_119.png: 1 cards
+2025-11-07 16:32:49.672 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.676 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.679 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.757 | INFO     | __main__:main:201 - [train] train_120.png: 2 cards
+🎨 Generating dataset:  40%|████      | 121/300 [00:13<00:19,  9.03it/s]2025-11-07 16:32:49.845 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.848 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.917 | INFO     | __main__:main:201 - [train] train_121.png: 2 cards
+🎨 Generating dataset:  41%|████      | 122/300 [00:13<00:21,  8.31it/s]2025-11-07 16:32:49.971 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.975 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:49.978 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:50.059 | INFO     | __main__:main:201 - [train] train_122.png: 1 cards
+🎨 Generating dataset:  41%|████      | 123/300 [00:14<00:22,  8.00it/s]2025-11-07 16:32:50.083 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:50.084 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:50.133 | INFO     | __main__:main:201 - [train] train_123.png: 1 cards
+2025-11-07 16:32:50.161 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:50.210 | INFO     | __main__:main:201 - [train] train_124.png: 1 cards
+🎨 Generating dataset:  42%|████▏     | 125/300 [00:14<00:18,  9.44it/s]2025-11-07 16:32:50.229 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:50.279 | INFO     | __main__:main:201 - [train] train_125.png: 1 cards
+2025-11-07 16:32:50.428 | INFO     | __main__:main:201 - [train] train_126.png: 2 cards
+🎨 Generating dataset:  42%|████▏     | 127/300 [00:14<00:18,  9.33it/s]2025-11-07 16:32:50.566 | INFO     | __main__:main:201 - [train] train_127.png: 2 cards
+🎨 Generating dataset:  43%|████▎     | 128/300 [00:14<00:19,  8.82it/s]2025-11-07 16:32:50.712 | INFO     | __main__:main:201 - [train] train_128.png: 2 cards
+🎨 Generating dataset:  43%|████▎     | 129/300 [00:14<00:20,  8.28it/s]2025-11-07 16:32:50.783 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:50.844 | INFO     | __main__:main:201 - [train] train_129.png: 2 cards
+🎨 Generating dataset:  43%|████▎     | 130/300 [00:14<00:20,  8.12it/s]2025-11-07 16:32:50.914 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:50.977 | INFO     | __main__:main:201 - [train] train_130.png: 2 cards
+🎨 Generating dataset:  44%|████▎     | 131/300 [00:15<00:21,  7.95it/s]2025-11-07 16:32:51.048 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.052 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.119 | INFO     | __main__:main:201 - [train] train_131.png: 2 cards
+🎨 Generating dataset:  44%|████▍     | 132/300 [00:15<00:21,  7.69it/s]2025-11-07 16:32:51.210 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.294 | INFO     | __main__:main:201 - [train] train_132.png: 2 cards
+🎨 Generating dataset:  44%|████▍     | 133/300 [00:15<00:23,  7.01it/s]2025-11-07 16:32:51.317 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.319 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.321 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.323 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.365 | INFO     | __main__:main:201 - [train] train_133.png: 1 cards
+2025-11-07 16:32:51.438 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.441 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.445 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.514 | INFO     | __main__:main:201 - [train] train_134.png: 2 cards
+🎨 Generating dataset:  45%|████▌     | 135/300 [00:15<00:21,  7.80it/s]2025-11-07 16:32:51.536 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.538 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.585 | INFO     | __main__:main:201 - [train] train_135.png: 1 cards
+2025-11-07 16:32:51.656 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.729 | INFO     | __main__:main:201 - [train] train_136.png: 2 cards
+🎨 Generating dataset:  46%|████▌     | 137/300 [00:15<00:19,  8.32it/s]2025-11-07 16:32:51.791 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.794 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.856 | INFO     | __main__:main:201 - [train] train_137.png: 2 cards
+🎨 Generating dataset:  46%|████▌     | 138/300 [00:15<00:19,  8.21it/s]2025-11-07 16:32:51.929 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.932 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:51.935 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.025 | INFO     | __main__:main:201 - [train] train_138.png: 2 cards
+🎨 Generating dataset:  46%|████▋     | 139/300 [00:16<00:21,  7.52it/s]2025-11-07 16:32:52.044 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.093 | INFO     | __main__:main:201 - [train] train_139.png: 2 cards
+2025-11-07 16:32:52.116 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.165 | INFO     | __main__:main:201 - [train] train_140.png: 1 cards
+🎨 Generating dataset:  47%|████▋     | 141/300 [00:16<00:17,  9.31it/s]2025-11-07 16:32:52.200 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.202 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.205 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.252 | INFO     | __main__:main:201 - [train] train_141.png: 1 cards
+2025-11-07 16:32:52.330 | INFO     | __main__:main:201 - [train] train_142.png: 2 cards
+🎨 Generating dataset:  48%|████▊     | 143/300 [00:16<00:15, 10.16it/s]2025-11-07 16:32:52.353 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.356 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.357 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.400 | INFO     | __main__:main:201 - [train] train_143.png: 1 cards
+2025-11-07 16:32:52.418 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.445 | INFO     | __main__:main:201 - [train] train_144.png: 1 cards
+🎨 Generating dataset:  48%|████▊     | 145/300 [00:16<00:13, 11.87it/s]2025-11-07 16:32:52.481 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.504 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.508 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.563 | INFO     | __main__:main:201 - [train] train_145.png: 2 cards
+2025-11-07 16:32:52.635 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.639 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.643 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.703 | INFO     | __main__:main:201 - [train] train_146.png: 2 cards
+🎨 Generating dataset:  49%|████▉     | 147/300 [00:16<00:15, 10.09it/s]2025-11-07 16:32:52.731 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.788 | INFO     | __main__:main:201 - [train] train_147.png: 2 cards
+2025-11-07 16:32:52.807 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.808 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.810 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.812 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.848 | INFO     | __main__:main:201 - [train] train_148.png: 1 cards
+🎨 Generating dataset:  50%|████▉     | 149/300 [00:16<00:13, 11.05it/s]2025-11-07 16:32:52.904 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.908 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:52.931 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:53.013 | INFO     | __main__:main:201 - [train] train_149.png: 2 cards
+2025-11-07 16:32:53.148 | INFO     | __main__:main:201 - [train] train_150.png: 2 cards
+🎨 Generating dataset:  50%|█████     | 151/300 [00:17<00:16,  9.15it/s]2025-11-07 16:32:53.176 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:53.212 | INFO     | __main__:main:201 - [train] train_151.png: 2 cards
+2025-11-07 16:32:53.338 | INFO     | __main__:main:201 - [train] train_152.png: 2 cards
+🎨 Generating dataset:  51%|█████     | 153/300 [00:17<00:15,  9.54it/s]2025-11-07 16:32:53.413 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:53.506 | INFO     | __main__:main:201 - [train] train_153.png: 2 cards
+2025-11-07 16:32:53.591 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:53.595 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:53.667 | INFO     | __main__:main:201 - [train] train_154.png: 2 cards
+🎨 Generating dataset:  52%|█████▏    | 155/300 [00:17<00:17,  8.12it/s]2025-11-07 16:32:53.699 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:53.702 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:53.712 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:53.757 | INFO     | __main__:main:201 - [train] train_155.png: 2 cards
+2025-11-07 16:32:53.818 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:53.821 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:53.824 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:53.893 | INFO     | __main__:main:201 - [train] train_156.png: 2 cards
+🎨 Generating dataset:  52%|█████▏    | 157/300 [00:17<00:17,  8.34it/s]2025-11-07 16:32:53.970 | INFO     | __main__:main:201 - [train] train_157.png: 2 cards
+2025-11-07 16:32:54.039 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:54.042 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:54.045 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:54.120 | INFO     | __main__:main:201 - [train] train_158.png: 2 cards
+🎨 Generating dataset:  53%|█████▎    | 159/300 [00:18<00:16,  8.47it/s]2025-11-07 16:32:54.244 | INFO     | __main__:main:201 - [train] train_159.png: 2 cards
+🎨 Generating dataset:  53%|█████▎    | 160/300 [00:18<00:16,  8.40it/s]2025-11-07 16:32:54.307 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:54.310 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:54.382 | INFO     | __main__:main:201 - [train] train_160.png: 2 cards
+🎨 Generating dataset:  54%|█████▎    | 161/300 [00:18<00:17,  8.13it/s]2025-11-07 16:32:54.437 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:54.441 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:54.545 | INFO     | __main__:main:201 - [train] train_161.png: 2 cards
+🎨 Generating dataset:  54%|█████▍    | 162/300 [00:18<00:18,  7.59it/s]2025-11-07 16:32:54.634 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:54.703 | INFO     | __main__:main:201 - [train] train_162.png: 2 cards
+🎨 Generating dataset:  54%|█████▍    | 163/300 [00:18<00:18,  7.23it/s]2025-11-07 16:32:54.772 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:54.847 | INFO     | __main__:main:201 - [train] train_163.png: 2 cards
+🎨 Generating dataset:  55%|█████▍    | 164/300 [00:18<00:18,  7.16it/s]2025-11-07 16:32:54.922 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:54.925 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:55.010 | INFO     | __main__:main:201 - [train] train_164.png: 2 cards
+🎨 Generating dataset:  55%|█████▌    | 165/300 [00:19<00:19,  6.85it/s]2025-11-07 16:32:55.089 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:55.174 | INFO     | __main__:main:201 - [train] train_165.png: 2 cards
+🎨 Generating dataset:  55%|█████▌    | 166/300 [00:19<00:20,  6.62it/s]2025-11-07 16:32:55.246 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:55.249 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:55.252 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:55.322 | INFO     | __main__:main:201 - [train] train_166.png: 2 cards
+🎨 Generating dataset:  56%|█████▌    | 167/300 [00:19<00:19,  6.66it/s]2025-11-07 16:32:55.402 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:55.406 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:55.481 | INFO     | __main__:main:201 - [train] train_167.png: 2 cards
+🎨 Generating dataset:  56%|█████▌    | 168/300 [00:19<00:20,  6.54it/s]2025-11-07 16:32:55.536 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:55.540 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:55.543 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:55.547 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:55.641 | INFO     | __main__:main:201 - [train] train_168.png: 1 cards
+🎨 Generating dataset:  56%|█████▋    | 169/300 [00:19<00:20,  6.46it/s]2025-11-07 16:32:55.665 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:55.712 | INFO     | __main__:main:201 - [train] train_169.png: 1 cards
+2025-11-07 16:32:55.872 | INFO     | __main__:main:201 - [train] train_170.png: 2 cards
+🎨 Generating dataset:  57%|█████▋    | 171/300 [00:19<00:17,  7.31it/s]2025-11-07 16:32:55.957 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.027 | INFO     | __main__:main:201 - [train] train_171.png: 2 cards
+🎨 Generating dataset:  57%|█████▋    | 172/300 [00:20<00:18,  7.08it/s]2025-11-07 16:32:56.048 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.052 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.055 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.058 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.093 | INFO     | __main__:main:201 - [train] train_172.png: 1 cards
+2025-11-07 16:32:56.153 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.157 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.217 | INFO     | __main__:main:201 - [train] train_173.png: 2 cards
+🎨 Generating dataset:  58%|█████▊    | 174/300 [00:20<00:15,  8.18it/s]2025-11-07 16:32:56.234 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.241 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.269 | INFO     | __main__:main:201 - [train] train_174.png: 2 cards
+2025-11-07 16:32:56.313 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.338 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.410 | INFO     | __main__:main:201 - [train] train_175.png: 2 cards
+🎨 Generating dataset:  59%|█████▊    | 176/300 [00:20<00:13,  8.87it/s]2025-11-07 16:32:56.480 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.486 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.558 | INFO     | __main__:main:201 - [train] train_176.png: 2 cards
+🎨 Generating dataset:  59%|█████▉    | 177/300 [00:20<00:14,  8.32it/s]2025-11-07 16:32:56.631 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.718 | INFO     | __main__:main:201 - [train] train_177.png: 2 cards
+🎨 Generating dataset:  59%|█████▉    | 178/300 [00:20<00:15,  7.73it/s]2025-11-07 16:32:56.756 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.785 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.851 | INFO     | __main__:main:201 - [train] train_178.png: 2 cards
+🎨 Generating dataset:  60%|█████▉    | 179/300 [00:20<00:15,  7.68it/s]2025-11-07 16:32:56.911 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:56.982 | INFO     | __main__:main:201 - [train] train_179.png: 2 cards
+🎨 Generating dataset:  60%|██████    | 180/300 [00:21<00:15,  7.68it/s]2025-11-07 16:32:57.048 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:57.118 | INFO     | __main__:main:201 - [train] train_180.png: 2 cards
+🎨 Generating dataset:  60%|██████    | 181/300 [00:21<00:15,  7.58it/s]2025-11-07 16:32:57.141 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:57.144 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:57.146 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:57.187 | INFO     | __main__:main:201 - [train] train_181.png: 1 cards
+2025-11-07 16:32:57.255 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:57.322 | INFO     | __main__:main:201 - [train] train_182.png: 2 cards
+🎨 Generating dataset:  61%|██████    | 183/300 [00:21<00:13,  8.42it/s]2025-11-07 16:32:57.348 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:57.393 | INFO     | __main__:main:201 - [train] train_183.png: 1 cards
+2025-11-07 16:32:57.496 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:57.500 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:57.590 | INFO     | __main__:main:201 - [train] train_184.png: 3 cards
+🎨 Generating dataset:  62%|██████▏   | 185/300 [00:21<00:14,  8.03it/s]2025-11-07 16:32:57.614 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:57.616 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:57.651 | INFO     | __main__:main:201 - [train] train_185.png: 2 cards
+2025-11-07 16:32:57.703 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:57.727 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:57.811 | INFO     | __main__:main:201 - [train] train_186.png: 2 cards
+🎨 Generating dataset:  62%|██████▏   | 187/300 [00:21<00:13,  8.35it/s]2025-11-07 16:32:57.990 | INFO     | __main__:main:201 - [train] train_187.png: 2 cards
+🎨 Generating dataset:  63%|██████▎   | 188/300 [00:22<00:14,  7.60it/s]2025-11-07 16:32:58.056 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:58.133 | INFO     | __main__:main:201 - [train] train_188.png: 2 cards
+🎨 Generating dataset:  63%|██████▎   | 189/300 [00:22<00:14,  7.46it/s]2025-11-07 16:32:58.206 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:58.211 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:58.295 | INFO     | __main__:main:201 - [train] train_189.png: 2 cards
+🎨 Generating dataset:  63%|██████▎   | 190/300 [00:22<00:15,  7.09it/s]2025-11-07 16:32:58.322 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:58.373 | INFO     | __main__:main:201 - [train] train_190.png: 1 cards
+2025-11-07 16:32:58.433 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:58.437 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:58.442 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:58.514 | INFO     | __main__:main:201 - [train] train_191.png: 2 cards
+🎨 Generating dataset:  64%|██████▍   | 192/300 [00:22<00:13,  7.81it/s]2025-11-07 16:32:58.592 | INFO     | __main__:main:201 - [train] train_192.png: 2 cards
+2025-11-07 16:32:58.731 | INFO     | __main__:main:201 - [train] train_193.png: 2 cards
+🎨 Generating dataset:  65%|██████▍   | 194/300 [00:22<00:12,  8.27it/s]2025-11-07 16:32:58.807 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:58.811 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:58.814 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:58.889 | INFO     | __main__:main:201 - [train] train_194.png: 2 cards
+🎨 Generating dataset:  65%|██████▌   | 195/300 [00:22<00:13,  7.78it/s]2025-11-07 16:32:58.908 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:58.937 | INFO     | __main__:main:201 - [train] train_195.png: 1 cards
+2025-11-07 16:32:58.980 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:58.984 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:59.068 | INFO     | __main__:main:201 - [train] train_196.png: 1 cards
+🎨 Generating dataset:  66%|██████▌   | 197/300 [00:23<00:11,  8.77it/s]2025-11-07 16:32:59.142 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:59.220 | INFO     | __main__:main:201 - [train] train_197.png: 2 cards
+🎨 Generating dataset:  66%|██████▌   | 198/300 [00:23<00:12,  8.19it/s]2025-11-07 16:32:59.283 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:59.353 | INFO     | __main__:main:201 - [train] train_198.png: 2 cards
+🎨 Generating dataset:  66%|██████▋   | 199/300 [00:23<00:12,  8.03it/s]2025-11-07 16:32:59.441 | INFO     | __main__:main:201 - [train] train_199.png: 2 cards
+2025-11-07 16:32:59.528 | INFO     | __main__:main:201 - [train] train_200.png: 2 cards
+🎨 Generating dataset:  67%|██████▋   | 201/300 [00:23<00:10,  9.11it/s]2025-11-07 16:32:59.667 | INFO     | __main__:main:201 - [train] train_201.png: 2 cards
+🎨 Generating dataset:  67%|██████▋   | 202/300 [00:23<00:11,  8.60it/s]2025-11-07 16:32:59.696 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:59.699 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:59.750 | INFO     | __main__:main:201 - [train] train_202.png: 1 cards
+2025-11-07 16:32:59.770 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:59.822 | INFO     | __main__:main:201 - [train] train_203.png: 2 cards
+🎨 Generating dataset:  68%|██████▊   | 204/300 [00:23<00:09,  9.87it/s]2025-11-07 16:32:59.894 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:59.899 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:59.960 | INFO     | __main__:main:201 - [train] train_204.png: 2 cards
+🎨 Generating dataset:  68%|██████▊   | 205/300 [00:24<00:10,  9.16it/s]2025-11-07 16:32:59.993 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:32:59.996 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:00.035 | INFO     | __main__:main:201 - [train] train_205.png: 2 cards
+2025-11-07 16:33:00.065 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:00.112 | INFO     | __main__:main:201 - [train] train_206.png: 1 cards
+🎨 Generating dataset:  69%|██████▉   | 207/300 [00:24<00:08, 10.36it/s]2025-11-07 16:33:00.156 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:00.160 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:00.199 | INFO     | __main__:main:201 - [train] train_207.png: 3 cards
+2025-11-07 16:33:00.275 | INFO     | __main__:main:201 - [train] train_208.png: 2 cards
+🎨 Generating dataset:  70%|██████▉   | 209/300 [00:24<00:08, 10.96it/s]2025-11-07 16:33:00.342 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:00.346 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:00.350 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:00.419 | INFO     | __main__:main:201 - [train] train_209.png: 2 cards
+2025-11-07 16:33:00.482 | INFO     | __main__:main:201 - [train] train_210.png: 2 cards
+🎨 Generating dataset:  70%|███████   | 211/300 [00:24<00:08, 10.48it/s]2025-11-07 16:33:00.569 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:00.660 | INFO     | __main__:main:201 - [train] train_211.png: 2 cards
+2025-11-07 16:33:00.690 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:00.693 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:00.742 | INFO     | __main__:main:201 - [train] train_212.png: 2 cards
+🎨 Generating dataset:  71%|███████   | 213/300 [00:24<00:09,  9.39it/s]2025-11-07 16:33:00.890 | INFO     | __main__:main:201 - [train] train_213.png: 2 cards
+🎨 Generating dataset:  71%|███████▏  | 214/300 [00:24<00:09,  8.74it/s]2025-11-07 16:33:01.056 | INFO     | __main__:main:201 - [train] train_214.png: 2 cards
+🎨 Generating dataset:  72%|███████▏  | 215/300 [00:25<00:10,  7.99it/s]2025-11-07 16:33:01.195 | INFO     | __main__:main:201 - [train] train_215.png: 2 cards
+🎨 Generating dataset:  72%|███████▏  | 216/300 [00:25<00:10,  7.79it/s]2025-11-07 16:33:01.225 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.229 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.240 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.287 | INFO     | __main__:main:201 - [train] train_216.png: 2 cards
+2025-11-07 16:33:01.335 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.340 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.345 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.429 | INFO     | __main__:main:201 - [train] train_217.png: 1 cards
+🎨 Generating dataset:  73%|███████▎  | 218/300 [00:25<00:10,  8.07it/s]2025-11-07 16:33:01.458 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.467 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.470 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.518 | INFO     | __main__:main:201 - [train] train_218.png: 2 cards
+2025-11-07 16:33:01.660 | INFO     | __main__:main:201 - [train] train_219.png: 2 cards
+🎨 Generating dataset:  73%|███████▎  | 220/300 [00:25<00:09,  8.27it/s]2025-11-07 16:33:01.691 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.694 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.748 | INFO     | __main__:main:201 - [train] train_220.png: 1 cards
+2025-11-07 16:33:01.778 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.821 | INFO     | __main__:main:201 - [train] train_221.png: 2 cards
+🎨 Generating dataset:  74%|███████▍  | 222/300 [00:25<00:08,  9.35it/s]2025-11-07 16:33:01.854 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:01.899 | INFO     | __main__:main:201 - [train] train_222.png: 2 cards
+2025-11-07 16:33:02.045 | INFO     | __main__:main:201 - [train] train_223.png: 2 cards
+🎨 Generating dataset:  75%|███████▍  | 224/300 [00:26<00:08,  9.20it/s]2025-11-07 16:33:02.189 | INFO     | __main__:main:201 - [train] train_224.png: 2 cards
+🎨 Generating dataset:  75%|███████▌  | 225/300 [00:26<00:08,  8.67it/s]2025-11-07 16:33:02.259 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:02.264 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:02.343 | INFO     | __main__:main:201 - [train] train_225.png: 2 cards
+🎨 Generating dataset:  75%|███████▌  | 226/300 [00:26<00:09,  8.10it/s]2025-11-07 16:33:02.367 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:02.370 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:02.415 | INFO     | __main__:main:201 - [train] train_226.png: 1 cards
+2025-11-07 16:33:02.433 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:02.436 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:02.483 | INFO     | __main__:main:201 - [train] train_227.png: 1 cards
+🎨 Generating dataset:  76%|███████▌  | 228/300 [00:26<00:07,  9.68it/s]2025-11-07 16:33:02.625 | INFO     | __main__:main:201 - [train] train_228.png: 2 cards
+🎨 Generating dataset:  76%|███████▋  | 229/300 [00:26<00:07,  8.96it/s]2025-11-07 16:33:02.760 | INFO     | __main__:main:201 - [train] train_229.png: 2 cards
+🎨 Generating dataset:  77%|███████▋  | 230/300 [00:26<00:08,  8.54it/s]2025-11-07 16:33:02.837 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:02.910 | INFO     | __main__:main:201 - [train] train_230.png: 2 cards
+🎨 Generating dataset:  77%|███████▋  | 231/300 [00:26<00:08,  7.98it/s]2025-11-07 16:33:02.977 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.048 | INFO     | __main__:main:201 - [train] train_231.png: 2 cards
+🎨 Generating dataset:  77%|███████▋  | 232/300 [00:27<00:08,  7.77it/s]2025-11-07 16:33:03.080 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.124 | INFO     | __main__:main:201 - [train] train_232.png: 2 cards
+2025-11-07 16:33:03.203 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.208 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.273 | INFO     | __main__:main:201 - [train] train_233.png: 2 cards
+🎨 Generating dataset:  78%|███████▊  | 234/300 [00:27<00:08,  8.22it/s]2025-11-07 16:33:03.353 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.358 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.362 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.455 | INFO     | __main__:main:201 - [train] train_234.png: 2 cards
+🎨 Generating dataset:  78%|███████▊  | 235/300 [00:27<00:08,  7.36it/s]2025-11-07 16:33:03.520 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.524 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.529 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.596 | INFO     | __main__:main:201 - [train] train_235.png: 2 cards
+🎨 Generating dataset:  79%|███████▊  | 236/300 [00:27<00:08,  7.30it/s]2025-11-07 16:33:03.638 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.641 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.646 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.719 | INFO     | __main__:main:201 - [train] train_236.png: 1 cards
+🎨 Generating dataset:  79%|███████▉  | 237/300 [00:27<00:08,  7.49it/s]2025-11-07 16:33:03.743 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.789 | INFO     | __main__:main:201 - [train] train_237.png: 1 cards
+2025-11-07 16:33:03.864 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:03.939 | INFO     | __main__:main:201 - [train] train_238.png: 2 cards
+🎨 Generating dataset:  80%|███████▉  | 239/300 [00:27<00:07,  8.11it/s]2025-11-07 16:33:04.011 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.016 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.020 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.096 | INFO     | __main__:main:201 - [train] train_239.png: 2 cards
+🎨 Generating dataset:  80%|████████  | 240/300 [00:28<00:07,  7.62it/s]2025-11-07 16:33:04.135 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.138 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.180 | INFO     | __main__:main:201 - [val] val_240.png: 3 cards
+2025-11-07 16:33:04.336 | INFO     | __main__:main:201 - [val] val_241.png: 3 cards
+🎨 Generating dataset:  81%|████████  | 242/300 [00:28<00:07,  7.88it/s]2025-11-07 16:33:04.496 | INFO     | __main__:main:201 - [val] val_242.png: 2 cards
+🎨 Generating dataset:  81%|████████  | 243/300 [00:28<00:07,  7.46it/s]2025-11-07 16:33:04.527 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.530 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.579 | INFO     | __main__:main:201 - [val] val_243.png: 1 cards
+2025-11-07 16:33:04.610 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.618 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.659 | INFO     | __main__:main:201 - [val] val_244.png: 3 cards
+🎨 Generating dataset:  82%|████████▏ | 245/300 [00:28<00:06,  8.80it/s]2025-11-07 16:33:04.687 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.690 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.743 | INFO     | __main__:main:201 - [val] val_245.png: 2 cards
+2025-11-07 16:33:04.763 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.807 | INFO     | __main__:main:201 - [val] val_246.png: 1 cards
+🎨 Generating dataset:  82%|████████▏ | 247/300 [00:28<00:05, 10.05it/s]2025-11-07 16:33:04.868 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.874 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:04.942 | INFO     | __main__:main:201 - [val] val_247.png: 2 cards
+2025-11-07 16:33:05.031 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.035 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.039 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.128 | INFO     | __main__:main:201 - [val] val_248.png: 2 cards
+🎨 Generating dataset:  83%|████████▎ | 249/300 [00:29<00:06,  8.33it/s]2025-11-07 16:33:05.158 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.161 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.209 | INFO     | __main__:main:201 - [val] val_249.png: 2 cards
+2025-11-07 16:33:05.234 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.245 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.248 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.298 | INFO     | __main__:main:201 - [val] val_250.png: 2 cards
+🎨 Generating dataset:  84%|████████▎ | 251/300 [00:29<00:05,  9.20it/s]2025-11-07 16:33:05.370 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.374 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.379 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.453 | INFO     | __main__:main:201 - [val] val_251.png: 2 cards
+🎨 Generating dataset:  84%|████████▍ | 252/300 [00:29<00:05,  8.52it/s]2025-11-07 16:33:05.485 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.489 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.528 | INFO     | __main__:main:201 - [val] val_252.png: 3 cards
+2025-11-07 16:33:05.604 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.686 | INFO     | __main__:main:201 - [val] val_253.png: 2 cards
+🎨 Generating dataset:  85%|████████▍ | 254/300 [00:29<00:05,  8.54it/s]2025-11-07 16:33:05.766 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.771 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.775 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.854 | INFO     | __main__:main:201 - [val] val_254.png: 2 cards
+🎨 Generating dataset:  85%|████████▌ | 255/300 [00:29<00:05,  7.86it/s]2025-11-07 16:33:05.889 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.892 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.896 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:05.942 | INFO     | __main__:main:201 - [val] val_255.png: 1 cards
+2025-11-07 16:33:06.000 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:06.005 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:06.010 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:06.072 | INFO     | __main__:main:201 - [val] val_256.png: 2 cards
+🎨 Generating dataset:  86%|████████▌ | 257/300 [00:30<00:05,  8.29it/s]2025-11-07 16:33:06.209 | INFO     | __main__:main:201 - [val] val_257.png: 2 cards
+🎨 Generating dataset:  86%|████████▌ | 258/300 [00:30<00:05,  8.06it/s]2025-11-07 16:33:06.268 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:06.273 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:06.340 | INFO     | __main__:main:201 - [val] val_258.png: 2 cards
+🎨 Generating dataset:  86%|████████▋ | 259/300 [00:30<00:05,  7.96it/s]2025-11-07 16:33:06.474 | INFO     | __main__:main:201 - [val] val_259.png: 2 cards
+🎨 Generating dataset:  87%|████████▋ | 260/300 [00:30<00:05,  7.83it/s]2025-11-07 16:33:06.644 | INFO     | __main__:main:201 - [val] val_260.png: 2 cards
+🎨 Generating dataset:  87%|████████▋ | 261/300 [00:30<00:05,  7.21it/s]2025-11-07 16:33:06.708 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:06.715 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:06.785 | INFO     | __main__:main:201 - [val] val_261.png: 2 cards
+🎨 Generating dataset:  87%|████████▋ | 262/300 [00:30<00:05,  7.18it/s]2025-11-07 16:33:06.868 | INFO     | __main__:main:201 - [val] val_262.png: 2 cards
+2025-11-07 16:33:06.896 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:06.908 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:06.958 | INFO     | __main__:main:201 - [val] val_263.png: 3 cards
+🎨 Generating dataset:  88%|████████▊ | 264/300 [00:31<00:04,  8.59it/s]2025-11-07 16:33:07.030 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:07.102 | INFO     | __main__:main:201 - [val] val_264.png: 2 cards
+🎨 Generating dataset:  88%|████████▊ | 265/300 [00:31<00:04,  8.15it/s]2025-11-07 16:33:07.132 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:07.135 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:07.186 | INFO     | __main__:main:201 - [val] val_265.png: 1 cards
+2025-11-07 16:33:07.206 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:07.261 | INFO     | __main__:main:201 - [val] val_266.png: 3 cards
+🎨 Generating dataset:  89%|████████▉ | 267/300 [00:31<00:03,  9.50it/s]2025-11-07 16:33:07.347 | INFO     | __main__:main:201 - [val] val_267.png: 2 cards
+2025-11-07 16:33:07.376 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:07.405 | INFO     | __main__:main:201 - [val] val_268.png: 3 cards
+🎨 Generating dataset:  90%|████████▉ | 269/300 [00:31<00:02, 10.74it/s]2025-11-07 16:33:07.457 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:07.531 | INFO     | __main__:main:201 - [val] val_269.png: 1 cards
+2025-11-07 16:33:07.573 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:07.577 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:07.626 | INFO     | __main__:main:201 - [test] test_270.png: 1 cards
+🎨 Generating dataset:  90%|█████████ | 271/300 [00:31<00:02, 10.09it/s]2025-11-07 16:33:07.658 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:07.660 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:07.663 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:07.706 | INFO     | __main__:main:201 - [test] test_271.png: 2 cards
+2025-11-07 16:33:07.828 | INFO     | __main__:main:201 - [test] test_272.png: 2 cards
+🎨 Generating dataset:  91%|█████████ | 273/300 [00:31<00:02, 10.02it/s]2025-11-07 16:33:07.954 | INFO     | __main__:main:201 - [test] test_273.png: 2 cards
+2025-11-07 16:33:07.984 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.030 | INFO     | __main__:main:201 - [test] test_274.png: 2 cards
+🎨 Generating dataset:  92%|█████████▏| 275/300 [00:32<00:02,  9.99it/s]2025-11-07 16:33:08.111 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.115 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.209 | INFO     | __main__:main:201 - [test] test_275.png: 2 cards
+2025-11-07 16:33:08.274 | INFO     | __main__:main:201 - [test] test_276.png: 2 cards
+🎨 Generating dataset:  92%|█████████▏| 277/300 [00:32<00:02,  9.34it/s]2025-11-07 16:33:08.298 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.317 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.359 | INFO     | __main__:main:201 - [test] test_277.png: 3 cards
+2025-11-07 16:33:08.392 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.406 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.451 | INFO     | __main__:main:201 - [test] test_278.png: 3 cards
+🎨 Generating dataset:  93%|█████████▎| 279/300 [00:32<00:02,  9.88it/s]2025-11-07 16:33:08.540 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.544 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.548 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.622 | INFO     | __main__:main:201 - [test] test_279.png: 2 cards
+2025-11-07 16:33:08.653 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.655 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.658 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.704 | INFO     | __main__:main:201 - [test] test_280.png: 1 cards
+🎨 Generating dataset:  94%|█████████▎| 281/300 [00:32<00:02,  9.17it/s]2025-11-07 16:33:08.764 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.769 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.841 | INFO     | __main__:main:201 - [test] test_281.png: 2 cards
+🎨 Generating dataset:  94%|█████████▍| 282/300 [00:32<00:02,  8.78it/s]2025-11-07 16:33:08.865 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.913 | INFO     | __main__:main:201 - [test] test_282.png: 1 cards
+2025-11-07 16:33:08.940 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:08.988 | INFO     | __main__:main:201 - [test] test_283.png: 1 cards
+🎨 Generating dataset:  95%|█████████▍| 284/300 [00:33<00:01,  9.97it/s]2025-11-07 16:33:09.006 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.012 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.042 | INFO     | __main__:main:201 - [test] test_284.png: 2 cards
+2025-11-07 16:33:09.126 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.202 | INFO     | __main__:main:201 - [test] test_285.png: 2 cards
+🎨 Generating dataset:  95%|█████████▌| 286/300 [00:33<00:01,  9.76it/s]2025-11-07 16:33:09.266 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.326 | INFO     | __main__:main:201 - [test] test_286.png: 2 cards
+🎨 Generating dataset:  96%|█████████▌| 287/300 [00:33<00:01,  9.37it/s]2025-11-07 16:33:09.386 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.475 | INFO     | __main__:main:201 - [test] test_287.png: 1 cards
+🎨 Generating dataset:  96%|█████████▌| 288/300 [00:33<00:01,  8.66it/s]2025-11-07 16:33:09.563 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.566 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.640 | INFO     | __main__:main:201 - [test] test_288.png: 2 cards
+🎨 Generating dataset:  96%|█████████▋| 289/300 [00:33<00:01,  7.86it/s]2025-11-07 16:33:09.674 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.683 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.686 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.736 | INFO     | __main__:main:201 - [test] test_289.png: 2 cards
+2025-11-07 16:33:09.811 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.815 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.820 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.900 | INFO     | __main__:main:201 - [test] test_290.png: 2 cards
+🎨 Generating dataset:  97%|█████████▋| 291/300 [00:33<00:01,  7.80it/s]2025-11-07 16:33:09.962 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:09.966 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.055 | INFO     | __main__:main:201 - [test] test_291.png: 2 cards
+🎨 Generating dataset:  97%|█████████▋| 292/300 [00:34<00:01,  7.45it/s]2025-11-07 16:33:10.153 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.235 | INFO     | __main__:main:201 - [test] test_292.png: 3 cards
+🎨 Generating dataset:  98%|█████████▊| 293/300 [00:34<00:01,  6.89it/s]2025-11-07 16:33:10.258 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.262 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.312 | INFO     | __main__:main:201 - [test] test_293.png: 1 cards
+2025-11-07 16:33:10.346 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.390 | INFO     | __main__:main:201 - [test] test_294.png: 1 cards
+🎨 Generating dataset:  98%|█████████▊| 295/300 [00:34<00:00,  8.50it/s]2025-11-07 16:33:10.420 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.464 | INFO     | __main__:main:201 - [test] test_295.png: 3 cards
+2025-11-07 16:33:10.528 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.532 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.535 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.617 | INFO     | __main__:main:201 - [test] test_296.png: 2 cards
+🎨 Generating dataset:  99%|█████████▉| 297/300 [00:34<00:00,  8.61it/s]2025-11-07 16:33:10.663 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.668 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.748 | INFO     | __main__:main:201 - [test] test_297.png: 1 cards
+🎨 Generating dataset:  99%|█████████▉| 298/300 [00:34<00:00,  8.39it/s]2025-11-07 16:33:10.807 | INFO     | __main__:main:201 - [test] test_298.png: 2 cards
+2025-11-07 16:33:10.850 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.854 | WARNING  | __main__:paste_card:100 - No valid placement found, skipping card.
+2025-11-07 16:33:10.907 | INFO     | __main__:main:201 - [test] test_299.png: 2 cards
+🎨 Generating dataset: 100%|██████████| 300/300 [00:34<00:00,  9.59it/s]🎨 Generating dataset: 100%|██████████| 300/300 [00:34<00:00,  8.58it/s]
+2025-11-07 16:33:10.907 | INFO     | __main__:main:203 - ✅ Dataset generation with train/val/test splits completed.

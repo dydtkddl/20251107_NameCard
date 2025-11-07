@@ -1,0 +1,10 @@
+2025-11-07 21:47:18.085 | INFO     | __main__:convert_split:81 - 🚀 Converting split: train
+2025-11-07 21:47:18.086 | INFO     | __main__:convert_split:95 - Found 240 images in ./output/train/images
+2025-11-07 21:47:24.370 | INFO     | __main__:convert_split:126 - ✅ Saved ./output/coco_annotations/instances_train.json: 240 images, 240 annotations
+2025-11-07 21:47:24.372 | INFO     | __main__:convert_split:81 - 🚀 Converting split: val
+2025-11-07 21:47:24.372 | INFO     | __main__:convert_split:95 - Found 30 images in ./output/val/images
+2025-11-07 21:47:25.331 | INFO     | __main__:convert_split:126 - ✅ Saved ./output/coco_annotations/instances_val.json: 30 images, 30 annotations
+2025-11-07 21:47:25.331 | INFO     | __main__:convert_split:81 - 🚀 Converting split: test
+2025-11-07 21:47:25.332 | INFO     | __main__:convert_split:95 - Found 30 images in ./output/test/images
+2025-11-07 21:47:26.171 | INFO     | __main__:convert_split:126 - ✅ Saved ./output/coco_annotations/instances_test.json: 30 images, 30 annotations
+2025-11-07 21:47:26.171 | INFO     | __main__:<module>:132 - 🎯 Conversion to COCO format completed.

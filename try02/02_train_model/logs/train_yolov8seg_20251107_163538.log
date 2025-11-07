@@ -1,0 +1,345 @@
+2025-11-07 16:35:38 | INFO | 📄 data.yaml created → /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/data.yaml
+2025-11-07 16:35:38 | INFO | ✅ Loaded pretrained model: /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/yolov8x-seg.pt
+2025-11-07 16:35:38 | INFO | === [YOLOv8-Seg Fine-tuning Pipeline Start] ===
+2025-11-07 16:35:38 | INFO | 🚀 Starting YOLOv8-Seg training...
+2025-11-07 16:35:39,015 | [YOLO] Ultralytics 8.3.225 🚀 Python-3.10.19 torch-2.9.0+cu128 CUDA:0 (NVIDIA GeForce RTX 3090, 24260MiB)
+2025-11-07 16:35:39,155 | [YOLO] [34m[1mengine/trainer: [0magnostic_nms=False, amp=True, augment=False, auto_augment=randaugment, batch=8, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=10, cls=0.5, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/data.yaml, degrees=0.0, deterministic=True, device=0, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=50, erasing=0.4, exist_ok=True, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, imgsz=640, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.0001, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/yolov8x-seg.pt, momentum=0.937, mosaic=1.0, multi_scale=False, name=card_seg_train_20251107_163538, nbs=64, nms=False, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=100, perspective=0.0, plots=True, pose=12.0, pretrained=True, profile=False, project=/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs, rect=False, resume=False, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/card_seg_train_20251107_163538, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.5, seed=0, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=segment, time=None, tracker=botsort.yaml, translate=0.1, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=3.0, warmup_momentum=0.8, weight_decay=0.0005, workers=8, workspace=None
+2025-11-07 16:35:42,875 | [YOLO] Overriding model.yaml nc=80 with nc=1
+2025-11-07 16:35:42,875 | [YOLO] 
+                   from  n    params  module                                       arguments                     
+2025-11-07 16:35:42,877 | [YOLO]   0                  -1  1      2320  ultralytics.nn.modules.conv.Conv             [3, 80, 3, 2]                 
+2025-11-07 16:35:42,879 | [YOLO]   1                  -1  1    115520  ultralytics.nn.modules.conv.Conv             [80, 160, 3, 2]               
+2025-11-07 16:35:42,885 | [YOLO]   2                  -1  3    436800  ultralytics.nn.modules.block.C2f             [160, 160, 3, True]           
+2025-11-07 16:35:42,888 | [YOLO]   3                  -1  1    461440  ultralytics.nn.modules.conv.Conv             [160, 320, 3, 2]              
+2025-11-07 16:35:42,906 | [YOLO]   4                  -1  6   3281920  ultralytics.nn.modules.block.C2f             [320, 320, 6, True]           
+2025-11-07 16:35:42,915 | [YOLO]   5                  -1  1   1844480  ultralytics.nn.modules.conv.Conv             [320, 640, 3, 2]              
+2025-11-07 16:35:42,983 | [YOLO]   6                  -1  6  13117440  ultralytics.nn.modules.block.C2f             [640, 640, 6, True]           
+2025-11-07 16:35:43,002 | [YOLO]   7                  -1  1   3687680  ultralytics.nn.modules.conv.Conv             [640, 640, 3, 2]              
+2025-11-07 16:35:43,038 | [YOLO]   8                  -1  3   6969600  ultralytics.nn.modules.block.C2f             [640, 640, 3, True]           
+2025-11-07 16:35:43,044 | [YOLO]   9                  -1  1   1025920  ultralytics.nn.modules.block.SPPF            [640, 640, 5]                 
+2025-11-07 16:35:43,044 | [YOLO]  10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+2025-11-07 16:35:43,044 | [YOLO]  11             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+2025-11-07 16:35:43,083 | [YOLO]  12                  -1  3   7379200  ultralytics.nn.modules.block.C2f             [1280, 640, 3]                
+2025-11-07 16:35:43,083 | [YOLO]  13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+2025-11-07 16:35:43,083 | [YOLO]  14             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+2025-11-07 16:35:43,095 | [YOLO]  15                  -1  3   1948800  ultralytics.nn.modules.block.C2f             [960, 320, 3]                 
+2025-11-07 16:35:43,100 | [YOLO]  16                  -1  1    922240  ultralytics.nn.modules.conv.Conv             [320, 320, 3, 2]              
+2025-11-07 16:35:43,100 | [YOLO]  17            [-1, 12]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+2025-11-07 16:35:43,137 | [YOLO]  18                  -1  3   7174400  ultralytics.nn.modules.block.C2f             [960, 640, 3]                 
+2025-11-07 16:35:43,156 | [YOLO]  19                  -1  1   3687680  ultralytics.nn.modules.conv.Conv             [640, 640, 3, 2]              
+2025-11-07 16:35:43,156 | [YOLO]  20             [-1, 9]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+2025-11-07 16:35:43,195 | [YOLO]  21                  -1  3   7379200  ultralytics.nn.modules.block.C2f             [1280, 640, 3]                
+2025-11-07 16:35:43,306 | [YOLO]  22        [15, 18, 21]  1  12317171  ultralytics.nn.modules.head.Segment          [1, 32, 320, [320, 640, 640]] 
+2025-11-07 16:35:44,332 | [YOLO] YOLOv8x-seg summary: 231 layers, 71,751,811 parameters, 71,751,795 gradients, 328.8 GFLOPs
+2025-11-07 16:35:44,333 | [YOLO] 
+2025-11-07 16:35:44,458 | [YOLO] Transferred 651/657 items from pretrained weights
+2025-11-07 16:35:44,787 | [YOLO] Freezing layer 'model.22.dfl.conv.weight'
+2025-11-07 16:35:44,789 | [YOLO] [34m[1mAMP: [0mrunning Automatic Mixed Precision (AMP) checks...
+2025-11-07 16:35:51,624 | [YOLO] [34m[1mAMP: [0mchecks passed ✅
+2025-11-07 16:35:51,631 | [YOLO] [34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2602.1±698.2 MB/s, size: 1926.3 KB)
+2025-11-07 16:35:52,515 | [YOLO] WARNING ⚠️ [34m[1mtrain: [0mNo labels found in /data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/output/train/labels.cache. See https://docs.ultralytics.com/datasets for dataset formatting guidance.
+2025-11-07 16:35:52,543 | [YOLO] [34m[1mtrain: [0mNew cache created: /data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/output/train/labels.cache
+2025-11-07 16:35:52,543 | [YOLO] WARNING ⚠️ Labels are missing or empty in /data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/output/train/labels.cache, training may not work correctly. See https://docs.ultralytics.com/datasets for dataset formatting guidance.
+2025-11-07 16:35:53,052 | [YOLO] [34m[1malbumentations: [0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, method='weighted_average', num_output_channels=3), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))
+2025-11-07 16:35:53,253 | [YOLO] [34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1307.0±779.6 MB/s, size: 1429.0 KB)
+2025-11-07 16:35:53,392 | [YOLO] WARNING ⚠️ [34m[1mval: [0mNo labels found in /data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/output/val/labels.cache. See https://docs.ultralytics.com/datasets for dataset formatting guidance.
+2025-11-07 16:35:53,411 | [YOLO] [34m[1mval: [0mNew cache created: /data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/output/val/labels.cache
+2025-11-07 16:35:53,411 | [YOLO] WARNING ⚠️ Labels are missing or empty in /data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/output/val/labels.cache, training may not work correctly. See https://docs.ultralytics.com/datasets for dataset formatting guidance.
+2025-11-07 16:36:03,305 | [YOLO] Plotting labels to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/card_seg_train_20251107_163538/labels.jpg... 
+2025-11-07 16:36:03,305 | [YOLO] WARNING ⚠️ zero-size array to reduction operation maximum which has no identity
+2025-11-07 16:36:03,310 | [YOLO] [34m[1moptimizer:[0m AdamW(lr=0.0001, momentum=0.937) with parameter groups 106 weight(decay=0.0), 117 weight(decay=0.0005), 116 bias(decay=0.0)
+2025-11-07 16:36:03,310 | [YOLO] Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/card_seg_train_20251107_163538[0m
+Starting training for 50 epochs...
+2025-11-07 16:36:03,314 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:36:14,766 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:36:14,766 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:36:17,518 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:36:25,256 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:36:25,256 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:36:27,436 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:36:35,039 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:36:35,039 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:36:37,218 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:36:44,863 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:36:44,863 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:36:47,069 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:36:54,713 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:36:54,713 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:36:57,054 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:37:04,692 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:37:04,692 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:37:06,976 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:37:14,619 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:37:14,620 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:37:16,949 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:37:24,598 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:37:24,599 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:37:26,771 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:37:34,444 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:37:34,444 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:37:36,694 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:37:44,366 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:37:44,366 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:37:46,710 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:37:54,359 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:37:54,359 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:37:56,742 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:38:04,794 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:38:04,794 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:38:07,046 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:38:14,762 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:38:14,762 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:38:17,079 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:38:24,751 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:38:24,751 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:38:27,033 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:38:34,700 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:38:34,701 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:38:37,116 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:38:44,813 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:38:44,813 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:38:47,196 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:38:54,881 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:38:54,881 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:38:57,147 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:39:04,831 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:39:04,831 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:39:07,224 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:39:14,887 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:39:14,887 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:39:17,239 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:39:24,934 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:39:24,934 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:39:27,205 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:39:34,919 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:39:34,919 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:39:37,167 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:39:44,875 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:39:44,876 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:39:47,110 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:39:54,997 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:39:54,997 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:39:57,467 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:40:05,180 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:40:05,180 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:40:07,798 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:40:15,532 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:40:15,532 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:40:17,979 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:40:25,710 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:40:25,710 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:40:28,292 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:40:35,949 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:40:35,949 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:40:38,455 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:40:46,169 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:40:46,169 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:40:48,711 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:40:56,392 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:40:56,392 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:40:58,971 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:41:06,661 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:41:06,662 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:41:09,144 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:41:16,807 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:41:16,807 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:41:19,285 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:41:26,965 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:41:26,965 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:41:29,225 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:41:36,925 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:41:36,925 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:41:39,372 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:41:47,081 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:41:47,081 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:41:49,335 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:41:56,998 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:41:56,998 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:41:59,239 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:42:06,933 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:42:06,933 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:42:09,178 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:42:16,876 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:42:16,877 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:42:19,131 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:42:26,846 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:42:26,846 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:42:29,086 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:42:36,757 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:42:36,757 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:42:39,079 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:42:46,766 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:42:46,766 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:42:48,999 | [YOLO] Closing dataloader mosaic
+2025-11-07 16:42:49,002 | [YOLO] [34m[1malbumentations: [0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, method='weighted_average', num_output_channels=3), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))
+2025-11-07 16:42:49,290 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:42:57,424 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:42:57,424 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:42:59,836 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:43:07,510 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:43:07,510 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:43:09,739 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:43:17,383 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:43:17,383 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:43:19,582 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:43:27,252 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:43:27,253 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:43:29,979 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:43:37,649 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:43:37,649 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:43:40,050 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:43:47,727 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:43:47,727 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:43:50,128 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:43:57,804 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:43:57,804 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:44:00,465 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:44:08,150 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:44:08,150 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:44:10,625 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:44:18,305 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:44:18,305 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:44:20,840 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-07 16:44:28,537 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:44:28,537 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:44:31,152 | [YOLO] 
+50 epochs completed in 0.141 hours.
+2025-11-07 16:44:32,218 | [YOLO] Optimizer stripped from /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/card_seg_train_20251107_163538/weights/last.pt, 143.9MB
+2025-11-07 16:44:33,299 | [YOLO] Optimizer stripped from /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/card_seg_train_20251107_163538/weights/best.pt, 143.9MB
+2025-11-07 16:44:33,301 | [YOLO] 
+Validating /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/card_seg_train_20251107_163538/weights/best.pt...
+2025-11-07 16:44:33,302 | [YOLO] Ultralytics 8.3.225 🚀 Python-3.10.19 torch-2.9.0+cu128 CUDA:0 (NVIDIA GeForce RTX 3090, 24260MiB)
+2025-11-07 16:44:34,589 | [YOLO] YOLOv8x-seg summary (fused): 125 layers, 71,721,619 parameters, 0 gradients, 327.9 GFLOPs
+2025-11-07 16:44:37,250 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:44:37,250 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:44:37,250 | [YOLO] Speed: 0.1ms preprocess, 8.8ms inference, 0.0ms loss, 0.1ms postprocess per image
+2025-11-07 16:44:37,250 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/card_seg_train_20251107_163538[0m
+2025-11-07 16:44:39 | SUCCESS | ✅ Training completed in 9.01 min
+2025-11-07 16:44:39 | INFO | 📂 Results saved at: /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/card_seg_train_20251107_163538
+2025-11-07 16:44:39 | INFO | 🧪 Starting validation on val dataset...
+2025-11-07 16:44:39,220 | [YOLO] Ultralytics 8.3.225 🚀 Python-3.10.19 torch-2.9.0+cu128 CUDA:0 (NVIDIA GeForce RTX 3090, 24260MiB)
+2025-11-07 16:44:40,160 | [YOLO] YOLOv8x-seg summary (fused): 125 layers, 71,721,619 parameters, 0 gradients, 327.9 GFLOPs
+2025-11-07 16:44:40,199 | [YOLO] [34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 4228.7±1591.8 MB/s, size: 1436.6 KB)
+2025-11-07 16:44:40,205 | [YOLO] WARNING ⚠️ Labels are missing or empty in /data/dydtkddhkdwk/20251107_NameCard/try02/01_makedataset/output/val/labels.cache, training may not work correctly. See https://docs.ultralytics.com/datasets for dataset formatting guidance.
+2025-11-07 16:44:44,135 | [YOLO]                    all         30          0          0          0          0          0          0          0          0          0
+2025-11-07 16:44:44,135 | [YOLO] WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+2025-11-07 16:44:44,135 | [YOLO] Speed: 2.5ms preprocess, 17.8ms inference, 0.0ms loss, 0.1ms postprocess per image
+2025-11-07 16:44:44,135 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/segment/val[0m
+2025-11-07 16:44:44 | SUCCESS | ✅ Validation done in 5.01s | mAP50=0.0000, mAP50-95=0.0000
+2025-11-07 16:44:44 | INFO | 🔍 Starting inference on test set...
+2025-11-07 16:44:44,431 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards/labels
+2025-11-07 16:44:44,490 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards2[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards2/labels
+2025-11-07 16:44:44,616 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards3[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards3/labels
+2025-11-07 16:44:44,682 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards4[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards4/labels
+2025-11-07 16:44:44,786 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards5[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards5/labels
+2025-11-07 16:44:44,855 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards6[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards6/labels
+2025-11-07 16:44:44,925 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards7[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards7/labels
+2025-11-07 16:44:44,993 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards8[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards8/labels
+2025-11-07 16:44:45,061 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards9[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards9/labels
+2025-11-07 16:44:45,131 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards10[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards10/labels
+2025-11-07 16:44:45,263 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards11[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards11/labels
+2025-11-07 16:44:45,365 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards12[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards12/labels
+2025-11-07 16:44:45,419 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards13[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards13/labels
+2025-11-07 16:44:45,473 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards14[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards14/labels
+2025-11-07 16:44:45,543 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards15[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards15/labels
+2025-11-07 16:44:45,668 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards16[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards16/labels
+2025-11-07 16:44:45,772 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards17[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards17/labels
+2025-11-07 16:44:45,827 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards18[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards18/labels
+2025-11-07 16:44:45,876 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards19[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards19/labels
+2025-11-07 16:44:45,928 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards20[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards20/labels
+2025-11-07 16:44:45,978 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards21[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards21/labels
+2025-11-07 16:44:46,045 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards22[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards22/labels
+2025-11-07 16:44:46,154 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards23[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards23/labels
+2025-11-07 16:44:46,207 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards24[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards24/labels
+2025-11-07 16:44:46,273 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards25[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards25/labels
+2025-11-07 16:44:46,325 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards26[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards26/labels
+2025-11-07 16:44:46,379 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards27[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards27/labels
+2025-11-07 16:44:46,446 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards28[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards28/labels
+2025-11-07 16:44:46,497 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards29[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards29/labels
+2025-11-07 16:44:46,604 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards30[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538/cards30/labels
+2025-11-07 16:44:46 | SUCCESS | ✅ Inference complete for 30 images.
+2025-11-07 16:44:46 | INFO | 📁 Predictions saved to: /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/runs/predictions_20251107_163538
+2025-11-07 16:44:46 | INFO | 📝 Summary extracted → /data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/logs/summary_20251107_163538.txt
+2025-11-07 16:44:46 | INFO | === [Pipeline Finished Successfully] ===

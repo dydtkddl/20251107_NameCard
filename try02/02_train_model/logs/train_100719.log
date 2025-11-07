@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/02_train_model/engine.py", line 21, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
