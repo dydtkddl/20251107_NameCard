@@ -1,0 +1,2 @@
+/data/dydtkddhkdwk/20251107_NameCard/01_Background/engine.py:33: UserWarning: Argument(s) 'value' are not valid for transform SafeRotate
+  A.SafeRotate(limit=12, border_mode=cv2.BORDER_CONSTANT, value=(255, 255, 255), p=1.0),
