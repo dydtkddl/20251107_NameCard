@@ -2,7 +2,7 @@
 """
 engine.py
 ───────────────────────────────────────────────
-명함 + 배경 합성 자동 증강 엔진 (ver. for /01_Background)
+명함 + 배경 합성 증강 엔진 (카메라 해상도 기반)
 ───────────────────────────────────────────────
 """
 
@@ -28,13 +28,11 @@ os.makedirs(LOG_DIR, exist_ok=True)
 logger.add(os.path.join(LOG_DIR, "augment.log"), level="INFO")
 
 # ───────────────────────────────────────────────
-# Albumentations 증강 파이프라인
+# 증강: 색조는 거의 유지, 기하학만 적용
 geom_aug = A.Compose([
-    A.SafeRotate(limit=25, border_mode=cv2.BORDER_CONSTANT, value=(255,255,255), p=0.9),
-    A.Perspective(scale=(0.05, 0.15), p=0.8),
-    A.RandomBrightnessContrast(p=0.6),
-    A.MotionBlur(blur_limit=5, p=0.3),
-    A.RGBShift(r_shift_limit=15, g_shift_limit=15, b_shift_limit=15, p=0.3),
+    A.SafeRotate(limit=10, border_mode=cv2.BORDER_CONSTANT, value=(255, 255, 255), p=0.9),
+    A.Perspective(scale=(0.02, 0.07), p=0.7),
+    A.MotionBlur(blur_limit=3, p=0.2),
 ])
 
 # ───────────────────────────────────────────────
@@ -52,39 +50,57 @@ def load_images(folder):
     return imgs
 
 # ───────────────────────────────────────────────
+def center_crop_and_resize(img, size=(1920, 1080)):
+    """배경을 지정 크기로 맞추되, 비율 유지하며 초과는 중앙 자르기"""
+    h, w, _ = img.shape
+    target_w, target_h = size
+
+    # 비율 유지하면서 최소한 target 이상 되도록 스케일
+    scale = max(target_w / w, target_h / h)
+    new_w, new_h = int(w * scale), int(h * scale)
+    resized = cv2.resize(img, (new_w, new_h))
+
+    # 중앙 crop
+    x_start = (new_w - target_w) // 2
+    y_start = (new_h - target_h) // 2
+    cropped = resized[y_start:y_start + target_h, x_start:x_start + target_w]
+    return cropped
+
+# ───────────────────────────────────────────────
 def random_paste(bg, cards, n_cards):
-    """배경 위에 n장의 명함 랜덤 배치"""
+    """배경 위에 명함을 자연스럽게 배치"""
     canvas = bg.copy()
     h_bg, w_bg, _ = bg.shape
 
     for _ in range(n_cards):
         card = random.choice(cards)
 
-        # 크기 조절
-        scale = random.uniform(0.4, 0.8)
-        card = cv2.resize(card, (int(card.shape[1] * scale), int(card.shape[0] * scale)))
+        # 명함 크기 조절 (배경 대비 1/4~1/3)
+        scale = random.uniform(0.25, 0.35)
+        target_w = int(w_bg * scale)
+        ratio = target_w / card.shape[1]
+        target_h = int(card.shape[0] * ratio)
+        card = cv2.resize(card, (target_w, target_h))
 
-        # 기하학적 증강
+        # 기하학적 증강만 적용 (색조X)
         card = geom_aug(image=card)["image"]
 
-        # 랜덤 위치 배치
+        # 랜덤 위치
         x = random.randint(0, max(1, w_bg - card.shape[1]))
         y = random.randint(0, max(1, h_bg - card.shape[0]))
 
-        # 자연스러운 합성
+        # 합성
         mask = 255 * np.ones(card.shape, card.dtype)
         center = (x + card.shape[1] // 2, y + card.shape[0] // 2)
         try:
             canvas = cv2.seamlessClone(card, canvas, mask[:, :, 0], center, cv2.NORMAL_CLONE)
         except Exception:
-            # 경계 초과 시 단순 덮어쓰기
             canvas[y:y + card.shape[0], x:x + card.shape[1]] = card
 
     return canvas
 
 # ───────────────────────────────────────────────
-def main(num_images=100, output_size=(1280, 720)):
-    # 이미지 로드
+def main(num_images=50):
     cards = load_images(CARD_DIR)
     bgs = load_images(BG_DIR)
 
@@ -93,26 +109,24 @@ def main(num_images=100, output_size=(1280, 720)):
         return
     if not bgs:
         logger.error(f"❌ No backgrounds found in {BG_DIR}")
-        logger.error("👉 먼저 background_downloader.py를 실행해 배경 이미지를 확보하세요.")
         return
 
-    logger.info(f"Loaded {len(cards)} cards and {len(bgs)} backgrounds.")
+    logger.info(f"Loaded {len(cards)} cards and {len(bgs)} backgrounds")
 
-    # 합성 루프
     for i in tqdm(range(num_images), desc="🧩 Generating Augmented Images"):
         bg = random.choice(bgs)
-        bg = cv2.resize(bg, output_size)
+        bg = center_crop_and_resize(bg, (1920, 1080))
 
-        n_cards = random.randint(1, min(4, len(cards)))
+        n_cards = random.randint(1, min(3, len(cards)))
         result = random_paste(bg, cards, n_cards)
 
         out_path = os.path.join(OUT_DIR, f"aug_{i:03d}.png")
         cv2.imwrite(out_path, result)
-        logger.info(f"[{i+1}/{num_images}] → {out_path} | cards={n_cards}")
+        logger.info(f"[{i+1}/{num_images}] {out_path} | cards={n_cards}")
 
     logger.info("✅ All augmentations complete.")
 
 # ───────────────────────────────────────────────
 if __name__ == "__main__":
-    main(num_images=50)
+    main(num_images=100)
 
