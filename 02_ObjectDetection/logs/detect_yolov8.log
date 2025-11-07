@@ -1,0 +1,14 @@
+2025-11-07 15:45:30.961 | INFO     | __main__:main:77 - Found 100 images in /data/dydtkddhkdwk/20251107_NameCard/01_Background/output
+2025-11-07 15:50:07.599 | INFO     | __main__:main:79 - Found 100 images in /data/dydtkddhkdwk/20251107_NameCard/01_Background/output
+2025-11-07 15:50:10.764 | WARNING  | __main__:save_segments:48 - [aug_000] No objects detected.
+2025-11-07 15:50:13.644 | INFO     | __main__:save_segments:72 - [aug_001] Detected 5 card(s).
+2025-11-07 15:50:16.281 | INFO     | __main__:save_segments:72 - [aug_002] Detected 1 card(s).
+2025-11-07 15:50:18.947 | INFO     | __main__:save_segments:72 - [aug_003] Detected 2 card(s).
+2025-11-07 15:50:21.684 | INFO     | __main__:save_segments:72 - [aug_004] Detected 3 card(s).
+2025-11-07 15:50:24.341 | INFO     | __main__:save_segments:72 - [aug_005] Detected 3 card(s).
+2025-11-07 15:50:26.965 | INFO     | __main__:save_segments:72 - [aug_006] Detected 1 card(s).
+2025-11-07 15:50:29.587 | INFO     | __main__:save_segments:72 - [aug_007] Detected 1 card(s).
+2025-11-07 15:50:32.081 | WARNING  | __main__:save_segments:48 - [aug_008] No objects detected.
+2025-11-07 15:50:34.691 | INFO     | __main__:save_segments:72 - [aug_009] Detected 1 card(s).
+2025-11-07 15:50:37.323 | INFO     | __main__:save_segments:72 - [aug_010] Detected 2 card(s).
+2025-11-07 15:50:40.007 | INFO     | __main__:save_segments:72 - [aug_011] Detected 4 card(s).

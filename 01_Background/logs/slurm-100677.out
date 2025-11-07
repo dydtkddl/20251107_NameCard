@@ -1,0 +1,28 @@
+Fri 07 Nov 2025 03:36:06 PM KST
+Working Directory: /data/dydtkddhkdwk/20251107_NameCard/02_ObjectDetection
+Fri Nov  7 15:36:06 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.07             Driver Version: 535.161.07   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 3090        On  | 00000000:43:00.0 Off |                  N/A |
+| 63%   30C    P8              28W / 350W |      1MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Traceback (most recent call last):
+  File "/data/dydtkddhkdwk/20251107_NameCard/02_ObjectDetection/engine_detect.py", line 14, in <module>
+    from ultralytics import YOLO
+ModuleNotFoundError: No module named 'ultralytics'
+=== Job Completed ===
+Fri 07 Nov 2025 03:36:06 PM KST

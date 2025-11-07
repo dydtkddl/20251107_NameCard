@@ -1,0 +1,14 @@
+2025-11-07 15:50:07.599 | INFO     | __main__:main:79 - Found 100 images in /data/dydtkddhkdwk/20251107_NameCard/01_Background/output
+🔍 YOLOv8-Seg Detection:   0%|          | 0/100 [00:00<?, ?it/s]2025-11-07 15:50:10.764 | WARNING  | __main__:save_segments:48 - [aug_000] No objects detected.
+🔍 YOLOv8-Seg Detection:   1%|          | 1/100 [00:03<05:12,  3.16s/it]2025-11-07 15:50:13.644 | INFO     | __main__:save_segments:72 - [aug_001] Detected 5 card(s).
+🔍 YOLOv8-Seg Detection:   2%|▏         | 2/100 [00:06<04:53,  3.00s/it]2025-11-07 15:50:16.281 | INFO     | __main__:save_segments:72 - [aug_002] Detected 1 card(s).
+🔍 YOLOv8-Seg Detection:   3%|▎         | 3/100 [00:08<04:34,  2.83s/it]2025-11-07 15:50:18.947 | INFO     | __main__:save_segments:72 - [aug_003] Detected 2 card(s).
+🔍 YOLOv8-Seg Detection:   4%|▍         | 4/100 [00:11<04:25,  2.77s/it]2025-11-07 15:50:21.684 | INFO     | __main__:save_segments:72 - [aug_004] Detected 3 card(s).
+🔍 YOLOv8-Seg Detection:   5%|▌         | 5/100 [00:14<04:21,  2.76s/it]2025-11-07 15:50:24.341 | INFO     | __main__:save_segments:72 - [aug_005] Detected 3 card(s).
+🔍 YOLOv8-Seg Detection:   6%|▌         | 6/100 [00:16<04:15,  2.72s/it]2025-11-07 15:50:26.965 | INFO     | __main__:save_segments:72 - [aug_006] Detected 1 card(s).
+🔍 YOLOv8-Seg Detection:   7%|▋         | 7/100 [00:19<04:10,  2.69s/it]2025-11-07 15:50:29.587 | INFO     | __main__:save_segments:72 - [aug_007] Detected 1 card(s).
+🔍 YOLOv8-Seg Detection:   8%|▊         | 8/100 [00:21<04:05,  2.67s/it]2025-11-07 15:50:32.081 | WARNING  | __main__:save_segments:48 - [aug_008] No objects detected.
+🔍 YOLOv8-Seg Detection:   9%|▉         | 9/100 [00:24<03:57,  2.61s/it]2025-11-07 15:50:34.691 | INFO     | __main__:save_segments:72 - [aug_009] Detected 1 card(s).
+🔍 YOLOv8-Seg Detection:  10%|█         | 10/100 [00:27<03:55,  2.61s/it]2025-11-07 15:50:37.323 | INFO     | __main__:save_segments:72 - [aug_010] Detected 2 card(s).
+🔍 YOLOv8-Seg Detection:  11%|█         | 11/100 [00:29<03:53,  2.62s/it]2025-11-07 15:50:40.007 | INFO     | __main__:save_segments:72 - [aug_011] Detected 4 card(s).
+🔍 YOLOv8-Seg Detection:  12%|█▏        | 12/100 [00:32<03:52,  2.64s/it]

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/data/dydtkddhkdwk/20251107_NameCard/02_ObjectDetection/engine_detect.py", line 14, in <module>
+    from ultralytics import YOLO
+ModuleNotFoundError: No module named 'ultralytics'
