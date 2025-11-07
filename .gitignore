@@ -1,0 +1,5 @@
+# YOLO model weights (too large for GitHub)
+*.pt
+*.pth
+*.onnx
+
