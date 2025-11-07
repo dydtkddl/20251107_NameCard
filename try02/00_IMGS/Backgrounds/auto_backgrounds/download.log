@@ -1,0 +1,7 @@
+2025-11-07 15:02:15.812 | ERROR    | __main__:get_image_urls:33 - [wood desk texture] 요청 실패: 403
+2025-11-07 15:02:15.943 | ERROR    | __main__:get_image_urls:33 - [forest floor background] 요청 실패: 403
+2025-11-07 15:02:17.219 | ERROR    | __main__:get_image_urls:33 - [concrete floor texture] 요청 실패: 403
+2025-11-07 15:02:17.335 | ERROR    | __main__:get_image_urls:33 - [paper background] 요청 실패: 403
+2025-11-07 15:02:17.462 | ERROR    | __main__:get_image_urls:33 - [fabric texture] 요청 실패: 403
+2025-11-07 15:02:17.465 | INFO     | __main__:download_backgrounds:55 - ✅ 총 0장의 배경 이미지 다운로드 완료.
+2025-11-07 15:09:03.929 | INFO     | __main__:download_backgrounds:56 - ✅ 총 49장의 배경 이미지 다운로드 완료.
