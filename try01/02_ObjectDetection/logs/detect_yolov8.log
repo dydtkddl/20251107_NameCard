@@ -1,0 +1,185 @@
+2025-11-07 15:45:30.961 | INFO     | __main__:main:77 - Found 100 images in /data/dydtkddhkdwk/20251107_NameCard/01_Background/output
+2025-11-07 15:50:07.599 | INFO     | __main__:main:79 - Found 100 images in /data/dydtkddhkdwk/20251107_NameCard/01_Background/output
+2025-11-07 15:50:10.764 | WARNING  | __main__:save_segments:48 - [aug_000] No objects detected.
+2025-11-07 15:50:13.644 | INFO     | __main__:save_segments:72 - [aug_001] Detected 5 card(s).
+2025-11-07 15:50:16.281 | INFO     | __main__:save_segments:72 - [aug_002] Detected 1 card(s).
+2025-11-07 15:50:18.947 | INFO     | __main__:save_segments:72 - [aug_003] Detected 2 card(s).
+2025-11-07 15:50:21.684 | INFO     | __main__:save_segments:72 - [aug_004] Detected 3 card(s).
+2025-11-07 15:50:24.341 | INFO     | __main__:save_segments:72 - [aug_005] Detected 3 card(s).
+2025-11-07 15:50:26.965 | INFO     | __main__:save_segments:72 - [aug_006] Detected 1 card(s).
+2025-11-07 15:50:29.587 | INFO     | __main__:save_segments:72 - [aug_007] Detected 1 card(s).
+2025-11-07 15:50:32.081 | WARNING  | __main__:save_segments:48 - [aug_008] No objects detected.
+2025-11-07 15:50:34.691 | INFO     | __main__:save_segments:72 - [aug_009] Detected 1 card(s).
+2025-11-07 15:50:37.323 | INFO     | __main__:save_segments:72 - [aug_010] Detected 2 card(s).
+2025-11-07 15:50:40.007 | INFO     | __main__:save_segments:72 - [aug_011] Detected 4 card(s).
+2025-11-07 15:50:42.639 | INFO     | __main__:save_segments:72 - [aug_012] Detected 1 card(s).
+2025-11-07 15:50:45.275 | INFO     | __main__:save_segments:72 - [aug_013] Detected 2 card(s).
+2025-11-07 15:50:47.775 | WARNING  | __main__:save_segments:48 - [aug_014] No objects detected.
+2025-11-07 15:50:50.404 | INFO     | __main__:save_segments:72 - [aug_015] Detected 2 card(s).
+2025-11-07 15:50:53.047 | INFO     | __main__:save_segments:72 - [aug_016] Detected 1 card(s).
+2025-11-07 15:50:55.543 | WARNING  | __main__:save_segments:48 - [aug_017] No objects detected.
+2025-11-07 15:50:58.214 | INFO     | __main__:save_segments:72 - [aug_018] Detected 4 card(s).
+2025-11-07 15:51:00.725 | WARNING  | __main__:save_segments:48 - [aug_019] No objects detected.
+2025-11-07 15:51:03.383 | INFO     | __main__:save_segments:72 - [aug_020] Detected 2 card(s).
+2025-11-07 15:51:05.889 | WARNING  | __main__:save_segments:48 - [aug_021] No objects detected.
+2025-11-07 15:51:08.388 | WARNING  | __main__:save_segments:48 - [aug_022] No objects detected.
+2025-11-07 15:51:10.996 | INFO     | __main__:save_segments:72 - [aug_023] Detected 1 card(s).
+2025-11-07 15:51:13.660 | INFO     | __main__:save_segments:72 - [aug_024] Detected 3 card(s).
+2025-11-07 15:51:16.309 | INFO     | __main__:save_segments:72 - [aug_025] Detected 1 card(s).
+2025-11-07 15:51:18.806 | WARNING  | __main__:save_segments:48 - [aug_026] No objects detected.
+2025-11-07 15:51:21.457 | INFO     | __main__:save_segments:72 - [aug_027] Detected 4 card(s).
+2025-11-07 15:51:24.117 | INFO     | __main__:save_segments:72 - [aug_028] Detected 2 card(s).
+2025-11-07 15:51:26.613 | WARNING  | __main__:save_segments:48 - [aug_029] No objects detected.
+2025-11-07 15:51:29.113 | WARNING  | __main__:save_segments:48 - [aug_030] No objects detected.
+2025-11-07 15:51:31.612 | WARNING  | __main__:save_segments:48 - [aug_031] No objects detected.
+2025-11-07 15:51:34.271 | INFO     | __main__:save_segments:72 - [aug_032] Detected 2 card(s).
+2025-11-07 15:51:36.872 | INFO     | __main__:save_segments:72 - [aug_033] Detected 1 card(s).
+2025-11-07 15:51:39.373 | WARNING  | __main__:save_segments:48 - [aug_034] No objects detected.
+2025-11-07 15:51:42.010 | INFO     | __main__:save_segments:72 - [aug_035] Detected 1 card(s).
+2025-11-07 15:51:44.515 | WARNING  | __main__:save_segments:48 - [aug_036] No objects detected.
+2025-11-07 15:51:47.142 | INFO     | __main__:save_segments:72 - [aug_037] Detected 1 card(s).
+2025-11-07 15:51:49.779 | INFO     | __main__:save_segments:72 - [aug_038] Detected 1 card(s).
+2025-11-07 15:51:52.278 | WARNING  | __main__:save_segments:48 - [aug_039] No objects detected.
+2025-11-07 15:51:54.906 | INFO     | __main__:save_segments:72 - [aug_040] Detected 2 card(s).
+2025-11-07 15:51:57.556 | INFO     | __main__:save_segments:72 - [aug_041] Detected 1 card(s).
+2025-11-07 15:52:00.193 | INFO     | __main__:save_segments:72 - [aug_042] Detected 1 card(s).
+2025-11-07 15:52:02.698 | WARNING  | __main__:save_segments:48 - [aug_043] No objects detected.
+2025-11-07 15:52:05.195 | WARNING  | __main__:save_segments:48 - [aug_044] No objects detected.
+2025-11-07 15:52:07.857 | INFO     | __main__:save_segments:72 - [aug_045] Detected 4 card(s).
+2025-11-07 15:52:10.505 | INFO     | __main__:save_segments:72 - [aug_046] Detected 1 card(s).
+2025-11-07 15:52:13.136 | WARNING  | __main__:save_segments:48 - [aug_047] No objects detected.
+2025-11-07 15:52:15.871 | INFO     | __main__:save_segments:72 - [aug_048] Detected 4 card(s).
+2025-11-07 15:52:18.540 | INFO     | __main__:save_segments:72 - [aug_049] Detected 2 card(s).
+2025-11-07 15:52:21.210 | INFO     | __main__:save_segments:72 - [aug_050] Detected 2 card(s).
+2025-11-07 15:52:23.711 | WARNING  | __main__:save_segments:48 - [aug_051] No objects detected.
+2025-11-07 15:52:26.314 | INFO     | __main__:save_segments:72 - [aug_052] Detected 1 card(s).
+2025-11-07 15:52:28.822 | WARNING  | __main__:save_segments:48 - [aug_053] No objects detected.
+2025-11-07 15:52:31.494 | INFO     | __main__:save_segments:72 - [aug_054] Detected 2 card(s).
+2025-11-07 15:52:33.999 | WARNING  | __main__:save_segments:48 - [aug_055] No objects detected.
+2025-11-07 15:52:36.494 | WARNING  | __main__:save_segments:48 - [aug_056] No objects detected.
+2025-11-07 15:52:39.144 | INFO     | __main__:save_segments:72 - [aug_057] Detected 1 card(s).
+2025-11-07 15:52:41.790 | INFO     | __main__:save_segments:72 - [aug_058] Detected 1 card(s).
+2025-11-07 15:52:44.429 | INFO     | __main__:save_segments:72 - [aug_059] Detected 1 card(s).
+2025-11-07 15:52:46.940 | WARNING  | __main__:save_segments:48 - [aug_060] No objects detected.
+2025-11-07 15:52:49.438 | WARNING  | __main__:save_segments:48 - [aug_061] No objects detected.
+2025-11-07 15:52:52.078 | INFO     | __main__:save_segments:72 - [aug_062] Detected 2 card(s).
+2025-11-07 15:52:54.766 | INFO     | __main__:save_segments:72 - [aug_063] Detected 2 card(s).
+2025-11-07 15:52:57.394 | INFO     | __main__:save_segments:72 - [aug_064] Detected 1 card(s).
+2025-11-07 15:52:59.979 | INFO     | __main__:save_segments:72 - [aug_065] Detected 1 card(s).
+2025-11-07 15:53:02.617 | INFO     | __main__:save_segments:72 - [aug_066] Detected 4 card(s).
+2025-11-07 15:53:05.126 | WARNING  | __main__:save_segments:48 - [aug_067] No objects detected.
+2025-11-07 15:53:07.750 | INFO     | __main__:save_segments:72 - [aug_068] Detected 2 card(s).
+2025-11-07 15:53:10.260 | WARNING  | __main__:save_segments:48 - [aug_069] No objects detected.
+2025-11-07 15:53:12.759 | WARNING  | __main__:save_segments:48 - [aug_070] No objects detected.
+2025-11-07 15:53:15.396 | INFO     | __main__:save_segments:72 - [aug_071] Detected 2 card(s).
+2025-11-07 15:53:18.036 | INFO     | __main__:save_segments:72 - [aug_072] Detected 1 card(s).
+2025-11-07 15:53:20.730 | INFO     | __main__:save_segments:72 - [aug_073] Detected 3 card(s).
+2025-11-07 15:53:23.381 | INFO     | __main__:save_segments:72 - [aug_074] Detected 1 card(s).
+2025-11-07 15:53:26.028 | INFO     | __main__:save_segments:72 - [aug_075] Detected 1 card(s).
+2025-11-07 15:53:28.534 | WARNING  | __main__:save_segments:48 - [aug_076] No objects detected.
+2025-11-07 15:53:31.158 | INFO     | __main__:save_segments:72 - [aug_077] Detected 1 card(s).
+2025-11-07 15:53:33.818 | INFO     | __main__:save_segments:72 - [aug_078] Detected 1 card(s).
+2025-11-07 15:53:36.323 | WARNING  | __main__:save_segments:48 - [aug_079] No objects detected.
+2025-11-07 15:53:39.016 | INFO     | __main__:save_segments:72 - [aug_080] Detected 4 card(s).
+2025-11-07 15:53:41.680 | INFO     | __main__:save_segments:72 - [aug_081] Detected 1 card(s).
+2025-11-07 15:53:44.330 | INFO     | __main__:save_segments:72 - [aug_082] Detected 1 card(s).
+2025-11-07 15:53:47.029 | INFO     | __main__:save_segments:72 - [aug_083] Detected 3 card(s).
+2025-11-07 15:53:49.613 | INFO     | __main__:save_segments:72 - [aug_084] Detected 1 card(s).
+2025-11-07 15:53:52.272 | INFO     | __main__:save_segments:72 - [aug_085] Detected 1 card(s).
+2025-11-07 15:53:54.784 | WARNING  | __main__:save_segments:48 - [aug_086] No objects detected.
+2025-11-07 15:53:57.291 | WARNING  | __main__:save_segments:48 - [aug_087] No objects detected.
+2025-11-07 15:53:59.801 | WARNING  | __main__:save_segments:48 - [aug_088] No objects detected.
+2025-11-07 15:54:02.687 | INFO     | __main__:save_segments:72 - [aug_089] Detected 7 card(s).
+2025-11-07 15:54:05.194 | WARNING  | __main__:save_segments:48 - [aug_090] No objects detected.
+2025-11-07 15:54:07.689 | WARNING  | __main__:save_segments:48 - [aug_091] No objects detected.
+2025-11-07 15:54:10.288 | INFO     | __main__:save_segments:72 - [aug_092] Detected 1 card(s).
+2025-11-07 15:54:12.884 | INFO     | __main__:save_segments:72 - [aug_093] Detected 2 card(s).
+2025-11-07 15:54:15.389 | WARNING  | __main__:save_segments:48 - [aug_094] No objects detected.
+2025-11-07 15:54:18.034 | INFO     | __main__:save_segments:72 - [aug_095] Detected 2 card(s).
+2025-11-07 15:54:20.552 | WARNING  | __main__:save_segments:48 - [aug_096] No objects detected.
+2025-11-07 15:54:23.062 | WARNING  | __main__:save_segments:48 - [aug_097] No objects detected.
+2025-11-07 15:54:25.718 | INFO     | __main__:save_segments:72 - [aug_098] Detected 1 card(s).
+2025-11-07 15:54:28.353 | INFO     | __main__:save_segments:72 - [aug_099] Detected 2 card(s).
+2025-11-07 15:54:28.353 | INFO     | __main__:main:97 - ✅ Total detected cards: 123
+2025-11-07 16:08:28.487 | INFO     | __main__:main:101 - Found 100 images in /data/dydtkddhkdwk/20251107_NameCard/01_Background/output
+2025-11-07 16:08:31.418 | WARNING  | __main__:save_segments:46 - [aug_000] No objects detected.
+2025-11-07 16:08:34.393 | INFO     | __main__:save_segments:95 - [aug_001] Detected 1 card-like objects.
+2025-11-07 16:08:37.171 | INFO     | __main__:save_segments:95 - [aug_002] Detected 1 card-like objects.
+2025-11-07 16:08:39.832 | INFO     | __main__:save_segments:95 - [aug_003] Detected 2 card-like objects.
+2025-11-07 16:08:42.472 | INFO     | __main__:save_segments:95 - [aug_004] Detected 2 card-like objects.
+2025-11-07 16:08:45.162 | INFO     | __main__:save_segments:95 - [aug_005] Detected 3 card-like objects.
+2025-11-07 16:08:47.788 | INFO     | __main__:save_segments:95 - [aug_006] Detected 1 card-like objects.
+2025-11-07 16:08:50.414 | INFO     | __main__:save_segments:95 - [aug_007] Detected 1 card-like objects.
+2025-11-07 16:08:52.921 | WARNING  | __main__:save_segments:46 - [aug_008] No objects detected.
+2025-11-07 16:08:55.565 | INFO     | __main__:save_segments:95 - [aug_009] Detected 1 card-like objects.
+2025-11-07 16:08:58.209 | INFO     | __main__:save_segments:95 - [aug_010] Detected 2 card-like objects.
+2025-11-07 16:09:00.825 | INFO     | __main__:save_segments:95 - [aug_011] Detected 2 card-like objects.
+2025-11-07 16:09:03.469 | INFO     | __main__:save_segments:95 - [aug_012] Detected 1 card-like objects.
+2025-11-07 16:09:06.120 | INFO     | __main__:save_segments:95 - [aug_013] Detected 2 card-like objects.
+2025-11-07 16:09:08.637 | WARNING  | __main__:save_segments:46 - [aug_014] No objects detected.
+2025-11-07 16:09:11.302 | INFO     | __main__:save_segments:95 - [aug_015] Detected 2 card-like objects.
+2025-11-07 16:09:13.979 | INFO     | __main__:save_segments:95 - [aug_016] Detected 1 card-like objects.
+2025-11-07 16:09:16.492 | WARNING  | __main__:save_segments:46 - [aug_017] No objects detected.
+2025-11-07 16:10:22.087 | INFO     | __main__:main:101 - Found 100 images in /data/dydtkddhkdwk/20251107_NameCard/01_Background/output
+2025-11-07 16:10:25.230 | WARNING  | __main__:save_segments:46 - [aug_000] No objects detected.
+2025-11-07 16:10:27.962 | INFO     | __main__:save_segments:95 - [aug_001] Detected 1 card-like objects.
+2025-11-07 16:10:31.537 | INFO     | __main__:save_segments:95 - [aug_002] Detected 1 card-like objects.
+2025-11-07 16:10:34.260 | INFO     | __main__:save_segments:95 - [aug_003] Detected 2 card-like objects.
+2025-11-07 16:10:36.966 | INFO     | __main__:save_segments:95 - [aug_004] Detected 2 card-like objects.
+2025-11-07 16:10:39.713 | INFO     | __main__:save_segments:95 - [aug_005] Detected 3 card-like objects.
+2025-11-07 16:10:42.420 | INFO     | __main__:save_segments:95 - [aug_006] Detected 1 card-like objects.
+2025-11-07 16:10:45.123 | INFO     | __main__:save_segments:95 - [aug_007] Detected 1 card-like objects.
+2025-11-07 16:10:47.694 | WARNING  | __main__:save_segments:46 - [aug_008] No objects detected.
+2025-11-07 16:10:50.401 | INFO     | __main__:save_segments:95 - [aug_009] Detected 1 card-like objects.
+2025-11-07 16:10:53.113 | INFO     | __main__:save_segments:95 - [aug_010] Detected 2 card-like objects.
+2025-11-07 16:10:55.838 | INFO     | __main__:save_segments:95 - [aug_011] Detected 2 card-like objects.
+2025-11-07 16:10:58.559 | INFO     | __main__:save_segments:95 - [aug_012] Detected 1 card-like objects.
+2025-11-07 16:11:01.279 | INFO     | __main__:save_segments:95 - [aug_013] Detected 2 card-like objects.
+2025-11-07 16:11:03.847 | WARNING  | __main__:save_segments:46 - [aug_014] No objects detected.
+2025-11-07 16:11:06.586 | INFO     | __main__:save_segments:95 - [aug_015] Detected 2 card-like objects.
+2025-11-07 16:11:09.267 | INFO     | __main__:save_segments:95 - [aug_016] Detected 1 card-like objects.
+2025-11-07 16:11:11.844 | WARNING  | __main__:save_segments:46 - [aug_017] No objects detected.
+2025-11-07 16:11:14.500 | INFO     | __main__:save_segments:95 - [aug_018] Detected 2 card-like objects.
+2025-11-07 16:11:17.064 | WARNING  | __main__:save_segments:46 - [aug_019] No objects detected.
+2025-11-07 16:11:19.796 | INFO     | __main__:save_segments:95 - [aug_020] Detected 2 card-like objects.
+2025-11-07 16:11:22.369 | WARNING  | __main__:save_segments:46 - [aug_021] No objects detected.
+2025-11-07 16:11:24.939 | WARNING  | __main__:save_segments:46 - [aug_022] No objects detected.
+2025-11-07 16:11:27.600 | INFO     | __main__:save_segments:95 - [aug_023] Detected 1 card-like objects.
+2025-11-07 16:11:30.319 | INFO     | __main__:save_segments:95 - [aug_024] Detected 3 card-like objects.
+2025-11-07 16:11:33.045 | INFO     | __main__:save_segments:95 - [aug_025] Detected 1 card-like objects.
+2025-11-07 16:11:35.628 | WARNING  | __main__:save_segments:46 - [aug_026] No objects detected.
+2025-11-07 16:11:38.386 | INFO     | __main__:save_segments:95 - [aug_027] Detected 4 card-like objects.
+2025-11-07 16:11:41.114 | INFO     | __main__:save_segments:95 - [aug_028] Detected 2 card-like objects.
+2025-11-07 16:11:43.685 | WARNING  | __main__:save_segments:46 - [aug_029] No objects detected.
+2025-11-07 16:11:46.257 | WARNING  | __main__:save_segments:46 - [aug_030] No objects detected.
+2025-11-07 16:11:48.831 | WARNING  | __main__:save_segments:46 - [aug_031] No objects detected.
+2025-11-07 16:11:51.552 | INFO     | __main__:save_segments:95 - [aug_032] Detected 1 card-like objects.
+2025-11-07 16:11:54.212 | INFO     | __main__:save_segments:95 - [aug_033] Detected 1 card-like objects.
+2025-11-07 16:11:56.783 | WARNING  | __main__:save_segments:46 - [aug_034] No objects detected.
+2025-11-07 16:11:59.481 | INFO     | __main__:save_segments:95 - [aug_035] Detected 1 card-like objects.
+2025-11-07 16:12:02.062 | WARNING  | __main__:save_segments:46 - [aug_036] No objects detected.
+2025-11-07 16:12:04.763 | INFO     | __main__:save_segments:95 - [aug_037] Detected 1 card-like objects.
+2025-11-07 16:12:07.491 | INFO     | __main__:save_segments:95 - [aug_038] Detected 1 card-like objects.
+2025-11-07 16:12:10.059 | WARNING  | __main__:save_segments:46 - [aug_039] No objects detected.
+2025-11-07 16:12:12.764 | INFO     | __main__:save_segments:95 - [aug_040] Detected 2 card-like objects.
+2025-11-07 16:12:15.487 | INFO     | __main__:save_segments:95 - [aug_041] Detected 1 card-like objects.
+2025-11-07 16:12:18.190 | INFO     | __main__:save_segments:95 - [aug_042] Detected 1 card-like objects.
+2025-11-07 16:12:20.792 | WARNING  | __main__:save_segments:46 - [aug_043] No objects detected.
+2025-11-07 16:12:23.363 | WARNING  | __main__:save_segments:46 - [aug_044] No objects detected.
+2025-11-07 16:12:26.032 | INFO     | __main__:save_segments:95 - [aug_045] Detected 2 card-like objects.
+2025-11-07 16:12:28.752 | INFO     | __main__:save_segments:95 - [aug_046] Detected 1 card-like objects.
+2025-11-07 16:12:31.326 | WARNING  | __main__:save_segments:46 - [aug_047] No objects detected.
+2025-11-07 16:12:34.019 | INFO     | __main__:save_segments:95 - [aug_048] Detected 2 card-like objects.
+2025-11-07 16:12:36.732 | INFO     | __main__:save_segments:95 - [aug_049] Detected 1 card-like objects.
+2025-11-07 16:12:39.453 | INFO     | __main__:save_segments:95 - [aug_050] Detected 2 card-like objects.
+2025-11-07 16:12:42.032 | WARNING  | __main__:save_segments:46 - [aug_051] No objects detected.
+2025-11-07 16:12:44.687 | INFO     | __main__:save_segments:95 - [aug_052] Detected 1 card-like objects.
+2025-11-07 16:12:47.265 | WARNING  | __main__:save_segments:46 - [aug_053] No objects detected.
+2025-11-07 16:12:49.985 | INFO     | __main__:save_segments:95 - [aug_054] Detected 2 card-like objects.
+2025-11-07 16:12:52.564 | WARNING  | __main__:save_segments:46 - [aug_055] No objects detected.
+2025-11-07 16:12:55.132 | WARNING  | __main__:save_segments:46 - [aug_056] No objects detected.
+2025-11-07 16:12:57.848 | INFO     | __main__:save_segments:95 - [aug_057] Detected 1 card-like objects.
+2025-11-07 16:13:00.572 | INFO     | __main__:save_segments:95 - [aug_058] Detected 1 card-like objects.
+2025-11-07 16:13:03.315 | INFO     | __main__:save_segments:95 - [aug_059] Detected 1 card-like objects.
+2025-11-07 16:13:05.894 | WARNING  | __main__:save_segments:46 - [aug_060] No objects detected.
+2025-11-07 16:13:08.467 | WARNING  | __main__:save_segments:46 - [aug_061] No objects detected.

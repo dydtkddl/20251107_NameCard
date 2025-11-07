@@ -1,0 +1,64 @@
+2025-11-07 16:10:22.087 | INFO     | __main__:main:101 - Found 100 images in /data/dydtkddhkdwk/20251107_NameCard/01_Background/output
+🔍 YOLOv8-Seg Detection:   0%|          | 0/100 [00:00<?, ?it/s]2025-11-07 16:10:25.230 | WARNING  | __main__:save_segments:46 - [aug_000] No objects detected.
+🔍 YOLOv8-Seg Detection:   1%|          | 1/100 [00:03<05:10,  3.14s/it]2025-11-07 16:10:27.962 | INFO     | __main__:save_segments:95 - [aug_001] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:   2%|▏         | 2/100 [00:05<04:44,  2.90s/it]2025-11-07 16:10:31.537 | INFO     | __main__:save_segments:95 - [aug_002] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:   3%|▎         | 3/100 [00:09<05:11,  3.21s/it]2025-11-07 16:10:34.260 | INFO     | __main__:save_segments:95 - [aug_003] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:   4%|▍         | 4/100 [00:12<04:49,  3.02s/it]2025-11-07 16:10:36.966 | INFO     | __main__:save_segments:95 - [aug_004] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:   5%|▌         | 5/100 [00:14<04:35,  2.90s/it]2025-11-07 16:10:39.713 | INFO     | __main__:save_segments:95 - [aug_005] Detected 3 card-like objects.
+🔍 YOLOv8-Seg Detection:   6%|▌         | 6/100 [00:17<04:27,  2.85s/it]2025-11-07 16:10:42.420 | INFO     | __main__:save_segments:95 - [aug_006] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:   7%|▋         | 7/100 [00:20<04:20,  2.80s/it]2025-11-07 16:10:45.123 | INFO     | __main__:save_segments:95 - [aug_007] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:   8%|▊         | 8/100 [00:23<04:15,  2.77s/it]2025-11-07 16:10:47.694 | WARNING  | __main__:save_segments:46 - [aug_008] No objects detected.
+🔍 YOLOv8-Seg Detection:   9%|▉         | 9/100 [00:25<04:06,  2.71s/it]2025-11-07 16:10:50.401 | INFO     | __main__:save_segments:95 - [aug_009] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  10%|█         | 10/100 [00:28<04:03,  2.71s/it]2025-11-07 16:10:53.113 | INFO     | __main__:save_segments:95 - [aug_010] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  11%|█         | 11/100 [00:31<04:01,  2.71s/it]2025-11-07 16:10:55.838 | INFO     | __main__:save_segments:95 - [aug_011] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  12%|█▏        | 12/100 [00:33<03:58,  2.71s/it]2025-11-07 16:10:58.559 | INFO     | __main__:save_segments:95 - [aug_012] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  13%|█▎        | 13/100 [00:36<03:56,  2.72s/it]2025-11-07 16:11:01.279 | INFO     | __main__:save_segments:95 - [aug_013] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  14%|█▍        | 14/100 [00:39<03:53,  2.72s/it]2025-11-07 16:11:03.847 | WARNING  | __main__:save_segments:46 - [aug_014] No objects detected.
+🔍 YOLOv8-Seg Detection:  15%|█▌        | 15/100 [00:41<03:47,  2.67s/it]2025-11-07 16:11:06.586 | INFO     | __main__:save_segments:95 - [aug_015] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  16%|█▌        | 16/100 [00:44<03:46,  2.69s/it]2025-11-07 16:11:09.267 | INFO     | __main__:save_segments:95 - [aug_016] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  17%|█▋        | 17/100 [00:47<03:43,  2.69s/it]2025-11-07 16:11:11.844 | WARNING  | __main__:save_segments:46 - [aug_017] No objects detected.
+🔍 YOLOv8-Seg Detection:  18%|█▊        | 18/100 [00:49<03:37,  2.66s/it]2025-11-07 16:11:14.500 | INFO     | __main__:save_segments:95 - [aug_018] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  19%|█▉        | 19/100 [00:52<03:35,  2.66s/it]2025-11-07 16:11:17.064 | WARNING  | __main__:save_segments:46 - [aug_019] No objects detected.
+🔍 YOLOv8-Seg Detection:  20%|██        | 20/100 [00:54<03:30,  2.63s/it]2025-11-07 16:11:19.796 | INFO     | __main__:save_segments:95 - [aug_020] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  21%|██        | 21/100 [00:57<03:30,  2.66s/it]2025-11-07 16:11:22.369 | WARNING  | __main__:save_segments:46 - [aug_021] No objects detected.
+🔍 YOLOv8-Seg Detection:  22%|██▏       | 22/100 [01:00<03:25,  2.63s/it]2025-11-07 16:11:24.939 | WARNING  | __main__:save_segments:46 - [aug_022] No objects detected.
+🔍 YOLOv8-Seg Detection:  23%|██▎       | 23/100 [01:02<03:21,  2.61s/it]2025-11-07 16:11:27.600 | INFO     | __main__:save_segments:95 - [aug_023] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  24%|██▍       | 24/100 [01:05<03:19,  2.63s/it]2025-11-07 16:11:30.319 | INFO     | __main__:save_segments:95 - [aug_024] Detected 3 card-like objects.
+🔍 YOLOv8-Seg Detection:  25%|██▌       | 25/100 [01:08<03:19,  2.66s/it]2025-11-07 16:11:33.045 | INFO     | __main__:save_segments:95 - [aug_025] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  26%|██▌       | 26/100 [01:10<03:18,  2.68s/it]2025-11-07 16:11:35.628 | WARNING  | __main__:save_segments:46 - [aug_026] No objects detected.
+🔍 YOLOv8-Seg Detection:  27%|██▋       | 27/100 [01:13<03:13,  2.65s/it]2025-11-07 16:11:38.386 | INFO     | __main__:save_segments:95 - [aug_027] Detected 4 card-like objects.
+🔍 YOLOv8-Seg Detection:  28%|██▊       | 28/100 [01:16<03:13,  2.68s/it]2025-11-07 16:11:41.114 | INFO     | __main__:save_segments:95 - [aug_028] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  29%|██▉       | 29/100 [01:19<03:11,  2.70s/it]2025-11-07 16:11:43.685 | WARNING  | __main__:save_segments:46 - [aug_029] No objects detected.
+🔍 YOLOv8-Seg Detection:  30%|███       | 30/100 [01:21<03:06,  2.66s/it]2025-11-07 16:11:46.257 | WARNING  | __main__:save_segments:46 - [aug_030] No objects detected.
+🔍 YOLOv8-Seg Detection:  31%|███       | 31/100 [01:24<03:01,  2.63s/it]2025-11-07 16:11:48.831 | WARNING  | __main__:save_segments:46 - [aug_031] No objects detected.
+🔍 YOLOv8-Seg Detection:  32%|███▏      | 32/100 [01:26<02:57,  2.61s/it]2025-11-07 16:11:51.552 | INFO     | __main__:save_segments:95 - [aug_032] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  33%|███▎      | 33/100 [01:29<02:57,  2.65s/it]2025-11-07 16:11:54.212 | INFO     | __main__:save_segments:95 - [aug_033] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  34%|███▍      | 34/100 [01:32<02:54,  2.65s/it]2025-11-07 16:11:56.783 | WARNING  | __main__:save_segments:46 - [aug_034] No objects detected.
+🔍 YOLOv8-Seg Detection:  35%|███▌      | 35/100 [01:34<02:50,  2.63s/it]2025-11-07 16:11:59.481 | INFO     | __main__:save_segments:95 - [aug_035] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  36%|███▌      | 36/100 [01:37<02:49,  2.65s/it]2025-11-07 16:12:02.062 | WARNING  | __main__:save_segments:46 - [aug_036] No objects detected.
+🔍 YOLOv8-Seg Detection:  37%|███▋      | 37/100 [01:39<02:45,  2.63s/it]2025-11-07 16:12:04.763 | INFO     | __main__:save_segments:95 - [aug_037] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  38%|███▊      | 38/100 [01:42<02:44,  2.65s/it]2025-11-07 16:12:07.491 | INFO     | __main__:save_segments:95 - [aug_038] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  39%|███▉      | 39/100 [01:45<02:43,  2.67s/it]2025-11-07 16:12:10.059 | WARNING  | __main__:save_segments:46 - [aug_039] No objects detected.
+🔍 YOLOv8-Seg Detection:  40%|████      | 40/100 [01:47<02:38,  2.64s/it]2025-11-07 16:12:12.764 | INFO     | __main__:save_segments:95 - [aug_040] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  41%|████      | 41/100 [01:50<02:36,  2.66s/it]2025-11-07 16:12:15.487 | INFO     | __main__:save_segments:95 - [aug_041] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  42%|████▏     | 42/100 [01:53<02:35,  2.68s/it]2025-11-07 16:12:18.190 | INFO     | __main__:save_segments:95 - [aug_042] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  43%|████▎     | 43/100 [01:56<02:33,  2.69s/it]2025-11-07 16:12:20.792 | WARNING  | __main__:save_segments:46 - [aug_043] No objects detected.
+🔍 YOLOv8-Seg Detection:  44%|████▍     | 44/100 [01:58<02:29,  2.66s/it]2025-11-07 16:12:23.363 | WARNING  | __main__:save_segments:46 - [aug_044] No objects detected.
+🔍 YOLOv8-Seg Detection:  45%|████▌     | 45/100 [02:01<02:24,  2.63s/it]2025-11-07 16:12:26.032 | INFO     | __main__:save_segments:95 - [aug_045] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  46%|████▌     | 46/100 [02:03<02:22,  2.64s/it]2025-11-07 16:12:28.752 | INFO     | __main__:save_segments:95 - [aug_046] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  47%|████▋     | 47/100 [02:06<02:21,  2.67s/it]2025-11-07 16:12:31.326 | WARNING  | __main__:save_segments:46 - [aug_047] No objects detected.
+🔍 YOLOv8-Seg Detection:  48%|████▊     | 48/100 [02:09<02:17,  2.64s/it]2025-11-07 16:12:34.019 | INFO     | __main__:save_segments:95 - [aug_048] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  49%|████▉     | 49/100 [02:11<02:15,  2.66s/it]2025-11-07 16:12:36.732 | INFO     | __main__:save_segments:95 - [aug_049] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  50%|█████     | 50/100 [02:14<02:13,  2.67s/it]2025-11-07 16:12:39.453 | INFO     | __main__:save_segments:95 - [aug_050] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  51%|█████     | 51/100 [02:17<02:11,  2.69s/it]2025-11-07 16:12:42.032 | WARNING  | __main__:save_segments:46 - [aug_051] No objects detected.
+🔍 YOLOv8-Seg Detection:  52%|█████▏    | 52/100 [02:19<02:07,  2.65s/it]2025-11-07 16:12:44.687 | INFO     | __main__:save_segments:95 - [aug_052] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  53%|█████▎    | 53/100 [02:22<02:04,  2.65s/it]2025-11-07 16:12:47.265 | WARNING  | __main__:save_segments:46 - [aug_053] No objects detected.
+🔍 YOLOv8-Seg Detection:  54%|█████▍    | 54/100 [02:25<02:01,  2.63s/it]2025-11-07 16:12:49.985 | INFO     | __main__:save_segments:95 - [aug_054] Detected 2 card-like objects.
+🔍 YOLOv8-Seg Detection:  55%|█████▌    | 55/100 [02:27<01:59,  2.66s/it]2025-11-07 16:12:52.564 | WARNING  | __main__:save_segments:46 - [aug_055] No objects detected.
+🔍 YOLOv8-Seg Detection:  56%|█████▌    | 56/100 [02:30<01:55,  2.63s/it]2025-11-07 16:12:55.132 | WARNING  | __main__:save_segments:46 - [aug_056] No objects detected.
+🔍 YOLOv8-Seg Detection:  57%|█████▋    | 57/100 [02:33<01:52,  2.61s/it]2025-11-07 16:12:57.848 | INFO     | __main__:save_segments:95 - [aug_057] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  58%|█████▊    | 58/100 [02:35<01:51,  2.65s/it]2025-11-07 16:13:00.572 | INFO     | __main__:save_segments:95 - [aug_058] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  59%|█████▉    | 59/100 [02:38<01:49,  2.67s/it]2025-11-07 16:13:03.315 | INFO     | __main__:save_segments:95 - [aug_059] Detected 1 card-like objects.
+🔍 YOLOv8-Seg Detection:  60%|██████    | 60/100 [02:41<01:47,  2.69s/it]2025-11-07 16:13:05.894 | WARNING  | __main__:save_segments:46 - [aug_060] No objects detected.
+🔍 YOLOv8-Seg Detection:  61%|██████    | 61/100 [02:43<01:43,  2.66s/it]2025-11-07 16:13:08.467 | WARNING  | __main__:save_segments:46 - [aug_061] No objects detected.
+🔍 YOLOv8-Seg Detection:  62%|██████▏   | 62/100 [02:46<01:40,  2.63s/it]
