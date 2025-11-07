@@ -1,9 +1,8 @@
-
 # -*- coding: utf-8 -*-
 """
 engine.py
 ───────────────────────────────────────────────
-명함 + 배경 합성 엔진 (기울기 여백 자동 제거, 색상 유지, 비겹침)
+명함 + 배경 합성 엔진 (회전 시 원래 배경 유지, 비겹침, 색상 보존)
 ───────────────────────────────────────────────
 """
 
@@ -16,7 +15,6 @@ from loguru import logger
 import albumentations as A
 
 # ───────────────────────────────────────────────
-# 경로 설정
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(BASE_DIR)
 CARD_DIR = os.path.join(ROOT_DIR, "00_IMGS/NameCards")
@@ -29,10 +27,10 @@ os.makedirs(LOG_DIR, exist_ok=True)
 logger.add(os.path.join(LOG_DIR, "augment.log"), level="INFO")
 
 # ───────────────────────────────────────────────
-# 기하학적 변환 (색조 보존)
+# 회전/기울기 변환: 검정 채움 제거 (알파마스크 활용)
 geom_aug = A.Compose([
-    A.SafeRotate(limit=12, border_mode=cv2.BORDER_CONSTANT, p=1.0),
-    A.Perspective(scale=(0.02, 0.05), fit_output=True, p=1.0)
+    A.SafeRotate(limit=12, border_mode=cv2.BORDER_CONSTANT, value=(0, 0, 0), p=1.0),
+    A.Perspective(scale=(0.02, 0.05), fit_output=True, pad_val=(0, 0, 0), p=1.0)
 ])
 
 # ───────────────────────────────────────────────
@@ -50,7 +48,6 @@ def load_images(folder):
 
 # ───────────────────────────────────────────────
 def resize_and_crop_center(img, target_size=(1920, 1080)):
-    """배경을 1920×1080으로 중앙 crop"""
     h, w, _ = img.shape
     tw, th = target_size
     scale = max(tw / w, th / h)
@@ -61,19 +58,6 @@ def resize_and_crop_center(img, target_size=(1920, 1080)):
     return resized[y0:y0 + th, x0:x0 + tw]
 
 # ───────────────────────────────────────────────
-def trim_black_border(img, threshold=10):
-    """회전 후 검정 여백 제거"""
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    mask = gray > threshold
-    coords = np.argwhere(mask)
-    if coords.size == 0:
-        return img
-    y0, x0 = coords.min(axis=0)
-    y1, x1 = coords.max(axis=0) + 1
-    cropped = img[y0:y1, x0:x1]
-    return cropped
-
-# ───────────────────────────────────────────────
 def check_overlap(x, y, w, h, placed_boxes):
     for (px, py, pw, ph) in placed_boxes:
         if not (x + w < px or px + pw < x or y + h < py or py + ph < y):
@@ -82,7 +66,7 @@ def check_overlap(x, y, w, h, placed_boxes):
 
 # ───────────────────────────────────────────────
 def random_paste(bg, cards, n_cards):
-    """명함을 겹치지 않게 자연스럽게 배경에 합성"""
+    """명함 회전 후 생긴 여백은 투명처리하고 배경 유지"""
     canvas = bg.copy()
     h_bg, w_bg, _ = bg.shape
     placed_boxes = []
@@ -90,29 +74,38 @@ def random_paste(bg, cards, n_cards):
     for _ in range(n_cards):
         card = random.choice(cards)
 
-        # 명함 크기 조절
+        # 크기 조정 (배경 폭 대비 25~35%)
         scale = random.uniform(0.25, 0.35)
         target_w = int(w_bg * scale)
         ratio = target_w / card.shape[1]
         target_h = int(card.shape[0] * ratio)
         card = cv2.resize(card, (target_w, target_h))
 
-        # 회전/기울기 적용
-        card = geom_aug(image=card)["image"]
+        # 회전 + 기울이기
+        aug_card = geom_aug(image=card)["image"]
 
-        # 검정 여백 제거
-        card = trim_black_border(card)
+        # 검정 여백 부분을 mask로 추출
+        gray = cv2.cvtColor(aug_card, cv2.COLOR_BGR2GRAY)
+        mask = (gray > 15).astype(np.uint8) * 255  # 명함 영역만 255
+        bbox = cv2.boundingRect(mask)
+        x0, y0, w, h = bbox
+        aug_card = aug_card[y0:y0 + h, x0:x0 + w]
+        mask = mask[y0:y0 + h, x0:x0 + w]
 
-        # 위치 선정 (비겹침)
+        # 배경에 비겹침 위치 선정
         for _ in range(50):
-            x = random.randint(0, max(1, w_bg - card.shape[1]))
-            y = random.randint(0, max(1, h_bg - card.shape[0]))
-            if not check_overlap(x, y, card.shape[1], card.shape[0], placed_boxes):
-                placed_boxes.append((x, y, card.shape[1], card.shape[0]))
+            x = random.randint(0, max(1, w_bg - w))
+            y = random.randint(0, max(1, h_bg - h))
+            if not check_overlap(x, y, w, h, placed_boxes):
+                placed_boxes.append((x, y, w, h))
                 break
 
-        # 합성 (단순 복사, Blur 없음)
-        canvas[y:y + card.shape[0], x:x + card.shape[1]] = card
+        # 명함 영역만 배경에 합성 (여백은 투명)
+        roi = canvas[y:y + h, x:x + w]
+        mask3 = cv2.merge([mask, mask, mask])
+        inv_mask = 255 - mask3
+        blended = cv2.add(cv2.bitwise_and(roi, inv_mask), cv2.bitwise_and(aug_card, mask3))
+        canvas[y:y + h, x:x + w] = blended
 
     return canvas
 
@@ -120,7 +113,6 @@ def random_paste(bg, cards, n_cards):
 def main(num_images=50):
     cards = load_images(CARD_DIR)
     bgs = load_images(BG_DIR)
-
     if not cards:
         logger.error(f"❌ No cards found in {CARD_DIR}")
         return
@@ -134,7 +126,6 @@ def main(num_images=50):
         bg = resize_and_crop_center(random.choice(bgs), (1920, 1080))
         n_cards = random.randint(2, min(4, len(cards)))
         result = random_paste(bg, cards, n_cards)
-
         out_path = os.path.join(OUT_DIR, f"aug_{i:03d}.png")
         cv2.imwrite(out_path, result)
         logger.info(f"[{i+1}/{num_images}] {out_path} | cards={n_cards}")
@@ -144,4 +135,3 @@ def main(num_images=50):
 # ───────────────────────────────────────────────
 if __name__ == "__main__":
     main(num_images=100)
-
