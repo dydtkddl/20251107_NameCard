@@ -1,0 +1,7 @@
+
+stanford 비즈니스카드
+https://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/stanford/mvs_images/
+https://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/stanford/mvs_images/business_cards.html
+
+캐글 비즈니스카드
+https://www.kaggle.com/datasets/nehakoppikar/business-cards-images?resource=download
