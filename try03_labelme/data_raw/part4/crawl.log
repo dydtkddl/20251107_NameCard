@@ -1,0 +1,73 @@
+2025-11-08 17:38:54,285 | INFO | 🚀 Start crawling query='business card korea', limit=200
+2025-11-08 17:38:54,286 | INFO | start crawling...
+2025-11-08 17:38:54,286 | INFO | starting 1 feeder threads...
+2025-11-08 17:38:54,286 | INFO | thread feeder-001 exit
+2025-11-08 17:38:54,286 | INFO | starting 1 parser threads...
+2025-11-08 17:38:54,286 | INFO | starting 1 downloader threads...
+2025-11-08 17:38:55,510 | INFO | parsing result page https://www.google.com/search?q=business+card+korea&ijn=0&start=0&tbs=&tbm=isch
+2025-11-08 17:38:56,555 | INFO | image #1	https://www.asianbusinesscards.com/wp-content/uploads/2019/03/korean-business-card-translation-samples-gm-445-kor.jpg
+2025-11-08 17:38:58,380 | INFO | image #2	https://blogs.transparent.com/korean/wp-content/uploads/sites/8/2017/10/Note-on-Business-Cards-Etiquette-in-South-Korea.-.png
+2025-11-08 17:38:58,835 | INFO | image #3	https://s3-ap-northeast-2.amazonaws.com/redprintingweb.common/meta/20190923183353_1.jpg
+2025-11-08 17:38:58,932 | INFO | image #4	https://img.freepik.com/premium-vector/south-korea-flag-business-card-standard-size-90x50-mm-business-card-template_292608-10519.jpg
+2025-11-08 17:39:00,993 | INFO | image #5	https://www.japanprint.com/wp-content/uploads/2013/12/korean-business-cards.png
+2025-11-08 17:39:01,180 | INFO | image #6	https://www.asianbusinesscards.com/wp-content/uploads/2019/03/korean-business-card-translation-samples-src-445-kor.jpg
+2025-11-08 17:39:01,368 | INFO | image #7	https://dcassetcdn.com/design_img/3515656/110105/110105_19268561_3515656_54c75db6_thumbnail.png
+2025-11-08 17:39:02,576 | INFO | image #8	https://aaronsnowberger.com/wp-content/uploads/2015/04/discover-korea-business-cards.png
+2025-11-08 17:39:02,730 | INFO | image #9	https://s3-ap-northeast-2.amazonaws.com/redprintingweb.common/assets/images/en/landing/namecard_01_3.jpg
+2025-11-08 17:39:02,733 | ERROR | Exception caught when downloading file https://png, error: HTTPSConnectionPool(host='png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa9b257b0d0>: Failed to resolve 'png' ([Errno -3] Temporary failure in name resolution)")), remaining retry times: 2
+2025-11-08 17:39:02,733 | ERROR | Exception caught when downloading file https://png, error: HTTPSConnectionPool(host='png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa9b1ff3970>: Failed to resolve 'png' ([Errno -3] Temporary failure in name resolution)")), remaining retry times: 1
+2025-11-08 17:39:02,734 | ERROR | Exception caught when downloading file https://png, error: HTTPSConnectionPool(host='png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa9b1ff3550>: Failed to resolve 'png' ([Errno -3] Temporary failure in name resolution)")), remaining retry times: 0
+2025-11-08 17:39:04,124 | INFO | image #10	https://img.lovepik.com/free-template/20231120/lovepik-korean-minimalist-business-card-template-image_8824766_detail.jpg
+2025-11-08 17:39:04,315 | INFO | image #11	https://www.asianbusinesscards.com/wp-content/uploads/2019/03/korean-business-card-translation-samples-staas-445-kor.jpg
+2025-11-08 17:39:05,970 | INFO | image #12	https://www.asianbusinesscards.com/wp-content/uploads/2019/03/korean-business-card-translation-samples-blk-445-kor.jpg
+2025-11-08 17:39:07,314 | INFO | image #13	https://d1qrzs23hpns6w.cloudfront.net/f/84976/862x450/7887a98869/translate-a-business-card-into-korean-og.jpg
+2025-11-08 17:39:10,182 | INFO | image #14	https://img.freepik.com/free-psd/korean-restaurant-business-card-template_23-2150025623.jpg
+2025-11-08 17:39:10,366 | INFO | image #15	https://www.asianbusinesscards.com/wp-content/uploads/2019/03/korean-business-card-translation-samples-dexcom-445-kor.jpg
+2025-11-08 17:39:10,400 | INFO | image #16	https://dcassetcdn.com/design_img/3515656/728537/728537_19302435_3515656_b307e91d_thumbnail.png
+2025-11-08 17:39:10,599 | INFO | image #17	https://images.squarespace-cdn.com/content/v1/6230b858a4f79b0527239263/fc5c9100-c9e4-4870-bae8-f0e71b3d7861/korean+business+card.png
+2025-11-08 17:39:11,416 | INFO | image #18	https://img.pikbest.com/58pic/22/68/74/70258PIC7B1BGbuI1pH2f_PIC2018.jpg
+2025-11-08 17:39:11,599 | INFO | image #19	https://www.asianbusinesscards.com/wp-content/uploads/2019/03/korean-business-card-translation-samples-gm-445-eng.jpg
+2025-11-08 17:39:12,029 | INFO | image #20	https://rlv.zcache.com/south_korean_flag_flag_of_south_korea_business_card-r749b47ad8d6f4aa5bc05e3127ed49559_tcvcr_306.jpg
+2025-11-08 17:39:12,084 | INFO | image #21	https://d1qrzs23hpns6w.cloudfront.net/filters:format(webp)/f/84976/450x450/cd8a770593/translate-a-business-card-into-korean-index.jpg
+2025-11-08 17:39:13,706 | INFO | image #22	https://img.freepik.com/free-psd/korean-skincare-cosmetics-horizontal-business-card-template_23-2150025651.jpg
+2025-11-08 17:39:16,059 | INFO | image #23	https://img.freepik.com/free-psd/traditional-korean-restaurant-horizontal-business-card-template_23-2150061263.jpg
+2025-11-08 17:39:16,257 | INFO | image #24	https://cdn.imweb.me/thumbnail/20230131/62e41b4ed9270.jpg
+2025-11-08 17:39:16,636 | INFO | image #25	https://img.lovepik.com/free-template/20231120/lovepik-korea-business-card-white-style-template-image_8824748_detail.jpg
+2025-11-08 17:39:16,656 | INFO | image #26	https://dcassetcdn.com/design_img/3515656/456467/456467_19281558_3515656_c99246fa_thumbnail.png
+2025-11-08 17:39:17,460 | INFO | image #27	https://www.onestorecorp.com/brand/wp-content/uploads/2018/07/business_card_03_04.png
+2025-11-08 17:39:18,122 | INFO | image #28	https://thumbs.dreamstime.com/z/north-korea-flag-business-card-standard-size-mm-business-card-template-north-korea-flag-business-card-standard-size-mm-148531478.jpg
+2025-11-08 17:39:19,987 | INFO | image #29	https://img.freepik.com/free-psd/korean-food-restaurant-business-card-template_23-2150045282.jpg
+2025-11-08 17:39:20,002 | INFO | image #30	https://dcassetcdn.com/design_img/3515656/586824/586824_19281949_3515656_6a10b9ae_thumbnail.png
+2025-11-08 17:39:22,373 | INFO | image #31	https://img.kwcdn.com/product/fancy/9d6bac50-3ec7-45b9-a60a-9e8cdc2761ea.jpg
+2025-11-08 17:39:23,695 | INFO | image #32	http://i.imgur.com/wqKxUYj.jpg
+2025-11-08 17:39:24,445 | INFO | image #33	https://www.asianbusinesscards.com/wp-content/uploads/2019/03/korean-business-card-translation-samples-ccc-445-kor.jpg
+2025-11-08 17:39:24,495 | INFO | image #34	https://img.lovepik.com/free-template/20231120/lovepik-korean-business-card-traditional-style-template-image_8824772_detail.jpg
+2025-11-08 17:39:24,774 | ERROR | Response status code 403, file https://www.koreanair.com/content/dam/koreanair/promotion/list/2024/11/mainevent/skypassvisa//img/spv_business_card.png
+2025-11-08 17:39:24,850 | INFO | image #35	https://dcassetcdn.com/design_img/3515656/68638/68638_19291834_3515656_7a5c37ff_image.jpg
+2025-11-08 17:39:25,335 | INFO | image #36	https://i.pinimg.com/474x/2e/33/f3/2e33f3e5c1184f98bfeab4f44575bc1b.jpg
+2025-11-08 17:39:27,236 | INFO | image #37	https://www.asianbusinesscards.com/wp-content/uploads/2019/03/korean-business-card-translation-sample-emerson-500-korean.jpg
+2025-11-08 17:39:28,671 | INFO | image #38	https://img.freepik.com/free-psd/korean-food-restaurant-business-card-template_23-2150025937.jpg
+2025-11-08 17:39:29,571 | INFO | image #39	https://img.lovepik.com/free-template/20231120/lovepik-korea-business-card-traditional-pattern-template-image_8824774_detail.jpg
+2025-11-08 17:39:29,900 | INFO | image #40	https://rlv.zcache.com/red_white_chinese_asian_restaurant_chef_catering_business_card-r_68vlmd_306.jpg
+2025-11-08 17:39:30,999 | INFO | image #41	https://muds.kr/cdn/shop/files/a1_ba7d458c-ed0e-4952-b14e-96f230259a35.jpg
+2025-11-08 17:39:31,433 | ERROR | Response status code 404, file https://pic.pikbest.com/01/03/26/06a888piC2DF.jpg
+2025-11-08 17:39:32,726 | INFO | image #42	https://www.themorningprint.com/updata/item/wbs01-2018052420485939.jpg
+2025-11-08 17:39:33,921 | INFO | image #43	https://www.korea.net/upload/content/editImage/20250418110157328_44TQ642Y.jpg
+2025-11-08 17:39:34,589 | INFO | image #44	https://dcassetcdn.com/design_img/3515656/84440/84440_19266690_3515656_b9c89a59_image.jpg
+2025-11-08 17:39:34,848 | INFO | image #45	https://i.pinimg.com/736x/86/8f/4c/868f4c64232322d13ba9ef144696df71.jpg
+2025-11-08 17:39:35,101 | INFO | image #46	http://web.tradekorea.com/product/984/1048984/Korean%20Mother%20of%20Pearl%20Business%20Card%20Case%20Dangcho%20design_1.jpg
+2025-11-08 17:39:35,289 | INFO | image #47	https://www.printrobo.co.kr/cdn/content-marketplace/bc-layout-001-1200x985.jpg
+2025-11-08 17:39:35,577 | INFO | image #48	https://printdesign.co.kr/assets/img/portfolio/004.jpg
+2025-11-08 17:39:35,777 | INFO | image #49	https://s3-ap-northeast-2.amazonaws.com/redprintingweb.common/assets/images/en/item/BCLAXXX.jpg
+2025-11-08 17:39:36,272 | INFO | image #50	https://muds.kr/cdn/shop/files/a2_3ca93a60-99fa-46f0-a6dc-0822a871be66.jpg
+2025-11-08 17:39:38,413 | INFO | image #51	https://m.media-amazon.com/images/I/71H8YacIPCL._AC_UY200_.jpg
+2025-11-08 17:39:38,758 | ERROR | Response status code 400, file https://cdn.myportfolio.com/966c0d06-d552-4191-b98d-b531f36bf7fa/9e2d8d42-7762-42be-92ae-93a4df12d26d_rw_1920.jpg
+2025-11-08 17:39:38,898 | INFO | image #52	https://cdn.imweb.me/thumbnail/20240228/a538c8012c603.jpg
+2025-11-08 17:39:39,249 | INFO | image #53	https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/GN7sU1747632917.png
+2025-11-08 17:39:39,456 | INFO | image #54	https://mir-s3-cdn-cf.behance.net/project_modules/hd/06bf5770767019.5bae1fd5f10a7.jpg
+2025-11-08 17:39:39,628 | ERROR | Response status code 404, file https://indymiae.net/wp-content/uploads/2013/08/bc_002.jpg
+2025-11-08 17:39:39,810 | INFO | image #55	https://front-cdn.ohprint.me/assets/ko_kr/pc/images/store/intro/shape-business-card/variation/none-premium-rec-shape-bizcard-90x50@2x.jpg
+2025-11-08 17:39:40,218 | INFO | parsing result page https://www.google.com/search?q=business+card+korea&ijn=1&start=100&tbs=&tbm=isch
+2025-11-08 17:39:40,255 | INFO | image #56	https://gdimg1.gmarket.co.kr/goods_image2/shop_moreimg/290/708/2907088242/2907088242_02.jpg
+2025-11-08 17:39:40,902 | INFO | image #57	http://ccorea.com/cdn/shop/products/1_446c03c2-9aa7-4d79-a6da-5b52f7d57acb.jpg
+2025-11-08 17:39:41,456 | INFO | image #58	https://i0.wp.com/www.carddsgn.com/wp-content/uploads/2023/03/Isaid-clothing-business-card-and-tags.jpg

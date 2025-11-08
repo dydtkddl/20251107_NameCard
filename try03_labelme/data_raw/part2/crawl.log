@@ -1,0 +1,112 @@
+2025-11-08 17:34:33,632 | INFO | 🚀 Start crawling query='한국 명함 회사', limit=200
+2025-11-08 17:34:33,632 | INFO | start crawling...
+2025-11-08 17:34:33,632 | INFO | starting 1 feeder threads...
+2025-11-08 17:34:33,633 | INFO | thread feeder-001 exit
+2025-11-08 17:34:33,633 | INFO | starting 1 parser threads...
+2025-11-08 17:34:33,633 | INFO | starting 1 downloader threads...
+2025-11-08 17:34:34,217 | INFO | parsing result page https://www.google.com/search?q=%ED%95%9C%EA%B5%AD+%EB%AA%85%ED%95%A8+%ED%9A%8C%EC%82%AC&ijn=0&start=0&tbs=&tbm=isch
+2025-11-08 17:38:16,891 | INFO | 🚀 Start crawling query='한국 명함 회사', limit=200
+2025-11-08 17:38:16,891 | INFO | start crawling...
+2025-11-08 17:38:16,891 | INFO | starting 1 feeder threads...
+2025-11-08 17:38:16,891 | INFO | thread feeder-001 exit
+2025-11-08 17:38:16,891 | INFO | starting 1 parser threads...
+2025-11-08 17:38:16,892 | INFO | starting 1 downloader threads...
+2025-11-08 17:38:17,859 | INFO | parsing result page https://www.google.com/search?q=%ED%95%9C%EA%B5%AD+%EB%AA%85%ED%95%A8+%ED%9A%8C%EC%82%AC&ijn=0&start=0&tbs=&tbm=isch
+2025-11-08 17:38:18,177 | INFO | image #1	https://liptong.com/liptong/1108.jpg
+2025-11-08 17:38:18,417 | INFO | image #2	https://fingerday.co.kr/web/product/big/202309/395a5b61e4d9d306c46bdbec4037e2c9.png
+2025-11-08 17:38:19,018 | INFO | image #3	https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/nxiH71715693156.png
+2025-11-08 17:38:19,197 | INFO | image #4	https://www.morningprint.co.kr/image/product/Premium_business_cards.jpg
+2025-11-08 17:38:19,484 | INFO | image #5	https://cdn.imweb.me/thumbnail/20240104/28f6280843b2a.jpg
+2025-11-08 17:38:19,501 | INFO | image #6	https://cdn.imweb.me/thumbnail/20241222/36d9b68494474.jpg
+2025-11-08 17:38:19,790 | INFO | image #7	https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/TQo8V1715693149.jpg
+2025-11-08 17:38:19,980 | INFO | image #8	https://m.yeil21.net/web/product/big/20191220/cdde3ba69d0f36e4e246ad66ea7ecdbe.jpg
+2025-11-08 17:38:20,000 | INFO | image #9	https://liptong.com/web/product/big/202502/ae5a79a864013cfb0968a772456bd86c.jpg
+2025-11-08 17:38:20,272 | ERROR | Response status code 404, file https://mblogthumb-phinf.pstatic.net/MjAyMzA2MDJfMjEw/MDAxNjg1NzA4MDY4Mzk3.fUyCPSzJu9_3VB24lIB-XNbBl0FVUeO-Dp16FrHtsKog.bSzwK0SKN1Ax-cUXD9ukypzMA390x_4Y-jZQkciD5fQg.JPEG.cruedy/(%ED%9A%8C%EC%82%AC)%EA%B3%A0%EA%B8%89%EB%AA%85%ED%95%A8%EB%94%94%EC%9E%90%EC%9D%B8%EC%A0%9C%EC%9E%91%EC%86%8C%EB%9F%89%EC%9D%B8%EC%87%84_%ED%8A%B8%EB%A3%A8%EC%95%84%ED%8A%B8_%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg
+2025-11-08 17:38:20,497 | INFO | image #10	https://www.korearental.co.kr/uploads/admin/ck/20230707/%E1%84%8A%E1%85%A5%E1%86%B7%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF(1).jpg
+2025-11-08 17:38:20,734 | INFO | image #11	https://m.mangoart.co.kr/web/product/big/201904/2d438a70f677890eef5e2147f3ab4b0b.jpg
+2025-11-08 17:38:21,078 | INFO | image #12	https://m.mongbimang.com/web/product/big/201811/f9bed6ac7be933d7ced5cae63dd9b047.jpg
+2025-11-08 17:38:21,326 | INFO | image #13	https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/ae/2023/04/18/ae_1681791244408_167577_0.jpg
+2025-11-08 17:38:21,658 | INFO | image #14	https://m.arttedesign.co.kr/web/product/big/201906/1bcf43bb6df07ecca09a6ff73c93e050.jpg
+2025-11-08 17:38:22,052 | INFO | image #15	https://m.ad-all.co.kr/web/product/big/202306/2da2fd2e92f7051d857759accd6c9c39.jpg
+2025-11-08 17:38:22,170 | INFO | image #16	https://m.mindsize.co.kr/web/product/big/202101/a3e8b26c7c308a36b0ed91bf3e3648dc.jpg
+2025-11-08 17:38:22,202 | INFO | image #17	https://m.mindsize.co.kr/web/product/big/202311/5b57abe5ca959d2812cde8f14549917f.jpg
+2025-11-08 17:38:22,217 | INFO | image #18	https://liptong.com/web/product/big/202502/18e939e04f3c8653b543a4866b8f3bca.jpg
+2025-11-08 17:38:22,502 | INFO | image #19	https://cdn.imweb.me/thumbnail/20240104/5909547d36766.jpg
+2025-11-08 17:38:22,527 | INFO | image #20	https://m.mongbimang.com/web/product/big/20200120/7e5b6fbf18e89351175f1b727f583c57.jpg
+2025-11-08 17:38:22,593 | INFO | image #21	https://m.bizprinting.co.kr/web/product/medium/202503/e64e7cfdfda2fbaf15fc0d8d002c76fa.png
+2025-11-08 17:38:22,711 | INFO | image #22	https://cdn.imweb.me/thumbnail/20240103/fc870863e4191.jpg
+2025-11-08 17:38:22,772 | INFO | image #23	https://www.printrobo.co.kr/cdn/blog/870x531-pb10008.jpg
+2025-11-08 17:38:22,949 | ERROR | Response status code 404, file https://blog.kakaocdn.net/dna/k1ueO/btqF1SOc0hU/AAAAAAAAAAAAAAAAAAAAAMGQvV5KdX2AjtdASG0hT1sRUfBLGqsle9qcimu9vwpV/img.png
+2025-11-08 17:38:23,169 | ERROR | Response status code 404, file https://mblogthumb-phinf.pstatic.net/MjAxOTEwMDFfMTU1/MDAxNTY5OTE5OTE4ODE5.-ahD7OlAp5XGmqGSMTeNkM9hVkgtto8B8l-qGFHhVDUg.dp-8aHKikfAJ9eoaN_s5OqIQ9uVfjlTxwh-FQGzdY9og.JPEG.mh-0000/%EA%B8%B0%EC%97%85,%EB%AC%B4%EC%97%AD,%ED%9A%8C%EC%82%AC%EB%AA%85%ED%95%A8-PC_0602A.jpg
+2025-11-08 17:38:24,710 | INFO | image #24	https://img.hankyung.com/photo/202005/01.22736873.1.jpg
+2025-11-08 17:38:24,833 | INFO | image #25	https://m.thelime.co.kr/web/product/big/201703/35_shop1_229440.jpg
+2025-11-08 17:38:24,915 | INFO | image #26	https://www.printrobo.co.kr/cdn/contents/scps-templates-selection-1000x360.jpg
+2025-11-08 17:38:24,947 | INFO | image #27	https://m.mongbimang.com/web/product/big/202206/360c59c81a369891aa421b1d042b73a0.jpg
+2025-11-08 17:38:25,129 | INFO | image #28	https://cdn.imweb.me/thumbnail/20240105/39098f4f0f51a.jpg
+2025-11-08 17:38:25,523 | INFO | image #29	https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/CWT1T1746771472.jpg
+2025-11-08 17:38:25,684 | INFO | image #30	https://cdn-optimized.imweb.me/upload/S202105116be325af3d9cd/3e0733b214019.jpg
+2025-11-08 17:38:26,034 | INFO | image #31	http://www.9circlekorea.com/wp-content/uploads/kboard_attached/17/202008/5f3e25772e07f9968852.jpg
+2025-11-08 17:38:26,071 | INFO | image #32	https://m.thelime.co.kr/web/product/big/201703/45_shop1_657658.jpg
+2025-11-08 17:38:26,120 | INFO | image #33	https://m.mindsize.co.kr/web/product/big/202107/a9bc832b2ce1a5142daef651a8ec7abf.jpg
+2025-11-08 17:38:26,295 | ERROR | Response status code 404, file https://blog.kakaocdn.net/dna/dhc2Mi/btsI5iCtimF/AAAAAAAAAAAAAAAAAAAAACklEzIgREUHcBPtimVmB4y0s25szkyV3YJmShS_GAoQ/img.jpg
+2025-11-08 17:38:26,297 | ERROR | Exception caught when downloading file http://www.%EB%94%94%EC%9E%90%EC%9D%B8%EC%97%94%EC%A7%84.com/data/file/b_namecard/thumb-1948729353_xwT1A0SQ_16951fb23d98fc0e170c92ad4f93a7e027923fdd_900x984.jpg, error: HTTPConnectionPool(host='www.%eb%94%94%ec%9e%90%ec%9d%b8%ec%97%94%ec%a7%84.com', port=80): Max retries exceeded with url: /data/file/b_namecard/thumb-1948729353_xwT1A0SQ_16951fb23d98fc0e170c92ad4f93a7e027923fdd_900x984.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f04b9b71630>: Failed to resolve 'www.%eb%94%94%ec%9e%90%ec%9d%b8%ec%97%94%ec%a7%84.com' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2025-11-08 17:38:26,298 | ERROR | Exception caught when downloading file http://www.%EB%94%94%EC%9E%90%EC%9D%B8%EC%97%94%EC%A7%84.com/data/file/b_namecard/thumb-1948729353_xwT1A0SQ_16951fb23d98fc0e170c92ad4f93a7e027923fdd_900x984.jpg, error: HTTPConnectionPool(host='www.%eb%94%94%ec%9e%90%ec%9d%b8%ec%97%94%ec%a7%84.com', port=80): Max retries exceeded with url: /data/file/b_namecard/thumb-1948729353_xwT1A0SQ_16951fb23d98fc0e170c92ad4f93a7e027923fdd_900x984.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f04b9b71f00>: Failed to resolve 'www.%eb%94%94%ec%9e%90%ec%9d%b8%ec%97%94%ec%a7%84.com' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2025-11-08 17:38:26,299 | ERROR | Exception caught when downloading file http://www.%EB%94%94%EC%9E%90%EC%9D%B8%EC%97%94%EC%A7%84.com/data/file/b_namecard/thumb-1948729353_xwT1A0SQ_16951fb23d98fc0e170c92ad4f93a7e027923fdd_900x984.jpg, error: HTTPConnectionPool(host='www.%eb%94%94%ec%9e%90%ec%9d%b8%ec%97%94%ec%a7%84.com', port=80): Max retries exceeded with url: /data/file/b_namecard/thumb-1948729353_xwT1A0SQ_16951fb23d98fc0e170c92ad4f93a7e027923fdd_900x984.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f04b9b722f0>: Failed to resolve 'www.%eb%94%94%ec%9e%90%ec%9d%b8%ec%97%94%ec%a7%84.com' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2025-11-08 17:38:26,348 | INFO | image #34	https://m.mongbimang.com/web/product/big/201806/2603_shop1_15301799854643.jpg
+2025-11-08 17:38:26,475 | INFO | image #35	https://cdn.imweb.me/thumbnail/20240107/40c0105ca885e.jpg
+2025-11-08 17:38:26,526 | ERROR | Exception caught when downloading file https://naturemk.shop/jianstorage/product/JS8099634/auto_main__img_main_tmp.jpg, error: HTTPSConnectionPool(host='naturemk.shop', port=443): Max retries exceeded with url: /jianstorage/product/JS8099634/auto_main__img_main_tmp.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))), remaining retry times: 2
+2025-11-08 17:38:26,586 | ERROR | Exception caught when downloading file https://naturemk.shop/jianstorage/product/JS8099634/auto_main__img_main_tmp.jpg, error: HTTPSConnectionPool(host='naturemk.shop', port=443): Max retries exceeded with url: /jianstorage/product/JS8099634/auto_main__img_main_tmp.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))), remaining retry times: 1
+2025-11-08 17:38:26,670 | ERROR | Exception caught when downloading file https://naturemk.shop/jianstorage/product/JS8099634/auto_main__img_main_tmp.jpg, error: HTTPSConnectionPool(host='naturemk.shop', port=443): Max retries exceeded with url: /jianstorage/product/JS8099634/auto_main__img_main_tmp.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))), remaining retry times: 0
+2025-11-08 17:38:26,921 | INFO | image #36	https://100gomidesign.com/web/product/big/202305/8e1ebd3874888ce051f277836d6a2a2b.jpg
+2025-11-08 17:38:27,129 | INFO | image #37	https://www.ecard21.co.kr/image/html5Sample_bc_n.jpg
+2025-11-08 17:38:27,194 | INFO | image #38	https://m.mongbimang.com/web/product/big/202402/b43d673ebe8db31bec5041b37b4defaf.jpg
+2025-11-08 17:38:27,534 | INFO | image #39	https://static.cdn.soomgo.com/upload/portfolio/89c8211a-50cf-4ea7-9b85-b729bcfed7e7.jpg
+2025-11-08 17:38:27,997 | INFO | image #40	https://m.bonnydesign.co.kr/web/product/big/202011/f64210909093e7dac1600becd3826c9c.png
+2025-11-08 17:38:28,201 | INFO | image #41	https://marketplace.canva.com/EAF0TcRxmQA/1/0/1600w/canva-%EB%89%B4%ED%8A%B8%EB%9F%B4-%EB%AF%B8%EB%8B%88%EB%A9%80%EB%A6%AC%EC%8A%A4%ED%8A%B8-%ED%9A%8C%EC%82%AC-%EB%AA%85%ED%95%A8-gBOg6sihBRY.jpg
+2025-11-08 17:38:28,323 | INFO | image #42	https://jdesign.kr/wp-content/uploads/2022/08/sample04.jpg
+2025-11-08 17:38:29,115 | INFO | image #43	https://fingerday.co.kr/web/product/small/202309/82d22d380ffc322f6c3c2aa48ddc9fc3.png
+2025-11-08 17:38:29,216 | INFO | image #44	https://cdn-optimized.imweb.me/upload/S202105116be325af3d9cd/fd661ee489cec.jpg
+2025-11-08 17:38:29,540 | INFO | image #45	https://m.elnathdesign.com/web/product/big/201811/569a2d83d005c9b685e74dc32ddc0ee6.png
+2025-11-08 17:38:29,732 | INFO | image #46	https://cdn-dantats.stunning.kr/prod/portfolios/d86d5b4d-73a8-4d2e-abce-4a82088d1b80/contents/ORDER_SUB_18173_1_120828151030.jpg
+2025-11-08 17:38:29,878 | INFO | image #47	https://m.mindsize.co.kr/web/product/big/202206/a25ffbe43568ea2536661fba80d3c2cb.jpg
+2025-11-08 17:38:30,007 | ERROR | Response status code 404, file https://blog.kakaocdn.net/dna/bgNZyQ/btsHbhT2Rcc/AAAAAAAAAAAAAAAAAAAAAFfSb4z-x3JNGZCvGZMyzjicMCdWDYybPn3vdk0asm_l/img.jpg
+2025-11-08 17:38:30,249 | INFO | image #48	https://www.heungkukfire.co.kr/common/images/cont/corp/img_card.jpg
+2025-11-08 17:38:30,399 | INFO | image #49	https://liptong.com/web/product/big/202105/2e40b3dbed029fa37119f6988e145ae9.jpg
+2025-11-08 17:38:30,514 | INFO | image #50	https://cdn.imweb.me/thumbnail/20230202/dcb21effec015.jpg
+2025-11-08 17:38:31,991 | INFO | image #51	https://yorom.kr/files/attach/images/187/883/1115c37d50d026d54bfdd2c947cde0b6.jpg
+2025-11-08 17:38:32,424 | INFO | image #52	https://www.onehp.co.kr/img/works/works11.jpg
+2025-11-08 17:38:32,547 | INFO | image #53	https://marketplace.canva.com/EAFzdhNxMd4/2/0/1600w/canva-%EB%B8%94%EB%9E%99-%26-%ED%99%94%EC%9D%B4%ED%8A%B8-%EC%A0%84%EB%AC%B8%EC%A0%81%EC%9D%B8-%EB%8A%90%EB%82%8C%EC%9D%98-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EB%AA%85%ED%95%A8-W0VxeOFLoys.jpg
+2025-11-08 17:38:32,594 | INFO | image #54	https://cdn.imweb.me/thumbnail/20220429/bd8b6864472fa.jpg
+2025-11-08 17:38:32,952 | INFO | image #55	https://news.ikbc.co.kr/data/kbc/image/2023/02/13/kbc202302130081.700x.9.png
+2025-11-08 17:38:33,507 | INFO | image #56	https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/b3lYK1732016351.jpg
+2025-11-08 17:38:33,658 | ERROR | Response status code 404, file https://img1.daumcdn.net/thumb/R1280x0.fpng
+2025-11-08 17:38:33,988 | INFO | image #57	http://t1.daumcdn.net/brunch/service/user/8fXh/image/CdlfvZajSbxOlTNFWOVUnoNlPpI.png
+2025-11-08 17:38:34,363 | ERROR | Response status code 404, file https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjFfNjcg/MDAxNDkwMDY0OTM1ODQ5.sHPUd7uM-op_Or5y7f5w2BuTNkxfZFrclcwVaxSbm9kg.ICkhci3w4BzfFun86ixKtPuTaleSJwcCxT-zgmVo78og.JPEG.archeedesign/image_4508097441490064893717.jpg
+2025-11-08 17:38:34,424 | INFO | image #58	https://m.thelime.co.kr/web/product/big/201703/42_shop1_190992.jpg
+2025-11-08 17:38:34,556 | INFO | image #59	https://cdn.imweb.me/thumbnail/20230202/9b7115eb952f2.jpg
+2025-11-08 17:38:34,691 | INFO | image #60	https://m.mindsize.co.kr/web/product/big/202310/8c29d069bd21fcdaa56a80debc04c9fe.jpg
+2025-11-08 17:38:34,808 | INFO | image #61	https://img.lovepik.com/free-template/20231120/lovepik-minimalist-korea-business-card-template-image_8824760_detail.jpg
+2025-11-08 17:38:35,132 | INFO | image #62	https://m.quickprint.co.kr/web/product/big/qpshop_1104.png
+2025-11-08 17:38:35,313 | INFO | image #63	https://100gomidesign.com/web/product/big/202305/6f4d6ee001a73f93d3f99840bed4b6f0.jpg
+2025-11-08 17:38:35,320 | ERROR | Exception caught when downloading file https://png, error: HTTPSConnectionPool(host='png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f04b82c9000>: Failed to resolve 'png' ([Errno -3] Temporary failure in name resolution)")), remaining retry times: 2
+2025-11-08 17:38:35,321 | ERROR | Exception caught when downloading file https://png, error: HTTPSConnectionPool(host='png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f04b9b71e40>: Failed to resolve 'png' ([Errno -3] Temporary failure in name resolution)")), remaining retry times: 1
+2025-11-08 17:38:35,323 | ERROR | Exception caught when downloading file https://png, error: HTTPSConnectionPool(host='png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f04b9b72410>: Failed to resolve 'png' ([Errno -3] Temporary failure in name resolution)")), remaining retry times: 0
+2025-11-08 17:38:35,341 | ERROR | Exception caught when downloading file https://kor.png, error: HTTPSConnectionPool(host='kor.png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f04b81a33d0>: Failed to resolve 'kor.png' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2025-11-08 17:38:35,363 | ERROR | Exception caught when downloading file https://kor.png, error: HTTPSConnectionPool(host='kor.png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f04b9b73910>: Failed to resolve 'kor.png' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2025-11-08 17:38:35,390 | ERROR | Exception caught when downloading file https://kor.png, error: HTTPSConnectionPool(host='kor.png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f04b9b73d90>: Failed to resolve 'kor.png' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2025-11-08 17:38:38,141 | INFO | image #64	https://img.freepik.com/premium-vector/clean-advertising-design-company-business-card_432688-223.jpg
+2025-11-08 17:38:38,290 | INFO | image #65	https://wms.wizad.co.kr/data/project/1628563798518_m.jpg
+2025-11-08 17:38:38,405 | INFO | image #66	https://m.bonnydesign.co.kr/web/product/medium/202401/0b3f6febc5056a6bf2242de75f3a92bf.png
+2025-11-08 17:38:38,555 | ERROR | Response status code 404, file https://blog.kakaocdn.net/dna/y6yEa/btq3he2agOe/AAAAAAAAAAAAAAAAAAAAAMHc7xNYCNSXZwtiBePx3toHIQBRZGx837N5yNvDsfiN/img.png
+2025-11-08 17:38:38,796 | INFO | image #67	https://www.onehp.co.kr/img/works/works01.jpg
+2025-11-08 17:38:39,457 | INFO | parsing result page https://www.google.com/search?q=%ED%95%9C%EA%B5%AD+%EB%AA%85%ED%95%A8+%ED%9A%8C%EC%82%AC&ijn=1&start=100&tbs=&tbm=isch
+2025-11-08 17:38:40,277 | INFO | image #68	https://wms.wizad.co.kr/data/project/1625792176333_cnt.jpg
+2025-11-08 17:38:40,603 | INFO | image #69	https://img.lovepik.com/desgin_photo/45000/8345_detail.jpg
+2025-11-08 17:38:41,150 | INFO | image #70	https://cdn-dantats.stunning.kr/prod/portfolios/84b2c549-3a4f-467c-8fff-d2f0b16badc0/covers/Ktd7QC8dnqHmSyno.%EB%A9%94%EC%9D%B8.png
+2025-11-08 17:38:41,308 | INFO | image #71	https://www.printrobo.co.kr/cdn/contents/printrobo-for-business.jpg
+2025-11-08 17:38:41,530 | INFO | image #72	http://ssendesign.com/files/attach/images/133/188/c474c59db54d2d4c60595e37b32252b2.jpg
+2025-11-08 17:38:46,532 | INFO | no more download task for thread downloader-001
+2025-11-08 17:38:46,532 | INFO | thread downloader-001 exit
+2025-11-08 17:38:46,921 | INFO | Crawling task done!
+2025-11-08 17:38:46,926 | INFO | ✅ Crawling finished. Start validation...
+2025-11-08 17:38:46,961 | INFO | 🏁 All done! Valid images saved in data_raw/part2

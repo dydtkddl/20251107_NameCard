@@ -1,0 +1,103 @@
+2025-11-08 17:34:28,458 | INFO | 🚀 Start crawling query='한국 명함', limit=200
+2025-11-08 17:34:28,458 | INFO | start crawling...
+2025-11-08 17:34:28,458 | INFO | starting 1 feeder threads...
+2025-11-08 17:34:28,458 | INFO | thread feeder-001 exit
+2025-11-08 17:34:28,458 | INFO | starting 1 parser threads...
+2025-11-08 17:34:28,459 | INFO | starting 1 downloader threads...
+2025-11-08 17:34:28,913 | INFO | parsing result page https://www.google.com/search?q=%ED%95%9C%EA%B5%AD+%EB%AA%85%ED%95%A8&ijn=0&start=0&tbs=&tbm=isch
+2025-11-08 17:34:33,459 | INFO | no more download task for thread downloader-001
+2025-11-08 17:34:33,460 | INFO | thread downloader-001 exit
+2025-11-08 17:34:33,465 | INFO | Crawling task done!
+2025-11-08 17:34:33,466 | INFO | ✅ Crawling finished. Start validation...
+2025-11-08 17:34:33,478 | INFO | 🏁 All done! Valid images saved in data_raw/part1
+2025-11-08 17:37:04,604 | INFO | 🚀 Start crawling query='한국 명함', limit=200
+2025-11-08 17:37:04,604 | INFO | start crawling...
+2025-11-08 17:37:04,604 | INFO | starting 1 feeder threads...
+2025-11-08 17:37:04,605 | INFO | thread feeder-001 exit
+2025-11-08 17:37:04,605 | INFO | starting 1 parser threads...
+2025-11-08 17:37:04,605 | INFO | starting 1 downloader threads...
+2025-11-08 17:37:05,575 | INFO | parsing result page https://www.google.com/search?q=%ED%95%9C%EA%B5%AD+%EB%AA%85%ED%95%A8&ijn=0&start=0&tbs=&tbm=isch
+2025-11-08 17:37:05,859 | INFO | image #1	https://m.bizprinting.co.kr/web/product/big/company/05.jpg
+2025-11-08 17:37:06,048 | INFO | image #2	https://img.freepik.com/premium-vector/south-korea-flag-business-card-standard-size-90x50-mm-business-card-template_292608-10519.jpg
+2025-11-08 17:37:06,258 | INFO | image #3	https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/wPbiE1749104177.png
+2025-11-08 17:37:06,514 | INFO | image #4	https://www.morningprint.co.kr/image/product/Premium_business_cards.jpg
+2025-11-08 17:37:06,640 | INFO | image #5	https://m.mindsize.co.kr/web/product/big/202107/a9bc832b2ce1a5142daef651a8ec7abf.jpg
+2025-11-08 17:37:06,667 | INFO | image #6	https://m.bizprinting.co.kr/web/product/big/company/04.jpg
+2025-11-08 17:37:07,038 | INFO | image #7	https://jdesign.kr/wp-content/uploads/2022/08/sample04.jpg
+2025-11-08 17:37:07,116 | INFO | image #8	https://m.mindsize.co.kr/web/product/big/202101/a3e8b26c7c308a36b0ed91bf3e3648dc.jpg
+2025-11-08 17:37:07,391 | INFO | image #9	https://cdn-pro-web-134-104.cdn-nhncommerce.com/manomano7772_godomall_com/data/goods/22/08/32/1000000052/1000000052_detail_053.jpg
+2025-11-08 17:37:07,543 | INFO | image #10	https://www.printrobo.co.kr/cdn/contents/features_p001.jpg
+2025-11-08 17:37:07,556 | INFO | image #11	https://m.mindsize.co.kr/web/product/small/202011/9a31a1c5fb6ec0143afb3dc759f74832.jpg
+2025-11-08 17:37:07,680 | INFO | image #12	https://m.thelime.co.kr/web/product/big/201804/611_shop1_458722.jpg
+2025-11-08 17:37:07,856 | INFO | image #13	https://cafe24.poxo.com/ec01/niacom0803/5GslpdAnCPzGTb8GqqEZ3j9W8PbV9xVKJx7NVKrE/h4NpwmrqazOb++iMiMzfrbktxXZcg8qpLZQEBtTNSaMDQ==/_/web/product/big/20200121/4c9c6aee560bd389555aa64b533bb888.jpg
+2025-11-08 17:37:08,147 | INFO | image #14	https://m.designc.kr/web/product/medium/202303/a2fbb0d2d8d7088ffef22d8aaeefa535.jpg
+2025-11-08 17:37:08,155 | ERROR | Exception caught when downloading file https://m.%EC%82%BC%EC%9A%B0%EC%9D%B8%EC%87%84%EC%86%8C.com/web/product/big/201809/2c96e99991d13d32003822d8c9ca2780.jpg, error: HTTPSConnectionPool(host='m.%ec%82%bc%ec%9a%b0%ec%9d%b8%ec%87%84%ec%86%8c.com', port=443): Max retries exceeded with url: /web/product/big/201809/2c96e99991d13d32003822d8c9ca2780.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3613beded0>: Failed to resolve 'm.%ec%82%bc%ec%9a%b0%ec%9d%b8%ec%87%84%ec%86%8c.com' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2025-11-08 17:37:08,157 | ERROR | Exception caught when downloading file https://m.%EC%82%BC%EC%9A%B0%EC%9D%B8%EC%87%84%EC%86%8C.com/web/product/big/201809/2c96e99991d13d32003822d8c9ca2780.jpg, error: HTTPSConnectionPool(host='m.%ec%82%bc%ec%9a%b0%ec%9d%b8%ec%87%84%ec%86%8c.com', port=443): Max retries exceeded with url: /web/product/big/201809/2c96e99991d13d32003822d8c9ca2780.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3613bec6a0>: Failed to resolve 'm.%ec%82%bc%ec%9a%b0%ec%9d%b8%ec%87%84%ec%86%8c.com' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2025-11-08 17:37:08,159 | ERROR | Exception caught when downloading file https://m.%EC%82%BC%EC%9A%B0%EC%9D%B8%EC%87%84%EC%86%8C.com/web/product/big/201809/2c96e99991d13d32003822d8c9ca2780.jpg, error: HTTPSConnectionPool(host='m.%ec%82%bc%ec%9a%b0%ec%9d%b8%ec%87%84%ec%86%8c.com', port=443): Max retries exceeded with url: /web/product/big/201809/2c96e99991d13d32003822d8c9ca2780.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3613bec4c0>: Failed to resolve 'm.%ec%82%bc%ec%9a%b0%ec%9d%b8%ec%87%84%ec%86%8c.com' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2025-11-08 17:37:09,490 | INFO | image #15	https://static.cdn.soomgo.com/upload/portfolio/3e6546e9-a253-42ba-a6be-85c74da4be27.jpg
+2025-11-08 17:37:09,772 | INFO | image #16	https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/kSVbc1734504565.jpg
+2025-11-08 17:37:10,091 | INFO | image #17	https://www.korearental.co.kr/uploads/admin/ck/20230707/%E1%84%8A%E1%85%A5%E1%86%B7%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF(1).jpg
+2025-11-08 17:37:10,279 | ERROR | Exception caught when downloading file https://naturemk.shop/jianstorage/product/JS6745696/auto_main__img_main_tmp.jpg, error: HTTPSConnectionPool(host='naturemk.shop', port=443): Max retries exceeded with url: /jianstorage/product/JS6745696/auto_main__img_main_tmp.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))), remaining retry times: 2
+2025-11-08 17:37:10,338 | ERROR | Exception caught when downloading file https://naturemk.shop/jianstorage/product/JS6745696/auto_main__img_main_tmp.jpg, error: HTTPSConnectionPool(host='naturemk.shop', port=443): Max retries exceeded with url: /jianstorage/product/JS6745696/auto_main__img_main_tmp.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))), remaining retry times: 1
+2025-11-08 17:37:10,419 | ERROR | Exception caught when downloading file https://naturemk.shop/jianstorage/product/JS6745696/auto_main__img_main_tmp.jpg, error: HTTPSConnectionPool(host='naturemk.shop', port=443): Max retries exceeded with url: /jianstorage/product/JS6745696/auto_main__img_main_tmp.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))), remaining retry times: 0
+2025-11-08 17:37:10,572 | INFO | image #18	https://liptong.com/web/product/big/202502/18e939e04f3c8653b543a4866b8f3bca.jpg
+2025-11-08 17:37:10,598 | INFO | image #19	https://m.mindsize.co.kr/web/product/big/202401/1d4a8e5ef06b876d0e80e9945cb55887.jpg
+2025-11-08 17:37:10,764 | INFO | image #20	https://m.bizprinting.co.kr/web/product/big/company/36.jpg
+2025-11-08 17:37:10,772 | ERROR | Exception caught when downloading file https://png, error: HTTPSConnectionPool(host='png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3613becd00>: Failed to resolve 'png' ([Errno -3] Temporary failure in name resolution)")), remaining retry times: 2
+2025-11-08 17:37:10,779 | ERROR | Exception caught when downloading file https://png, error: HTTPSConnectionPool(host='png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3619887d30>: Failed to resolve 'png' ([Errno -3] Temporary failure in name resolution)")), remaining retry times: 1
+2025-11-08 17:37:10,782 | ERROR | Exception caught when downloading file https://png, error: HTTPSConnectionPool(host='png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3613becdf0>: Failed to resolve 'png' ([Errno -3] Temporary failure in name resolution)")), remaining retry times: 0
+2025-11-08 17:37:10,840 | ERROR | Exception caught when downloading file https://kor.png, error: HTTPSConnectionPool(host='kor.png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3613bec970>: Failed to resolve 'kor.png' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2025-11-08 17:37:17,417 | ERROR | Exception caught when downloading file https://kor.png, error: HTTPSConnectionPool(host='kor.png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3613bedc30>: Failed to resolve 'kor.png' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2025-11-08 17:37:17,535 | ERROR | Exception caught when downloading file https://kor.png, error: HTTPSConnectionPool(host='kor.png', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3613bec340>: Failed to resolve 'kor.png' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2025-11-08 17:37:20,133 | INFO | image #21	https://fingerday.co.kr/web/product/big/202309/395a5b61e4d9d306c46bdbec4037e2c9.png
+2025-11-08 17:37:24,718 | INFO | image #22	http://img1.bizhows.com/bhfile01/__CM_FILE_DATA/201912/06/13/1501396_1575606703165.jpg
+2025-11-08 17:37:27,280 | INFO | image #23	https://nemodi.com/web/product/big/202507/a7932025641c167b02dd6e8799c847c2.jpg
+2025-11-08 17:37:27,606 | INFO | image #24	https://liptong.com/liptong/1108.jpg
+2025-11-08 17:37:31,753 | INFO | image #25	https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/v2ckD1747632914.jpg
+2025-11-08 17:37:35,656 | INFO | image #26	https://newsimg-hams.hankookilbo.com/2023/05/24/1dd13887-7ba7-43b6-ae04-13f6d9f1b161.jpg
+2025-11-08 17:37:42,873 | INFO | image #27	https://zieum.kr/wp-content/uploads/2025/03/%ED%8F%89%ED%83%9D%EC%8B%9C%EC%B2%AD%EB%8F%84%EB%A1%9C%EA%B4%80%EB%A6%AC%EA%B3%BC_%EB%AA%85%ED%95%A8.jpg
+2025-11-08 17:37:50,500 | INFO | image #28	https://wowpress.co.kr/wow2.0/board/2021/03/26/202103261759256398589632782951776.jpg
+2025-11-08 17:37:54,886 | INFO | image #29	https://m.mindsize.co.kr/web/product/big/202412/989f99b4056947fe3d29fc59f24e433f.jpg
+2025-11-08 17:37:57,882 | INFO | image #30	https://cafe24.poxo.com/ec01/niacom0803/5GslpdAnCPzGTb8GqqEZ3j9W8PbV9xVKJx7NVKrE/h4NpwmrqazOb++iMiMzfrbktxXZcg8qpLZQEBtTNSaMDQ==/_/web/product/big/20200121/0a5b92247b3d6eaf7f04f2e7e835eb50.jpg
+2025-11-08 17:37:58,055 | INFO | image #31	http://garambook.co.kr/data/file/namecard/f5ea1540d97abc1e5fed6b99669ef02d_3BLgnT4J_7da130e6fb6cc07bf3a39fc628d9a77bb1b42471.jpg
+2025-11-08 17:38:02,662 | INFO | image #32	https://m.thinkout.co.kr/web/product/big/company/62.jpg
+2025-11-08 17:38:02,772 | INFO | image #33	https://m.bizprinting.co.kr/web/product/big/company/45.jpg
+2025-11-08 17:38:03,021 | INFO | image #34	https://m.bestnprice.net/web/product/big/202407/80c9edb6fbb054187ebd88c5eb6a06e8.jpg
+2025-11-08 17:38:03,213 | INFO | image #35	https://m.yeil21.net/web/product/big/20191219/0a3f4cf838d5ded890b6618ff27e7fea.jpg
+2025-11-08 17:38:03,651 | INFO | image #36	https://cdn-dantats.stunning.kr/prod/portfolios/37e59272-cf1f-4b6c-ae9a-694eeca84d6c/contents/SdoczXJNDJzcTZi4.2403%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A2%E1%84%92%E1%85%A7%E1%86%B8%E1%84%92%E1%85%AC%20%E1%84%86%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B7%E1%84%80%E1%85%A9%E1%86%BC%E1%84%86%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A6%E1%84%87%E1%85%AE%E1%84%82%E1%85%A2%E1%84%8B%E1%85%AD%E1%86%BC%20re.jpg
+2025-11-08 17:38:03,761 | INFO | image #37	https://m.mindsize.co.kr/web/product/big/202103/ddb29cec39fb34467e1654adf7486377.jpg
+2025-11-08 17:38:03,883 | ERROR | Exception caught when downloading file https://www.intermarket.co.kr/data/goods/5d5a41471adff.jpg, error: HTTPSConnectionPool(host='www.intermarket.co.kr', port=443): Max retries exceeded with url: /data/goods/5d5a41471adff.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))), remaining retry times: 2
+2025-11-08 17:38:03,958 | ERROR | Exception caught when downloading file https://www.intermarket.co.kr/data/goods/5d5a41471adff.jpg, error: HTTPSConnectionPool(host='www.intermarket.co.kr', port=443): Max retries exceeded with url: /data/goods/5d5a41471adff.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))), remaining retry times: 1
+2025-11-08 17:38:04,051 | ERROR | Exception caught when downloading file https://www.intermarket.co.kr/data/goods/5d5a41471adff.jpg, error: HTTPSConnectionPool(host='www.intermarket.co.kr', port=443): Max retries exceeded with url: /data/goods/5d5a41471adff.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))), remaining retry times: 0
+2025-11-08 17:38:04,243 | INFO | image #38	http://happy42.com/files/attach/images/184/730/5f9ad3c8b7582790315fc84adeae1c1a.png
+2025-11-08 17:38:04,467 | INFO | image #39	https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/6ZbVU1747632917.png
+2025-11-08 17:38:04,719 | INFO | image #40	https://tr.xza.kr/imgdata/tr_xza_kr/202507/20250731071304-69902.jpg
+2025-11-08 17:38:06,370 | INFO | image #41	https://m.bestnprice.net/web/product/big/202406/89537b5c9f7e94759f57e36f4e3fe2d8.jpg
+2025-11-08 17:38:06,672 | INFO | image #42	https://wms.wizad.co.kr/data/project/1599534127924_2.jpg
+2025-11-08 17:38:07,036 | INFO | image #43	http://www.giftsum.com/rb/files/2025/02/12/27d2610d59ca9871a5452fa2d33df0df105354.jpg
+2025-11-08 17:38:07,283 | ERROR | Exception caught when downloading file http://dmost.scout.or.kr/BoaFileUtil.do?action=displayImage&filepath=boardsolution/general/208/3379/20120302103241.jpg, error: HTTPConnectionPool(host='dmost.scout.or.kr', port=80): Max retries exceeded with url: /BoaFileUtil.do?action=displayImage&filepath=boardsolution/general/208/3379/20120302103241.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f36198b3640>: Failed to resolve 'dmost.scout.or.kr' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2025-11-08 17:38:07,333 | ERROR | Exception caught when downloading file http://dmost.scout.or.kr/BoaFileUtil.do?action=displayImage&filepath=boardsolution/general/208/3379/20120302103241.jpg, error: HTTPConnectionPool(host='dmost.scout.or.kr', port=80): Max retries exceeded with url: /BoaFileUtil.do?action=displayImage&filepath=boardsolution/general/208/3379/20120302103241.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f36198b1f00>: Failed to resolve 'dmost.scout.or.kr' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2025-11-08 17:38:07,387 | ERROR | Exception caught when downloading file http://dmost.scout.or.kr/BoaFileUtil.do?action=displayImage&filepath=boardsolution/general/208/3379/20120302103241.jpg, error: HTTPConnectionPool(host='dmost.scout.or.kr', port=80): Max retries exceeded with url: /BoaFileUtil.do?action=displayImage&filepath=boardsolution/general/208/3379/20120302103241.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f36198b3b50>: Failed to resolve 'dmost.scout.or.kr' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2025-11-08 17:38:07,544 | INFO | image #44	http://www.kimfont.com/wp-content/uploads/2015/10/%ED%95%9C%EA%B5%AD%EB%8F%84%EB%A1%9C%EA%B3%B5%EC%82%AC-%EB%AA%85%ED%95%A8-min.png
+2025-11-08 17:38:07,859 | INFO | image #45	https://cdn-dantats.stunning.kr/prod/portfolios/3e03ecdb-66be-4b97-99be-c9d56d6b7412/contents/DNVTXB9H3oVydm8d.%ED%95%9C%EA%B5%AD%EB%B6%84%EC%9E%AC%ED%98%91%ED%9A%8C%20%EB%AA%85%ED%95%A8.jpg
+2025-11-08 17:38:08,295 | INFO | image #46	https://www.mmu.ac.kr/images/main/sub/ppt3_1.jpg
+2025-11-08 17:38:08,582 | INFO | image #47	https://img.lovepik.com/free-template/20231120/lovepik-korean-business-card-traditional-style-simple-template-image_8824754_detail.jpg
+2025-11-08 17:38:08,632 | INFO | image #48	https://m.yeil21.net/web/product/big/20191220/cdde3ba69d0f36e4e246ad66ea7ecdbe.jpg
+2025-11-08 17:38:08,872 | INFO | image #49	https://cdn.imweb.me/thumbnail/20241222/36d9b68494474.jpg
+2025-11-08 17:38:09,281 | INFO | image #50	https://front-cdn.ohprint.me/assets/ko_kr/pc/images/store/intro/shape-business-card/variation/none-premium-rec-shape-bizcard-90x50@2x.jpg
+2025-11-08 17:38:09,534 | ERROR | Exception caught when downloading file https://www.gachon.ac.kr/CrossEditor/binary/images/000006/0_AS-01.jpg, error: HTTPSConnectionPool(host='www.gachon.ac.kr', port=443): Max retries exceeded with url: /CrossEditor/binary/images/000006/0_AS-01.jpg (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1017)'))), remaining retry times: 2
+2025-11-08 17:38:09,688 | ERROR | Exception caught when downloading file https://www.gachon.ac.kr/CrossEditor/binary/images/000006/0_AS-01.jpg, error: HTTPSConnectionPool(host='www.gachon.ac.kr', port=443): Max retries exceeded with url: /CrossEditor/binary/images/000006/0_AS-01.jpg (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1017)'))), remaining retry times: 1
+2025-11-08 17:38:09,793 | ERROR | Exception caught when downloading file https://www.gachon.ac.kr/CrossEditor/binary/images/000006/0_AS-01.jpg, error: HTTPSConnectionPool(host='www.gachon.ac.kr', port=443): Max retries exceeded with url: /CrossEditor/binary/images/000006/0_AS-01.jpg (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1017)'))), remaining retry times: 0
+2025-11-08 17:38:10,002 | INFO | image #51	https://m.adsland.com/img/sub/product/itemImg/mo/IC00147_20240723115542_3_mo.jpg
+2025-11-08 17:38:10,078 | INFO | image #52	https://m.bestnprice.net/web/upload/NNEditor/20240612/mobile/00e079c66b5d54941ad34db297317c3f_1718159715.jpg
+2025-11-08 17:38:10,181 | INFO | image #53	https://m.mindsize.co.kr/web/product/big/202011/6f5ff14c5422d3f88c54fbccf2f0bb2e.jpg
+2025-11-08 17:38:10,467 | INFO | image #54	https://adnpgift.com/upload/goods_p/790/c1_16951_91769.jpg
+2025-11-08 17:38:10,681 | INFO | image #55	https://www.hufs.ac.kr/sites/hufs/images/sub/stationery1_2.jpg
+2025-11-08 17:38:10,805 | INFO | parsing result page https://www.google.com/search?q=%ED%95%9C%EA%B5%AD+%EB%AA%85%ED%95%A8&ijn=1&start=100&tbs=&tbm=isch
+2025-11-08 17:38:11,084 | ERROR | Response status code 404, file https://mblogthumb-phinf.pstatic.net/MjAyMzA5MTZfMjgx/MDAxNjk0ODQzNDExNjA0.HUSZYZcLj6p_tbBCMr0HZgaMXcmjhmtCg87POvAa_XQg.0D9MFHYZxyJya0IGZ6MCYvbJcfFklGvv2sPsQZpganQg.JPEG.clay21/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-09-16_%EC%98%A4%ED%9B%84_2.48.20.jpg
+2025-11-08 17:38:11,403 | INFO | image #56	https://goldgold.co.kr/web/product/extra/big/20250220/4f7988442b287cd0d5f41eacf0eaee6e.jpg
+2025-11-08 17:38:16,404 | INFO | no more download task for thread downloader-001
+2025-11-08 17:38:16,405 | INFO | thread downloader-001 exit
+2025-11-08 17:38:16,684 | INFO | Crawling task done!
+2025-11-08 17:38:16,694 | INFO | ✅ Crawling finished. Start validation...
+2025-11-08 17:38:16,723 | INFO | 🏁 All done! Valid images saved in data_raw/part1
