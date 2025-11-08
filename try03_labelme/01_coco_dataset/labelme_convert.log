@@ -1,0 +1,5 @@
+2025-11-08 20:21:04,552 | INFO | Found 165 labelme pairs.
+2025-11-08 20:21:07,746 | INFO | train: 132 samples processed.
+2025-11-08 20:21:08,152 | INFO | val: 16 samples processed.
+2025-11-08 20:21:08,595 | INFO | test: 17 samples processed.
+2025-11-08 20:21:08,595 | INFO | 🎯 Done! YOLO/COCO-ready dataset created.

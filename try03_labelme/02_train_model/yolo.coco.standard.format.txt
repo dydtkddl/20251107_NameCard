@@ -1,0 +1,19 @@
+dataset/
+├── train/
+│   ├── images/
+│   │   ├── train_000.png
+│   │   ├── train_001.png
+│   │   └── ...
+│   ├── masks/         ← segmentation용
+│   └── labels/        ← YOLO 포맷 (bbox or seg)
+│       ├── train_000.txt
+│       └── train_001.txt
+├── val/
+│   ├── images/
+│   ├── masks/
+│   └── labels/
+└── test/
+    ├── images/
+    ├── masks/
+    └── labels/
+

@@ -1,0 +1,27 @@
+Sat 08 Nov 2025 08:24:25 PM KST
+Working Directory: /data/dydtkddhkdwk/20251107_NameCard/try03_labelme
+Sat Nov  8 20:24:25 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.07             Driver Version: 535.161.07   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 3090        On  | 00000000:43:00.0 Off |                  N/A |
+| 61%   30C    P8              28W / 350W |      1MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+2025-11-08 20:24:27.924 | INFO     | __main__:fix_seed:45 - 🔒 Random seed fixed to 42
+[32m2025-11-08 20:24:27[0m | [1mINFO    [0m | [36m🧾 data.yaml created → /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/data.yaml[0m
+[32m2025-11-08 20:24:27[0m | [31m[1mERROR   [0m | [36m❌ Model checkpoint not found: /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/yolov8x-seg.pt[0m
+=== Job Completed ===
+Sat 08 Nov 2025 08:24:28 PM KST

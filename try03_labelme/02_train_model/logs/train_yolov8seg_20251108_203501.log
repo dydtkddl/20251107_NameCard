@@ -1,0 +1,264 @@
+2025-11-08 20:35:01 | INFO | 🧾 data.yaml created → /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/data.yaml
+2025-11-08 20:35:01 | INFO | ✅ Loaded pretrained YOLOv8 model: /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/yolov8x-seg.pt
+2025-11-08 20:35:01 | INFO | === [YOLOv8-Seg Fine-tuning Pipeline Start] ===
+2025-11-08 20:35:01 | INFO | 🚀 Starting YOLOv8-Seg training...
+2025-11-08 20:35:02,778 | [YOLO] New https://pypi.org/project/ultralytics/8.3.226 available 😃 Update with 'pip install -U ultralytics'
+2025-11-08 20:35:02,828 | [YOLO] Ultralytics 8.3.225 🚀 Python-3.10.19 torch-2.9.0+cu128 CUDA:0 (NVIDIA GeForce RTX 3090, 24260MiB)
+2025-11-08 20:35:02,886 | [YOLO] [34m[1mengine/trainer: [0magnostic_nms=False, amp=True, augment=False, auto_augment=randaugment, batch=8, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=10, cls=0.5, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/data.yaml, degrees=0.0, deterministic=True, device=0, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=50, erasing=0.4, exist_ok=True, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, imgsz=640, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.0001, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/yolov8x-seg.pt, momentum=0.937, mosaic=1.0, multi_scale=False, name=card_seg_train_20251108_203501, nbs=64, nms=False, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=100, perspective=0.0, plots=True, pose=12.0, pretrained=True, profile=False, project=/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs, rect=False, resume=False, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/card_seg_train_20251108_203501, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.5, seed=0, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=segment, time=None, tracker=botsort.yaml, translate=0.1, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=3.0, warmup_momentum=0.8, weight_decay=0.0005, workers=8, workspace=None
+2025-11-08 20:35:02,896 | [YOLO] Overriding model.yaml nc=80 with nc=1
+2025-11-08 20:35:02,897 | [YOLO] 
+                   from  n    params  module                                       arguments                     
+2025-11-08 20:35:02,897 | [YOLO]   0                  -1  1      2320  ultralytics.nn.modules.conv.Conv             [3, 80, 3, 2]                 
+2025-11-08 20:35:02,899 | [YOLO]   1                  -1  1    115520  ultralytics.nn.modules.conv.Conv             [80, 160, 3, 2]               
+2025-11-08 20:35:02,907 | [YOLO]   2                  -1  3    436800  ultralytics.nn.modules.block.C2f             [160, 160, 3, True]           
+2025-11-08 20:35:02,910 | [YOLO]   3                  -1  1    461440  ultralytics.nn.modules.conv.Conv             [160, 320, 3, 2]              
+2025-11-08 20:35:02,933 | [YOLO]   4                  -1  6   3281920  ultralytics.nn.modules.block.C2f             [320, 320, 6, True]           
+2025-11-08 20:35:02,944 | [YOLO]   5                  -1  1   1844480  ultralytics.nn.modules.conv.Conv             [320, 640, 3, 2]              
+2025-11-08 20:35:03,026 | [YOLO]   6                  -1  6  13117440  ultralytics.nn.modules.block.C2f             [640, 640, 6, True]           
+2025-11-08 20:35:03,044 | [YOLO]   7                  -1  1   3687680  ultralytics.nn.modules.conv.Conv             [640, 640, 3, 2]              
+2025-11-08 20:35:03,088 | [YOLO]   8                  -1  3   6969600  ultralytics.nn.modules.block.C2f             [640, 640, 3, True]           
+2025-11-08 20:35:03,095 | [YOLO]   9                  -1  1   1025920  ultralytics.nn.modules.block.SPPF            [640, 640, 5]                 
+2025-11-08 20:35:03,095 | [YOLO]  10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+2025-11-08 20:35:03,096 | [YOLO]  11             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+2025-11-08 20:35:03,142 | [YOLO]  12                  -1  3   7379200  ultralytics.nn.modules.block.C2f             [1280, 640, 3]                
+2025-11-08 20:35:03,143 | [YOLO]  13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+2025-11-08 20:35:03,143 | [YOLO]  14             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+2025-11-08 20:35:03,157 | [YOLO]  15                  -1  3   1948800  ultralytics.nn.modules.block.C2f             [960, 320, 3]                 
+2025-11-08 20:35:03,163 | [YOLO]  16                  -1  1    922240  ultralytics.nn.modules.conv.Conv             [320, 320, 3, 2]              
+2025-11-08 20:35:03,163 | [YOLO]  17            [-1, 12]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+2025-11-08 20:35:03,208 | [YOLO]  18                  -1  3   7174400  ultralytics.nn.modules.block.C2f             [960, 640, 3]                 
+2025-11-08 20:35:03,226 | [YOLO]  19                  -1  1   3687680  ultralytics.nn.modules.conv.Conv             [640, 640, 3, 2]              
+2025-11-08 20:35:03,227 | [YOLO]  20             [-1, 9]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+2025-11-08 20:35:03,273 | [YOLO]  21                  -1  3   7379200  ultralytics.nn.modules.block.C2f             [1280, 640, 3]                
+2025-11-08 20:35:03,353 | [YOLO]  22        [15, 18, 21]  1  12317171  ultralytics.nn.modules.head.Segment          [1, 32, 320, [320, 640, 640]] 
+2025-11-08 20:35:03,769 | [YOLO] YOLOv8x-seg summary: 231 layers, 71,751,811 parameters, 71,751,795 gradients, 328.8 GFLOPs
+2025-11-08 20:35:03,769 | [YOLO] 
+2025-11-08 20:35:03,823 | [YOLO] Transferred 651/657 items from pretrained weights
+2025-11-08 20:35:03,960 | [YOLO] Freezing layer 'model.22.dfl.conv.weight'
+2025-11-08 20:35:03,961 | [YOLO] [34m[1mAMP: [0mrunning Automatic Mixed Precision (AMP) checks...
+2025-11-08 20:35:06,720 | [YOLO] [34m[1mAMP: [0mchecks passed ✅
+2025-11-08 20:35:06,746 | [YOLO] [34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 577.8±109.6 MB/s, size: 2654.1 KB)
+2025-11-08 20:35:06,974 | [YOLO] [34m[1mtrain: [0mNew cache created: /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/01_coco_dataset/train/labels.cache
+2025-11-08 20:35:07,506 | [YOLO] [34m[1malbumentations: [0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, method='weighted_average', num_output_channels=3), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))
+2025-11-08 20:35:07,703 | [YOLO] [34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 551.8±117.8 MB/s, size: 2314.3 KB)
+2025-11-08 20:35:07,812 | [YOLO] [34m[1mval: [0mNew cache created: /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/01_coco_dataset/val/labels.cache
+2025-11-08 20:35:13,232 | [YOLO] Plotting labels to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/card_seg_train_20251108_203501/labels.jpg... 
+2025-11-08 20:35:15,252 | [YOLO] [34m[1moptimizer:[0m AdamW(lr=0.0001, momentum=0.937) with parameter groups 106 weight(decay=0.0), 117 weight(decay=0.0005), 116 bias(decay=0.0)
+2025-11-08 20:35:15,254 | [YOLO] Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/card_seg_train_20251108_203501[0m
+Starting training for 50 epochs...
+2025-11-08 20:35:15,259 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:35:26,590 | [YOLO]                    all         16         17       0.57      0.647      0.621      0.245      0.367      0.588      0.368       0.13
+2025-11-08 20:35:28,726 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:35:33,593 | [YOLO]                    all         16         17      0.914      0.627      0.741      0.367      0.302      0.412      0.178     0.0659
+2025-11-08 20:35:35,783 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:35:40,541 | [YOLO]                    all         16         17      0.995      0.941      0.969      0.861      0.967      0.882      0.925      0.562
+2025-11-08 20:35:42,759 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:35:47,491 | [YOLO]                    all         16         17      0.994      0.882      0.982      0.931      0.994      0.882       0.96       0.85
+2025-11-08 20:35:49,657 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:35:54,447 | [YOLO]                    all         16         17          1       0.94      0.992      0.936          1       0.94      0.992      0.755
+2025-11-08 20:35:55,883 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:36:00,644 | [YOLO]                    all         16         17      0.996      0.882      0.912      0.896      0.996      0.882      0.912       0.84
+2025-11-08 20:36:02,054 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:36:06,798 | [YOLO]                    all         16         17      0.996      0.882      0.904      0.894      0.996      0.882      0.942      0.897
+2025-11-08 20:36:09,084 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:36:13,846 | [YOLO]                    all         16         17      0.991      0.882      0.955      0.908      0.991      0.882      0.959      0.911
+2025-11-08 20:36:16,003 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:36:20,734 | [YOLO]                    all         16         17      0.932      0.941       0.97      0.943      0.932      0.941       0.97      0.915
+2025-11-08 20:36:22,918 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:36:27,662 | [YOLO]                    all         16         17      0.996      0.941       0.99      0.973      0.996      0.941       0.99      0.928
+2025-11-08 20:36:29,810 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:36:35,049 | [YOLO]                    all         16         17      0.944          1      0.992      0.979      0.944          1      0.992      0.924
+2025-11-08 20:36:37,299 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:36:42,071 | [YOLO]                    all         16         17      0.983      0.882      0.958      0.938      0.983      0.882      0.958      0.921
+2025-11-08 20:36:43,499 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:36:48,268 | [YOLO]                    all         16         17          1      0.936      0.992       0.98          1      0.936      0.992       0.95
+2025-11-08 20:36:50,445 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:36:55,209 | [YOLO]                    all         16         17          1      0.941       0.99      0.976          1      0.941       0.99      0.964
+2025-11-08 20:36:57,527 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:37:02,299 | [YOLO]                    all         16         17      0.998      0.941       0.99      0.974      0.998      0.941       0.99      0.964
+2025-11-08 20:37:03,756 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:37:08,544 | [YOLO]                    all         16         17      0.998          1      0.995      0.979      0.998          1      0.995      0.953
+2025-11-08 20:37:09,944 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:37:14,733 | [YOLO]                    all         16         17      0.994          1      0.995       0.99      0.994          1      0.995      0.943
+2025-11-08 20:37:16,207 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:37:20,949 | [YOLO]                    all         16         17      0.996      0.882      0.975      0.948      0.996      0.882      0.975      0.925
+2025-11-08 20:37:22,382 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:37:27,217 | [YOLO]                    all         16         17      0.995      0.882      0.946      0.909      0.995      0.882      0.912        0.9
+2025-11-08 20:37:28,574 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:37:33,356 | [YOLO]                    all         16         17      0.992      0.882      0.917      0.897      0.992      0.882      0.899      0.897
+2025-11-08 20:37:34,862 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:37:39,940 | [YOLO]                    all         16         17      0.992      0.882       0.91      0.901      0.992      0.882       0.91      0.897
+2025-11-08 20:37:41,351 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:37:46,146 | [YOLO]                    all         16         17      0.993      0.882       0.91        0.9      0.993      0.882       0.91      0.896
+2025-11-08 20:37:47,498 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:37:52,293 | [YOLO]                    all         16         17      0.994      0.882      0.902      0.898      0.994      0.882      0.902      0.892
+2025-11-08 20:37:53,693 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:37:58,496 | [YOLO]                    all         16         17      0.996      0.882      0.904       0.88      0.996      0.882      0.903      0.894
+2025-11-08 20:37:59,942 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:38:04,739 | [YOLO]                    all         16         17      0.996      0.882      0.892      0.892      0.996      0.882      0.892      0.892
+2025-11-08 20:38:06,157 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:38:10,968 | [YOLO]                    all         16         17      0.996      0.882      0.898      0.896      0.996      0.882      0.902      0.894
+2025-11-08 20:38:12,372 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:38:17,197 | [YOLO]                    all         16         17      0.997      0.882      0.918      0.908      0.997      0.882      0.906      0.898
+2025-11-08 20:38:18,611 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:38:23,424 | [YOLO]                    all         16         17      0.997      0.882      0.959      0.931      0.997      0.882      0.925      0.905
+2025-11-08 20:38:24,779 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:38:29,580 | [YOLO]                    all         16         17          1      0.938      0.982      0.938      0.996      0.882       0.93      0.907
+2025-11-08 20:38:31,015 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:38:35,783 | [YOLO]                    all         16         17          1      0.939      0.979      0.936      0.996      0.882       0.93       0.91
+2025-11-08 20:38:37,193 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:38:41,994 | [YOLO]                    all         16         17      0.999      0.941      0.968      0.915      0.992      0.882      0.922      0.899
+2025-11-08 20:38:43,460 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:38:48,573 | [YOLO]                    all         16         17      0.997      0.941      0.955      0.904       0.98      0.882      0.891      0.891
+2025-11-08 20:38:49,971 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:38:54,738 | [YOLO]                    all         16         17      0.997      0.941      0.954      0.927      0.941      0.938      0.951      0.897
+2025-11-08 20:38:56,107 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:39:00,841 | [YOLO]                    all         16         17      0.998      0.941      0.957      0.919      0.941      0.938      0.945      0.897
+2025-11-08 20:39:02,303 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:39:07,074 | [YOLO]                    all         16         17          1      0.938      0.952      0.924      0.996      0.882      0.945      0.897
+2025-11-08 20:39:08,491 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:39:13,228 | [YOLO]                    all         16         17      0.996      0.882      0.918      0.903      0.996      0.882       0.91      0.893
+2025-11-08 20:39:14,665 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:39:19,439 | [YOLO]                    all         16         17      0.996      0.882      0.912      0.898      0.996      0.882      0.896      0.892
+2025-11-08 20:39:20,906 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:39:25,716 | [YOLO]                    all         16         17      0.994      0.882      0.909      0.897      0.994      0.882      0.896      0.892
+2025-11-08 20:39:27,261 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:39:32,081 | [YOLO]                    all         16         17      0.994      0.882      0.916      0.902      0.994      0.882      0.902      0.894
+2025-11-08 20:39:33,546 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:39:38,336 | [YOLO]                    all         16         17      0.995      0.882       0.93      0.905      0.995      0.882      0.904      0.895
+2025-11-08 20:39:39,805 | [YOLO] Closing dataloader mosaic
+2025-11-08 20:39:39,808 | [YOLO] [34m[1malbumentations: [0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, method='weighted_average', num_output_channels=3), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))
+2025-11-08 20:39:40,245 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:39:46,181 | [YOLO]                    all         16         17      0.995      0.882      0.929      0.904      0.995      0.882      0.907      0.894
+2025-11-08 20:39:47,718 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:39:52,471 | [YOLO]                    all         16         17      0.996      0.882      0.928      0.895      0.996      0.882      0.904      0.897
+2025-11-08 20:39:53,929 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:39:59,141 | [YOLO]                    all         16         17          1      0.938      0.958      0.897      0.996      0.882      0.904      0.899
+2025-11-08 20:40:00,587 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:40:05,370 | [YOLO]                    all         16         17          1      0.938      0.961      0.899      0.997      0.882      0.907      0.902
+2025-11-08 20:40:06,852 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:40:11,629 | [YOLO]                    all         16         17          1      0.938      0.951      0.901      0.997      0.882      0.909      0.904
+2025-11-08 20:40:13,087 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:40:17,888 | [YOLO]                    all         16         17          1      0.939      0.952      0.904      0.996      0.882      0.899      0.899
+2025-11-08 20:40:19,332 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:40:24,133 | [YOLO]                    all         16         17          1      0.939      0.953      0.911      0.996      0.882      0.901      0.901
+2025-11-08 20:40:25,584 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:40:30,383 | [YOLO]                    all         16         17          1      0.939      0.953      0.912      0.996      0.882      0.902      0.902
+2025-11-08 20:40:31,835 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:40:36,613 | [YOLO]                    all         16         17          1      0.938      0.954       0.91      0.996      0.882      0.905      0.905
+2025-11-08 20:40:38,155 | [YOLO] 
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+2025-11-08 20:40:42,980 | [YOLO]                    all         16         17          1      0.938      0.954       0.91      0.996      0.882      0.905      0.905
+2025-11-08 20:40:44,421 | [YOLO] 
+50 epochs completed in 0.091 hours.
+2025-11-08 20:40:45,459 | [YOLO] Optimizer stripped from /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/card_seg_train_20251108_203501/weights/last.pt, 143.9MB
+2025-11-08 20:40:46,494 | [YOLO] Optimizer stripped from /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/card_seg_train_20251108_203501/weights/best.pt, 143.9MB
+2025-11-08 20:40:46,496 | [YOLO] 
+Validating /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/card_seg_train_20251108_203501/weights/best.pt...
+2025-11-08 20:40:46,497 | [YOLO] Ultralytics 8.3.225 🚀 Python-3.10.19 torch-2.9.0+cu128 CUDA:0 (NVIDIA GeForce RTX 3090, 24260MiB)
+2025-11-08 20:40:47,124 | [YOLO] YOLOv8x-seg summary (fused): 125 layers, 71,721,619 parameters, 0 gradients, 327.9 GFLOPs
+2025-11-08 20:40:49,973 | [YOLO]                    all         16         17          1      0.941       0.99      0.976          1      0.941       0.99      0.964
+2025-11-08 20:40:49,973 | [YOLO] Speed: 0.1ms preprocess, 7.2ms inference, 0.0ms loss, 0.9ms postprocess per image
+2025-11-08 20:40:49,973 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/card_seg_train_20251108_203501[0m
+2025-11-08 20:40:51 | SUCCESS | ✅ Training completed in 5.83 min
+2025-11-08 20:40:51 | INFO | 📁 Results saved at: /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/card_seg_train_20251108_203501
+2025-11-08 20:40:51 | INFO | 📊 Training log CSV found → /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/card_seg_train_20251108_203501/results.csv
+2025-11-08 20:40:51 | INFO | 🔎 Starting validation on val dataset...
+2025-11-08 20:40:51,660 | [YOLO] Ultralytics 8.3.225 🚀 Python-3.10.19 torch-2.9.0+cu128 CUDA:0 (NVIDIA GeForce RTX 3090, 24260MiB)
+2025-11-08 20:40:52,028 | [YOLO] YOLOv8x-seg summary (fused): 125 layers, 71,721,619 parameters, 0 gradients, 327.9 GFLOPs
+2025-11-08 20:40:52,067 | [YOLO] [34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6148.0±915.3 MB/s, size: 1441.4 KB)
+2025-11-08 20:40:57,985 | [YOLO]                    all         16         17          1      0.941       0.99      0.976          1      0.941       0.99      0.964
+2025-11-08 20:40:57,985 | [YOLO] Speed: 0.3ms preprocess, 14.7ms inference, 0.0ms loss, 1.2ms postprocess per image
+2025-11-08 20:40:57,986 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/segment/val[0m
+2025-11-08 20:40:58 | SUCCESS | ✅ Validation done in 6.42s | mAP50=0.9897, mAP50-95=0.9764
+2025-11-08 20:40:58 | INFO | 🧪 Starting inference on test set...
+2025-11-08 20:40:58,313 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards/labels
+2025-11-08 20:40:58,449 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards2[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards2/labels
+2025-11-08 20:40:58,619 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards3[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards3/labels
+2025-11-08 20:40:58,797 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards4[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards4/labels
+2025-11-08 20:40:58,961 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards5[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards5/labels
+2025-11-08 20:40:59,095 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards6[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards6/labels
+2025-11-08 20:40:59,229 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards7[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards7/labels
+2025-11-08 20:40:59,367 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards8[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards8/labels
+2025-11-08 20:40:59,547 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards9[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards9/labels
+2025-11-08 20:40:59,705 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards10[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards10/labels
+2025-11-08 20:40:59,826 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards11[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards11/labels
+2025-11-08 20:40:59,954 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards12[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards12/labels
+2025-11-08 20:41:00,086 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards13[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards13/labels
+2025-11-08 20:41:00,222 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards14[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards14/labels
+2025-11-08 20:41:00,359 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards15[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards15/labels
+2025-11-08 20:41:00,523 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards16[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards16/labels
+2025-11-08 20:41:00,650 | [YOLO] Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards17[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501/cards17/labels
+2025-11-08 20:41:00 | SUCCESS | ✅ Inference complete for 17 images.
+2025-11-08 20:41:00 | INFO | 📦 Predictions saved to: /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/predictions_20251108_203501
+2025-11-08 20:41:00 | INFO | 🧾 Summary extracted → /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/logs/summary_20251108_203501.txt
+2025-11-08 20:41:00 | INFO | 📈 Saved training curve → /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/runs/card_seg_train_20251108_203501/training_curve_20251108_203501.png
+2025-11-08 20:41:00 | INFO | === [Pipeline Finished Successfully] ===

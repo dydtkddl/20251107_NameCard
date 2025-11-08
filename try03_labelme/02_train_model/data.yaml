@@ -1,0 +1,6 @@
+# YOLOv8-Seg dataset config
+train: /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/01_coco_dataset/train/images
+val: /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/01_coco_dataset/val/images
+test: /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/01_coco_dataset/test/images
+nc: 1
+names: ['card']

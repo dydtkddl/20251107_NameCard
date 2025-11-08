@@ -1,0 +1,2 @@
+2025-11-08 20:24:27 | INFO | 🧾 data.yaml created → /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/data.yaml
+2025-11-08 20:24:27 | ERROR | ❌ Model checkpoint not found: /data/dydtkddhkdwk/20251107_NameCard/try03_labelme/yolov8x-seg.pt

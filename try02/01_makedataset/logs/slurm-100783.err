@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/data/dydtkddhkdwk/20251107_NameCard/try03_labelme/00_engine_labelme_merge_to_coco.py", line 15, in <module>
+    from labelme import utils as labelme_utils
+ModuleNotFoundError: No module named 'labelme'
