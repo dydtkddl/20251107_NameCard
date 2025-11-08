@@ -1,0 +1,13 @@
+{
+  "model_path": "../02_train_model/runs/card_seg_train_20251107_215815/weights/best.pt",
+  "source_dir": "./00_data",
+  "output_dir": "./runs/predictions_webdata",
+  "run_name": "cards_web",
+  "conf": 0.4,
+  "iou": 0.5,
+  "imgsz": 640,
+  "device": 0
+}
+
+
+

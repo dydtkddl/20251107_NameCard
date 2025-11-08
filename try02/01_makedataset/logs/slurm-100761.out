@@ -1,0 +1,46 @@
+Sat 08 Nov 2025 04:27:26 PM KST
+Working Directory: /data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata
+Sat Nov  8 16:27:26 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.07             Driver Version: 535.161.07   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 3090        On  | 00000000:43:00.0 Off |                  N/A |
+| 61%   30C    P8              28W / 350W |      1MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+
+image 1/4 /data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/00_data/Business_Card_On_Fabric_Mockups-960x640.jpg: 448x640 (no detections), 91.6ms
+image 2/4 /data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/00_data/test_270.png: 480x640 1 card, 75.2ms
+Traceback (most recent call last):
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/engine.py", line 95, in <module>
+    main(args.config)
+  File "/data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/engine.py", line 56, in main
+    results = model.predict(
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/ultralytics/engine/model.py", line 540, in predict
+    return self.predictor.predict_cli(source=source) if is_cli else self.predictor(source=source, stream=stream)
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/ultralytics/engine/predictor.py", line 225, in __call__
+    return list(self.stream_inference(source, model, *args, **kwargs))  # merge list of Result into one
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 59, in generator_context
+    response = gen.send(request)
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/ultralytics/engine/predictor.py", line 319, in stream_inference
+    for self.batch in self.dataset:
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/ultralytics/data/loaders.py", line 458, in __next__
+    im0 = imread(path, flags=self.cv2_flag)  # BGR
+  File "/data/dydtkddhkdwk/anaconda3/envs/card_ocr/lib/python3.10/site-packages/ultralytics/utils/patches.py", line 42, in imread
+    im = cv2.imdecode(file_bytes, flags)
+cv2.error: OpenCV(4.12.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:1266: error: (-215:Assertion failed) !buf.empty() in function 'imdecode_'
+
+=== Job Completed ===
+Sat 08 Nov 2025 04:27:31 PM KST

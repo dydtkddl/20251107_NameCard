@@ -1,0 +1,33 @@
+Sat 08 Nov 2025 04:53:05 PM KST
+Working Directory: /data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata
+Sat Nov  8 16:53:05 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.07             Driver Version: 535.161.07   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 3090        On  | 00000000:43:00.0 Off |                  N/A |
+| 61%   29C    P8              28W / 350W |      1MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+🔍 Running predictions:   0%|                                                 | 0/4 [00:00<?, ?it/s]Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web/labels
+🔍 Running predictions:  25%|██████████▎                              | 1/4 [00:01<00:05,  1.93s/it]Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web2[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web2/labels
+Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web3[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web3/labels
+🔍 Running predictions:  75%|██████████████████████████████▊          | 3/4 [00:02<00:00,  1.78it/s]Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web4[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web4/labels
+🔍 Running predictions: 100%|█████████████████████████████████████████| 4/4 [00:02<00:00,  2.02it/s]🔍 Running predictions: 100%|█████████████████████████████████████████| 4/4 [00:02<00:00,  1.62it/s]
+=== Job Completed ===
+Sat 08 Nov 2025 04:53:10 PM KST

@@ -1,0 +1,9 @@
+🔍 Running predictions:   0%|                                                 | 0/4 [00:00<?, ?it/s]Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web/labels
+🔍 Running predictions:  25%|██████████▎                              | 1/4 [00:01<00:05,  1.93s/it]Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web2[0m
+0 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web2/labels
+Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web3[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web3/labels
+🔍 Running predictions:  75%|██████████████████████████████▊          | 3/4 [00:02<00:00,  1.78it/s]Results saved to [1m/data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web4[0m
+1 label saved to /data/dydtkddhkdwk/20251107_NameCard/try02/03_predict_webdata/runs/predictions_webdata/cards_web4/labels
+🔍 Running predictions: 100%|█████████████████████████████████████████| 4/4 [00:02<00:00,  2.02it/s]🔍 Running predictions: 100%|█████████████████████████████████████████| 4/4 [00:02<00:00,  1.62it/s]
